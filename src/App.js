@@ -11,8 +11,16 @@ class App extends Component {
           <h2>Projet de datavisualisation</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements en Europe. 
         </p>
+
+        <div className = "Europe">
+          
+
+
+
+
+        </div>
       </div>
     );
   }
