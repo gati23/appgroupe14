@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap'
+
 
 class App extends Component {
   render() {
@@ -14,13 +16,54 @@ class App extends Component {
           Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements en Europe. 
         </p>
 
-        <div className = "Europe">
-          
-
-
-
-
+        {/* <div className = "gauche">
+          <p> Bonjour</p>
         </div>
+
+        <div className = "milieu">
+          <p> ceci</p>
+        </div>
+
+        <div className = "droite">
+          <p> est un test</p>
+        </div>
+
+      
+        <div class="row">
+          <div class="column left" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+          </div>
+          <div class="column right" style="background-color:#ccc;">
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+          </div>
+        </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
       </div>
     );
   }
