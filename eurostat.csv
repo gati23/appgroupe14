@@ -1,0 +1,561 @@
+,ind_type,geo\time,2012 ,2013 ,2014 ,2015 ,2016 ,2017 ,2018
+0,Active labour force (employed and unemployed),AT,53,60,66,74,74,83,82
+1,Active labour force (employed and unemployed),BA,NA,NA,NA,NA,NA,NA,73
+2,Active labour force (employed and unemployed),BE,49,52,67,77,80,84,86
+3,Active labour force (employed and unemployed),BG,15,22,31,44,53,67,68
+4,Active labour force (employed and unemployed),CH,NA,NA,67,NA,NA,76,NA
+5,Active labour force (employed and unemployed),CY,26,31,47,65,70,78,83
+6,Active labour force (employed and unemployed),CZ,NA,32,43,51,NA,69,76
+7,Active labour force (employed and unemployed),DE,37,51,64,72,76,83,87
+8,Active labour force (employed and unemployed),DK,67,73,83,85,88,90,94
+9,Active labour force (employed and unemployed),EA,39,48,59,64,67,73,77
+10,Active labour force (employed and unemployed),EE,42,52,64,69,70,76,80
+11,Active labour force (employed and unemployed),EL,28,32,46,55,58,64,67
+12,Active labour force (employed and unemployed),ES,44,58,71,76,82,87,89
+13,Active labour force (employed and unemployed),EU27,41,49,59,65,67,73,77
+14,Active labour force (employed and unemployed),EU28,41,49,58,65,67,73,77
+15,Active labour force (employed and unemployed),FI,64,68,76,81,84,88,87
+16,Active labour force (employed and unemployed),FR,49,58,67,70,69,78,82
+17,Active labour force (employed and unemployed),HR,43,46,47,60,64,66,74
+18,Active labour force (employed and unemployed),HU,21,35,52,64,69,74,76
+19,Active labour force (employed and unemployed),IE,58,65,71,77,76,82,86
+20,Active labour force (employed and unemployed),IS,61,61,70,NA,NA,87,87
+21,Active labour force (employed and unemployed),IT,20,20,26,28,32,34,43
+22,Active labour force (employed and unemployed),LT,17,27,34,41,51,64,71
+23,Active labour force (employed and unemployed),LU,68,71,75,80,82,86,91
+24,Active labour force (employed and unemployed),LV,28,35,40,49,56,65,67
+25,Active labour force (employed and unemployed),ME,35,NA,NA,NA,NA,80,83
+26,Active labour force (employed and unemployed),MK,18,28,43,58,61,73,68
+27,Active labour force (employed and unemployed),MT,53,54,64,76,78,85,84
+28,Active labour force (employed and unemployed),NL,64,75,80,85,87,93,93
+29,Active labour force (employed and unemployed),NO,80,82,85,89,87,91,93
+30,Active labour force (employed and unemployed),PL,26,37,42,51,34,44,56
+31,Active labour force (employed and unemployed),PT,23,25,42,52,58,66,69
+32,Active labour force (employed and unemployed),RO,9 ,17,29,44,53,62,68
+33,Active labour force (employed and unemployed),RS,NA,NA,NA,42,NA,62,71
+34,Active labour force (employed and unemployed),SE,75,79,82,85,86,94,92
+35,Active labour force (employed and unemployed),SI,35,47,51,64,64,75,80
+36,Active labour force (employed and unemployed),SK,42,46,57,65,65,73,71
+37,Active labour force (employed and unemployed),TR,18,29,43,55,68,76,77
+38,Active labour force (employed and unemployed),UK,70,73,80,87,89,91,91
+39,Active labour force (employed and unemployed),XK,NA,NA,NA,NA,NA,79,79
+40,"Females, 16 TO 74 years old",AT,39,44,51,59,60,71,72
+41,"Females, 16 TO 74 years old",BA,NA,NA,NA,NA,NA,NA,56
+42,"Females, 16 TO 74 years old",BE,40,42,56,67,68,74,75
+43,"Females, 16 TO 74 years old",BG,11,18,25,37,43,54,55
+44,"Females, 16 TO 74 years old",CH,NA,NA,55,NA,NA,66,NA
+45,"Females, 16 TO 74 years old",CY,21,26,41,57,62,70,73
+46,"Females, 16 TO 74 years old",CZ,NA,23,31,40,NA,56,65
+47,"Females, 16 TO 74 years old",DE,25,39,51,60,65,73,79
+48,"Females, 16 TO 74 years old",DK,58,63,74,77,82,83,88
+49,"Females, 16 TO 74 years old",EA,29,38,48,53,57,64,68
+50,"Females, 16 TO 74 years old",EE,33,42,55,57,60,66,68
+51,"Females, 16 TO 74 years old",EL,18,24,34,41,45,50,52
+52,"Females, 16 TO 74 years old",ES,34,47,60,66,70,77,80
+53,"Females, 16 TO 74 years old",EU27,31,39,48,55,57,63,68
+54,"Females, 16 TO 74 years old",EU28,31,39,48,55,57,63,68
+55,"Females, 16 TO 74 years old",FI,51,56,64,72,74,78,78
+56,"Females, 16 TO 74 years old",FR,39,47,56,59,60,67,72
+57,"Females, 16 TO 74 years old",HR,29,33,39,45,48,44,60
+58,"Females, 16 TO 74 years old",HU,14,26,40,49,55,61,61
+59,"Females, 16 TO 74 years old",IE,49,58,65,70,69,76,73
+60,"Females, 16 TO 74 years old",IS,56,60,69,NA,NA,84,85
+61,"Females, 16 TO 74 years old",IT,12,16,21,23,27,30,38
+62,"Females, 16 TO 74 years old",LT,14,21,29,37,42,54,61
+63,"Females, 16 TO 74 years old",LU,56,63,68,75,76,80,81
+64,"Females, 16 TO 74 years old",LV,22,28,32,41,46,55,58
+65,"Females, 16 TO 74 years old",ME,28,NA,NA,NA,NA,65,69
+66,"Females, 16 TO 74 years old",MK,16,23,36,50,53,62,57
+67,"Females, 16 TO 74 years old",MT,37,42,51,63,62,71,70
+68,"Females, 16 TO 74 years old",NL,50,60,68,75,77,86,85
+69,"Females, 16 TO 74 years old",NO,71,76,76,82,79,86,88
+70,"Females, 16 TO 74 years old",PL,19,27,34,42,31,38,47
+71,"Females, 16 TO 74 years old",PT,17,20,32,41,49,56,58
+72,"Females, 16 TO 74 years old",RO,6 ,14,22,34,41,50,56
+73,"Females, 16 TO 74 years old",RS,NA,NA,NA,29,NA,49,54
+74,"Females, 16 TO 74 years old",SE,66,68,76,76,78,85,90
+75,"Females, 16 TO 74 years old",SI,26,36,42,48,52,62,66
+76,"Females, 16 TO 74 years old",SK,33,37,46,51,57,62,59
+77,"Females, 16 TO 74 years old",TR,10,16,25,32,44,54,58
+78,"Females, 16 TO 74 years old",UK,60,64,72,78,83,84,83
+79,"Females, 16 TO 74 years old",XK,NA,NA,NA,NA,NA,73,76
+80,Individuals with no or low formal education,AT,34,34,33,40,47,52,58
+81,Individuals with no or low formal education,BA,NA,NA,NA,NA,NA,NA,36
+82,Individuals with no or low formal education,BE,30,34,40,50,55,58,57
+83,Individuals with no or low formal education,BG,3 ,5 ,11,15,21,29,33
+84,Individuals with no or low formal education,CH,NA,NA,48,NA,NA,52,NA
+85,Individuals with no or low formal education,CY,10,15,22,31,36,42,44
+86,Individuals with no or low formal education,CZ,NA,27,33,43,NA,50,60
+87,Individuals with no or low formal education,DE,27,42,54,60,63,69,76
+88,Individuals with no or low formal education,DK,61,64,72,NA,78,77,82
+89,Individuals with no or low formal education,EA,21,27,34,39,42,47,53
+90,Individuals with no or low formal education,EE,30,39,51,57,56,69,72
+91,Individuals with no or low formal education,EL,7 ,10,14,17,20,24,25
+92,Individuals with no or low formal education,ES,21,30,40,45,53,59,64
+93,Individuals with no or low formal education,EU27,21,27,34,38,42,47,52
+94,Individuals with no or low formal education,EU28,21,27,33,38,42,47,52
+95,Individuals with no or low formal education,FI,45,55,58,66,64,66,65
+96,Individuals with no or low formal education,FR,30,34,39,42,41,49,58
+97,Individuals with no or low formal education,HR,18,18,28,20,17,13,30
+98,Individuals with no or low formal education,HU,10,18,26,30,36,41,40
+99,Individuals with no or low formal education,IE,28,32,40,42,40,47,40
+100,Individuals with no or low formal education,IS,53,52,60,NA,NA,76,75
+101,Individuals with no or low formal education,IT,7 ,10,14,16,20,21,28
+102,Individuals with no or low formal education,LT,16,24,36,37,45,52,56
+103,Individuals with no or low formal education,LU,42,44,54,72,70,75,72
+104,Individuals with no or low formal education,LV,23,31,34,37,43,50,58
+105,Individuals with no or low formal education,ME,11,NA,NA,NA,NA,25,41
+106,Individuals with no or low formal education,MK,8 ,13,25,28,38,45,44
+107,Individuals with no or low formal education,MT,22,24,30,38,43,56,54
+108,Individuals with no or low formal education,NL,41,47,54,61,62,73,73
+109,Individuals with no or low formal education,NO,72,73,75,78,80,80,85
+110,Individuals with no or low formal education,PL,15,20,28,36,35,42,45
+111,Individuals with no or low formal education,PT,11,13,20,27,31,37,38
+112,Individuals with no or low formal education,RO,3 ,7 ,12,20,23,29,37
+113,Individuals with no or low formal education,RS,NA,NA,NA,11,NA,27,33
+114,Individuals with no or low formal education,SE,62,57,66,61,63,76,79
+115,Individuals with no or low formal education,SI,16,21,19,32,37,44,46
+116,Individuals with no or low formal education,SK,35,35,50,51,43,51,51
+117,Individuals with no or low formal education,TR,6 ,11,18,24,36,46,50
+118,Individuals with no or low formal education,UK,29,33,41,45,54,56,49
+119,Individuals with no or low formal education,XK,NA,NA,NA,NA,NA,63,60
+120,individuals with medium formal education,AT,45,51,54,62,61,71,71
+121,individuals with medium formal education,BA,NA,NA,NA,NA,NA,NA,66
+122,individuals with medium formal education,BE,46,48,61,74,73,79,80
+123,individuals with medium formal education,BG,10,17,25,36,45,56,57
+124,individuals with medium formal education,CH,NA,NA,55,NA,NA,68,NA
+125,individuals with medium formal education,CY,20,26,40,60,63,71,76
+126,individuals with medium formal education,CZ,NA,24,32,38,NA,55,61
+127,individuals with medium formal education,DE,29,41,53,61,66,74,79
+128,individuals with medium formal education,DK,56,62,72,NA,80,83,88
+129,individuals with medium formal education,EA,35,43,53,58,61,68,72
+130,individuals with medium formal education,EE,32,42,49,56,58,63,66
+131,individuals with medium formal education,EL,25,29,41,53,52,60,64
+132,individuals with medium formal education,ES,49,61,76,79,82,88,89
+133,individuals with medium formal education,EU27,35,42,50,57,59,65,69
+134,individuals with medium formal education,EU28,35,42,50,57,59,65,69
+135,individuals with medium formal education,FI,55,57,66,71,75,80,79
+136,individuals with medium formal education,FR,42,51,60,62,60,70,74
+137,individuals with medium formal education,HR,43,43,41,56,55,55,71
+138,individuals with medium formal education,HU,16,27,42,52,58,63,62
+139,individuals with medium formal education,IE,53,62,69,74,72,79,81
+140,individuals with medium formal education,IS,58,59,65,NA,NA,85,82
+141,individuals with medium formal education,IT,21,25,29,31,34,38,45
+142,individuals with medium formal education,LT,13,18,22,26,30,40,49
+143,individuals with medium formal education,LU,66,69,70,84,78,80,87
+144,individuals with medium formal education,LV,20,27,27,38,40,49,50
+145,individuals with medium formal education,ME,31,NA,NA,NA,NA,64,71
+146,individuals with medium formal education,MK,18,30,44,59,62,69,62
+147,individuals with medium formal education,MT,64,62,71,81,84,84,80
+148,individuals with medium formal education,NL,58,68,71,80,82,89,89
+149,individuals with medium formal education,NO,69,73,74,78,73,83,85
+150,individuals with medium formal education,PL,16,24,28,36,24,31,41
+151,individuals with medium formal education,PT,40,39,59,66,77,82,83
+152,individuals with medium formal education,RO,6 ,14,24,37,45,54,58
+153,individuals with medium formal education,RS,NA,NA,NA,46,NA,61,66
+154,individuals with medium formal education,SE,69,72,75,77,82,88,90
+155,individuals with medium formal education,SI,30,38,41,50,52,62,66
+156,individuals with medium formal education,SK,32,36,44,47,55,60,58
+157,individuals with medium formal education,TR,25,39,55,64,79,87,86
+158,individuals with medium formal education,UK,64,68,74,83,83,85,83
+159,individuals with medium formal education,XK,NA,NA,NA,NA,NA,80,84
+160,Individuals with high formal education,AT,57,65,75,78,80,88,86
+161,Individuals with high formal education,BA,NA,NA,NA,NA,NA,NA,93
+162,Individuals with high formal education,BE,57,60,74,81,84,87,89
+163,Individuals with high formal education,BG,32,41,51,66,71,83,82
+164,Individuals with high formal education,CH,NA,NA,73,NA,NA,80,NA
+165,Individuals with high formal education,CY,42,47,65,80,81,89,92
+166,Individuals with high formal education,CZ,NA,50,60,69,NA,81,87
+167,Individuals with high formal education,DE,41,53,65,71,77,85,86
+168,Individuals with high formal education,DK,73,75,85,NA,92,92,95
+169,Individuals with high formal education,EA,52,61,71,74,77,83,85
+170,Individuals with high formal education,EE,48,57,73,69,69,73,76
+171,Individuals with high formal education,EL,37,45,59,64,71,76,78
+172,Individuals with high formal education,ES,58,73,84,87,91,94,95
+173,Individuals with high formal education,EU27,55,63,72,76,78,83,86
+174,Individuals with high formal education,EU28,55,63,72,76,78,83,86
+175,Individuals with high formal education,FI,67,70,80,83,86,88,88
+176,Individuals with high formal education,FR,64,72,78,80,79,85,88
+177,Individuals with high formal education,HR,60,60,61,69,79,62,80
+178,Individuals with high formal education,HU,32,46,63,74,77,82,84
+179,Individuals with high formal education,IE,70,78,85,88,85,89,90
+180,Individuals with high formal education,IS,70,75,79,NA,NA,92,90
+181,Individuals with high formal education,IT,33,31,40,41,44,46,56
+182,Individuals with high formal education,LT,27,39,47,56,67,77,81
+183,Individuals with high formal education,LU,72,72,79,84,82,87,93
+184,Individuals with high formal education,LV,37,45,51,58,66,75,76
+185,Individuals with high formal education,ME,57,NA,NA,NA,NA,89,85
+186,Individuals with high formal education,MK,46,53,65,78,81,86,83
+187,Individuals with high formal education,MT,74,79,83,91,87,95,93
+188,Individuals with high formal education,NL,66,77,84,87,90,95,94
+189,Individuals with high formal education,NO,85,89,86,89,88,92,93
+190,Individuals with high formal education,PL,46,57,62,72,51,61,71
+191,Individuals with high formal education,PT,44,48,66,78,81,89,87
+192,Individuals with high formal education,RO,26,43,58,75,79,85,88
+193,Individuals with high formal education,RS,NA,NA,NA,55,NA,73,75
+194,Individuals with high formal education,SE,79,78,86,87,87,92,93
+195,Individuals with high formal education,SI,51,65,72,74,77,84,86
+196,Individuals with high formal education,SK,56,60,69,79,77,84,81
+197,Individuals with high formal education,TR,41,57,71,81,91,95,93
+198,Individuals with high formal education,UK,77,78,84,87,90,91,94
+199,Individuals with high formal education,XK,NA,NA,NA,NA,NA,92,89
+200,All individuals,AT,45,51,57,64,65,74,74
+201,All individuals,BA,NA,NA,NA,NA,NA,NA,60
+202,All individuals,BE,44,47,59,69,71,75,76
+203,All individuals,BG,13,20,27,38,45,56,57
+204,All individuals,CH,NA,NA,60,NA,NA,69,NA
+205,All individuals,CY,25,29,43,59,62,70,75
+206,All individuals,CZ,NA,29,37,45,NA,60,66
+207,All individuals,DE,31,44,56,63,68,75,80
+208,All individuals,DK,61,66,75,78,82,83,88
+209,All individuals,EA,34,42,51,56,59,65,69
+210,All individuals,EE,37,46,58,61,62,68,71
+211,All individuals,EL,23,27,37,44,47,53,55
+212,All individuals,ES,38,50,62,67,72,78,80
+213,All individuals,EU27,36,43,51,57,59,66,69
+214,All individuals,EU28,36,43,51,57,59,65,69
+215,All individuals,FI,56,61,69,73,76,79,78
+216,All individuals,FR,43,51,58,61,61,68,74
+217,All individuals,HR,38,40,41,50,52,51,63
+218,All individuals,HU,18,29,43,52,58,62,63
+219,All individuals,IE,51,59,65,69,69,75,73
+220,All individuals,IS,60,61,68,NA,NA,84,83
+221,All individuals,IT,16,19,24,26,29,32,40
+222,All individuals,LT,17,25,32,38,45,55,62
+223,All individuals,LU,63,66,70,80,78,82,84
+224,All individuals,LV,25,32,35,44,48,57,59
+225,All individuals,ME,34,NA,NA,NA,NA,70,70
+226,All individuals,MK,17,27,40,52,57,65,61
+227,All individuals,MT,40,43,52,64,64,72,70
+228,All individuals,NL,55,65,70,76,78,87,86
+229,All individuals,NO,75,79,79,83,80,87,89
+230,All individuals,PL,22,30,36,44,32,40,49
+231,All individuals,PT,21,24,37,45,51,58,60
+232,All individuals,RO,7 ,15,25,38,44,53,58
+233,All individuals,RS,NA,NA,NA,35,NA,53,57
+234,All individuals,SE,70,71,76,77,80,87,88
+235,All individuals,SI,30,39,42,51,54,63,67
+236,All individuals,SK,38,42,50,54,58,64,62
+237,All individuals,TR,14,21,32,40,53,62,64
+238,All individuals,UK,63,66,73,79,81,84,83
+239,All individuals,XK,NA,NA,NA,NA,NA,75,76
+240,"Males, 16 TO 74 years old",AT,51,57,63,69,69,77,76
+241,"Males, 16 TO 74 years old",BA,NA,NA,NA,NA,NA,NA,66
+242,"Males, 16 TO 74 years old",BE,48,53,62,70,73,76,78
+243,"Males, 16 TO 74 years old",BG,14,22,30,40,46,58,59
+244,"Males, 16 TO 74 years old",CH,NA,NA,65,NA,NA,72,NA
+245,"Males, 16 TO 74 years old",CY,28,32,46,61,63,70,76
+246,"Males, 16 TO 74 years old",CZ,NA,34,43,49,NA,63,68
+247,"Males, 16 TO 74 years old",DE,37,49,60,66,70,77,81
+248,"Males, 16 TO 74 years old",DK,65,68,76,79,82,84,88
+249,"Males, 16 TO 74 years old",EA,39,46,54,58,61,67,71
+250,"Males, 16 TO 74 years old",EE,41,51,61,66,64,70,73
+251,"Males, 16 TO 74 years old",EL,27,29,40,48,50,56,58
+252,"Males, 16 TO 74 years old",ES,43,53,64,68,74,79,81
+253,"Males, 16 TO 74 years old",EU27,40,46,55,60,62,68,71
+254,"Males, 16 TO 74 years old",EU28,40,46,54,60,61,67,71
+255,"Males, 16 TO 74 years old",FI,62,66,74,74,77,80,79
+256,"Males, 16 TO 74 years old",FR,48,56,61,64,61,70,75
+257,"Males, 16 TO 74 years old",HR,47,48,42,55,55,59,65
+258,"Males, 16 TO 74 years old",HU,21,32,48,56,61,64,64
+259,"Males, 16 TO 74 years old",IE,53,60,65,69,68,73,73
+260,"Males, 16 TO 74 years old",IS,63,62,67,NA,NA,85,82
+261,"Males, 16 TO 74 years old",IT,20,21,26,29,31,34,42
+262,"Males, 16 TO 74 years old",LT,21,29,36,39,48,56,63
+263,"Males, 16 TO 74 years old",LU,69,70,73,84,80,84,87
+264,"Males, 16 TO 74 years old",LV,30,37,39,46,51,59,60
+265,"Males, 16 TO 74 years old",ME,38,NA,NA,NA,NA,73,70
+266,"Males, 16 TO 74 years old",MK,18,30,45,55,61,68,64
+267,"Males, 16 TO 74 years old",MT,44,45,52,64,65,72,70
+268,"Males, 16 TO 74 years old",NL,60,70,72,76,79,88,87
+269,"Males, 16 TO 74 years old",NO,80,81,82,84,81,87,90
+270,"Males, 16 TO 74 years old",PL,25,34,38,46,34,42,50
+271,"Males, 16 TO 74 years old",PT,25,28,42,51,53,60,63
+272,"Males, 16 TO 74 years old",RO,9 ,17,28,41,48,55,59
+273,"Males, 16 TO 74 years old",RS,NA,NA,NA,41,NA,57,61
+274,"Males, 16 TO 74 years old",SE,74,73,77,77,81,88,86
+275,"Males, 16 TO 74 years old",SI,34,42,43,54,57,65,69
+276,"Males, 16 TO 74 years old",SK,43,46,55,58,60,67,64
+277,"Males, 16 TO 74 years old",TR,17,26,39,48,61,70,71
+278,"Males, 16 TO 74 years old",UK,67,69,74,81,81,84,83
+279,"Males, 16 TO 74 years old",XK,NA,NA,NA,NA,NA,76,76
+280,Retired and other inactive,AT,16,19,23,27,32,43,46
+281,Retired and other inactive,BA,NA,NA,NA,NA,NA,NA,31
+282,Retired and other inactive,BE,20,23,32,42,44,50,50
+283,Retired and other inactive,BG,1 ,3 ,4 ,9 ,11,19,21
+284,Retired and other inactive,CH,NA,NA,25,NA,NA,43,NA
+285,Retired and other inactive,CY,7 ,10,15,29,29,35,40
+286,Retired and other inactive,CZ,NA,7 ,11,15,NA,24,29
+287,Retired and other inactive,DE,10,17,25,31,36,46,54
+288,Retired and other inactive,DK,36,37,47,55,59,61,75
+289,Retired and other inactive,EA,11,16,22,26,30,37,43
+290,Retired and other inactive,EE,13,21,27,27,27,31,35
+291,Retired and other inactive,EL,3 ,6 ,11,15,16,21,23
+292,Retired and other inactive,ES,9 ,15,24,28,36,45,51
+293,Retired and other inactive,EU27,13,17,23,28,30,37,43
+294,Retired and other inactive,EU28,13,16,22,28,30,36,42
+295,Retired and other inactive,FI,26,32,39,43,46,49,51
+296,Retired and other inactive,FR,18,25,30,32,33,39,49
+297,Retired and other inactive,HR,7 ,9 ,10,13,14,16,26
+298,Retired and other inactive,HU,4 ,9 ,17,21,27,30,30
+299,Retired and other inactive,IE,27,34,40,44,44,49,43
+300,Retired and other inactive,IS,NA,37,39,NA,NA,61,58
+301,Retired and other inactive,IT,3 ,3 ,5 ,7 ,9 ,12,19
+302,Retired and other inactive,LT,2 ,3 ,6 ,8 ,13,18,26
+303,Retired and other inactive,LU,36,46,45,58,59,61,65
+304,Retired and other inactive,LV,5 ,8 ,8 ,12,13,20,19
+305,Retired and other inactive,ME,9 ,NA,NA,NA,NA,29,22
+306,Retired and other inactive,MK,2 ,3 ,9 ,19,25,31,29
+307,Retired and other inactive,MT,13,14,22,33,33,40,36
+308,Retired and other inactive,NL,26,33,43,49,55,66,66
+309,Retired and other inactive,NO,44,55,43,57,49,63,69
+310,Retired and other inactive,PL,4 ,9 ,11,16,9 ,13,19
+311,Retired and other inactive,PT,3 ,4 ,7 ,12,15,17,20
+312,Retired and other inactive,RO,1 ,3 ,7 ,12,15,23,28
+313,Retired and other inactive,RS,NA,NA,NA,6 ,NA,21,27
+314,Retired and other inactive,SE,33,33,43,44,58,60,NA
+315,Retired and other inactive,SI,3 ,7 ,12,11,23,23,25
+316,Retired and other inactive,SK,8 ,10,14,16,25,31,24
+317,Retired and other inactive,TR,4 ,7 ,13,17,29,39,44
+318,Retired and other inactive,UK,35,36,46,55,55,59,64
+319,Retired and other inactive,XK,NA,NA,NA,NA,NA,58,48
+320,"Employees, self-employed, familly workers",AT,53,60,67,74,74,84,83
+321,"Employees, self-employed, familly workers",BA,NA,NA,NA,NA,NA,NA,82
+322,"Employees, self-employed, familly workers",BE,51,54,69,79,82,85,87
+323,"Employees, self-employed, familly workers",BG,18,27,36,50,59,74,74
+324,"Employees, self-employed, familly workers",CH,NA,NA,67,NA,NA,76,NA
+325,"Employees, self-employed, familly workers",CY,26,31,48,66,72,78,84
+326,"Employees, self-employed, familly workers",CZ,NA,33,43,52,NA,70,77
+327,"Employees, self-employed, familly workers",DE,38,52,66,73,78,85,88
+328,"Employees, self-employed, familly workers",DK,67,73,83,86,88,90,94
+329,"Employees, self-employed, familly workers",EA,41,50,61,66,69,76,79
+330,"Employees, self-employed, familly workers",EE,43,52,65,69,71,77,80
+331,"Employees, self-employed, familly workers",EL,29,35,50,57,59,66,68
+332,"Employees, self-employed, familly workers",ES,47,63,76,80,85,90,91
+333,"Employees, self-employed, familly workers",EU27,43,51,61,67,69,75,79
+334,"Employees, self-employed, familly workers",EU28,43,51,60,67,69,75,79
+335,"Employees, self-employed, familly workers",FI,64,69,77,82,85,88,88
+336,"Employees, self-employed, familly workers",FR,50,59,68,71,70,80,83
+337,"Employees, self-employed, familly workers",HR,46,51,53,66,68,73,81
+338,"Employees, self-employed, familly workers",HU,23,37,55,65,71,77,79
+339,"Employees, self-employed, familly workers",IE,61,68,74,79,78,84,87
+340,"Employees, self-employed, familly workers",IS,61,61,71,NA,NA,87,88
+341,"Employees, self-employed, familly workers",IT,21,20,25,25,30,33,43
+342,"Employees, self-employed, familly workers",LT,19,29,36,44,54,67,74
+343,"Employees, self-employed, familly workers",LU,69,71,75,81,82,86,91
+344,"Employees, self-employed, familly workers",LV,31,38,42,52,58,68,70
+345,"Employees, self-employed, familly workers",ME,43,NA,NA,NA,NA,87,89
+346,"Employees, self-employed, familly workers",MK,22,32,51,64,68,78,73
+347,"Employees, self-employed, familly workers",MT,54,56,66,78,79,86,85
+348,"Employees, self-employed, familly workers",NL,65,76,80,85,87,93,93
+349,"Employees, self-employed, familly workers",NO,80,82,85,90,87,92,93
+350,"Employees, self-employed, familly workers",PL,28,38,44,53,35,46,57
+351,"Employees, self-employed, familly workers",PT,24,26,44,56,60,69,72
+352,"Employees, self-employed, familly workers",RO,9 ,18,29,44,53,62,68
+353,"Employees, self-employed, familly workers",RS,NA,NA,NA,58,NA,73,76
+354,"Employees, self-employed, familly workers",SE,75,80,83,85,86,94,92
+355,"Employees, self-employed, familly workers",SI,35,49,52,66,66,78,81
+356,"Employees, self-employed, familly workers",SK,45,48,59,67,69,75,73
+357,"Employees, self-employed, familly workers",TR,19,29,44,56,68,76,77
+358,"Employees, self-employed, familly workers",UK,71,75,81,88,90,92,91
+359,"Employees, self-employed, familly workers",XK,NA,NA,NA,NA,NA,81,81
+360,students,AT,84,89,94,99,97,97,97
+361,students,BA,NA,NA,NA,NA,NA,NA,92
+362,students,BE,73,81,80,91,94,92,93
+363,students,BG,30,56,72,84,91,95,95
+364,students,CH,NA,NA,85,NA,NA,86,NA
+365,students,CY,61,71,86,96,96,99,97
+366,students,CZ,NA,68,79,87,NA,94,97
+367,students,DE,56,80,87,91,94,95,98
+368,students,DK,87,89,92,92,95,97,97
+369,students,EA,65,79,84,89,90,92,93
+370,students,EE,68,77,92,93,96,97,98
+371,students,EL,58,67,78,85,88,92,91
+372,students,ES,76,86,93,93,95,97,97
+373,students,EU27,65,77,84,90,90,92,93
+374,students,EU28,65,78,84,90,90,92,93
+375,students,FI,80,82,93,93,96,97,95
+376,students,FR,78,83,83,91,89,91,91
+377,students,HR,87,82,83,96,89,96,98
+378,students,HU,38,64,81,89,92,94,95
+379,students,IE,78,89,94,95,91,95,99
+380,students,IS,87,84,93,NA,NA,97,88
+381,students,IT,40,64,72,78,81,83,82
+382,students,LT,52,67,82,86,87,96,96
+383,students,LU,83,82,86,87,91,94,97
+384,students,LV,56,78,82,92,91,94,97
+385,students,ME,66,NA,NA,NA,NA,10,97
+386,students,MK,42,59,84,86,94,92,87
+387,students,MT,88,92,94,10,96,97,97
+388,students,NL,87,91,83,94,88,10,95
+389,students,NO,89,96,92,91,87,99,97
+390,students,PL,53,63,77,88,83,87,92
+391,students,PT,69,78,84,91,94,96,96
+392,students,RO,18,43,62,80,82,90,88
+393,students,RS,NA,NA,NA,92,NA,89,94
+394,students,SE,89,87,90,94,85,91,94
+395,students,SI,78,85,91,96,95,97,97
+396,students,SK,73,82,86,93,95,94,98
+397,students,TR,39,51,69,74,86,91,88
+398,students,UK,93,95,95,98,93,94,88
+399,students,XK,NA,NA,NA,NA,NA,88,94
+400,Unemployed,AT,46,58,53,67,69,67,68
+401,Unemployed,BA,NA,NA,NA,NA,NA,NA,61
+402,Unemployed,BE,33,40,50,60,59,69,76
+403,Unemployed,BG,5 ,11,16,22,28,40,37
+404,Unemployed,CH,NA,NA,73,NA,NA,67,NA
+405,Unemployed,CY,27,31,43,59,58,77,75
+406,Unemployed,CZ,NA,16,34,33,NA,49,59
+407,Unemployed,DE,18,33,37,51,52,59,66
+408,Unemployed,DK,54,62,76,73,92,84,89
+409,Unemployed,EA,28,37,47,52,54,59,65
+410,Unemployed,EE,34,44,55,55,60,67,72
+411,Unemployed,EL,24,23,36,48,55,56,63
+412,Unemployed,ES,33,47,60,65,69,77,81
+413,Unemployed,EU27,28,37,46,52,53,59,64
+414,Unemployed,EU28,28,37,46,52,53,59,64
+415,Unemployed,FI,50,54,66,69,75,83,75
+416,Unemployed,FR,45,52,60,63,60,68,76
+417,Unemployed,HR,36,32,34,44,53,50,52
+418,Unemployed,HU,10,20,32,44,47,46,47
+419,Unemployed,IE,45,52,58,65,62,72,79
+420,Unemployed,IS,60,58,54,NA,NA,NA,NA
+421,Unemployed,IT,14,22,30,35,38,36,43
+422,Unemployed,LT,10,17,21,25,32,37,45
+423,Unemployed,LU,60,64,73,63,76,91,92
+424,Unemployed,LV,16,22,27,34,43,49,52
+425,Unemployed,ME,26,NA,NA,NA,NA,69,75
+426,Unemployed,MK,12,22,31,49,48,63,60
+427,Unemployed,MT,33,37,38,53,60,NA,NA
+428,Unemployed,NL,64,69,69,75,80,90,86
+429,Unemployed,NO,72,78,76,77,75,72,82
+430,Unemployed,PL,13,24,28,35,27,29,38
+431,Unemployed,PT,18,20,33,37,46,51,53
+432,Unemployed,RO,4 ,10,27,44,53,67,62
+433,Unemployed,RS,NA,NA,NA,29,NA,48,62
+434,Unemployed,SE,69,58,67,87,70,92,89
+435,Unemployed,SI,30,33,44,52,46,55,71
+436,Unemployed,SK,24,33,43,51,36,53,47
+437,Unemployed,TR,15,27,39,49,67,73,79
+438,Unemployed,UK,58,62,71,79,76,83,81
+439,Unemployed,XK,NA,NA,NA,NA,NA,76,76
+440,"Individuals, 16 TO 24 years old",AT,82,88,91,97,96,99,97
+441,"Individuals, 16 TO 24 years old",BA,NA,NA,NA,NA,NA,NA,92
+442,"Individuals, 16 TO 24 years old",BE,70,79,81,90,92,92,93
+443,"Individuals, 16 TO 24 years old",BG,23,40,58,71,81,85,88
+444,"Individuals, 16 TO 24 years old",CH,NA,NA,88,NA,NA,83,NA
+445,"Individuals, 16 TO 24 years old",CY,52,64,83,94,95,96,96
+446,"Individuals, 16 TO 24 years old",CZ,NA,61,75,84,NA,92,96
+447,"Individuals, 16 TO 24 years old",DE,58,80,89,91,93,95,97
+448,"Individuals, 16 TO 24 years old",DK,87,88,93,93,94,96,97
+449,"Individuals, 16 TO 24 years old",EA,64,76,82,87,87,90,92
+450,"Individuals, 16 TO 24 years old",EE,66,72,91,93,95,97,97
+451,"Individuals, 16 TO 24 years old",EL,51,63,71,84,87,89,92
+452,"Individuals, 16 TO 24 years old",ES,75,85,91,93,95,95,96
+453,"Individuals, 16 TO 24 years old",EU27,63,74,81,87,87,90,92
+454,"Individuals, 16 TO 24 years old",EU28,63,74,81,87,87,90,92
+455,"Individuals, 16 TO 24 years old",FI,80,81,93,95,96,96,96
+456,"Individuals, 16 TO 24 years old",FR,78,82,84,90,86,90,92
+457,"Individuals, 16 TO 24 years old",HR,85,82,80,95,86,91,99
+458,"Individuals, 16 TO 24 years old",HU,33,54,76,85,90,91,89
+459,"Individuals, 16 TO 24 years old",IE,70,84,92,91,91,95,95
+460,"Individuals, 16 TO 24 years old",IS,86,82,91,NA,NA,95,93
+461,"Individuals, 16 TO 24 years old",IT,33,54,61,68,71,72,74
+462,"Individuals, 16 TO 24 years old",LT,48,64,75,79,86,91,94
+463,"Individuals, 16 TO 24 years old",LU,83,82,87,89,90,92,95
+464,"Individuals, 16 TO 24 years old",LV,54,71,75,87,87,94,94
+465,"Individuals, 16 TO 24 years old",ME,56,NA,NA,NA,NA,96,97
+466,"Individuals, 16 TO 24 years old",MK,35,52,79,86,92,91,NA
+467,"Individuals, 16 TO 24 years old",MT,84,82,91,96,93,98,98
+468,"Individuals, 16 TO 24 years old",NL,92,94,91,91,89,98,96
+469,"Individuals, 16 TO 24 years old",NO,91,94,95,95,91,98,96
+470,"Individuals, 16 TO 24 years old",PL,46,60,71,84,75,82,88
+471,"Individuals, 16 TO 24 years old",PT,58,66,81,86,92,95,95
+472,"Individuals, 16 TO 24 years old",RO,14,31,53,70,74,82,83
+473,"Individuals, 16 TO 24 years old",RS,NA,NA,NA,69,NA,86,88
+474,"Individuals, 16 TO 24 years old",SE,92,90,91,91,86,94,94
+475,"Individuals, 16 TO 24 years old",SI,74,80,82,95,88,96,97
+476,"Individuals, 16 TO 24 years old",SK,69,79,83,90,90,91,92
+477,"Individuals, 16 TO 24 years old",TR,27,39,56,64,78,85,84
+478,"Individuals, 16 TO 24 years old",UK,89,94,94,97,97,98,95
+479,"Individuals, 16 TO 24 years old",XK,NA,NA,NA,NA,NA,90,93
+480,"Individuals, 25 TO 54 years old",AT,50,58,65,74,75,85,84
+481,"Individuals, 25 TO 54 years old",BA,NA,NA,NA,NA,NA,NA,78
+482,"Individuals, 25 TO 54 years old",BE,49,51,66,77,79,84,85
+483,"Individuals, 25 TO 54 years old",BG,16,24,34,48,57,71,72
+484,"Individuals, 25 TO 54 years old",CH,NA,NA,69,NA,NA,76,NA
+485,"Individuals, 25 TO 54 years old",CY,26,31,48,66,72,80,85
+486,"Individuals, 25 TO 54 years old",CZ,NA,33,44,54,NA,73,82
+487,"Individuals, 25 TO 54 years old",DE,36,50,65,74,79,86,90
+488,"Individuals, 25 TO 54 years old",DK,70,76,84,87,90,91,93
+489,"Individuals, 25 TO 54 years old",EA,38,47,59,64,68,75,79
+490,"Individuals, 25 TO 54 years old",EE,44,54,68,74,76,82,85
+491,"Individuals, 25 TO 54 years old",EL,26,30,44,54,57,65,67
+492,"Individuals, 25 TO 54 years old",ES,43,58,73,78,84,89,91
+493,"Individuals, 25 TO 54 years old",EU27,40,48,59,65,68,75,79
+494,"Individuals, 25 TO 54 years old",EU28,40,48,59,65,68,75,79
+495,"Individuals, 25 TO 54 years old",FI,69,74,82,85,90,91,90
+496,"Individuals, 25 TO 54 years old",FR,47,56,67,69,70,79,83
+497,"Individuals, 25 TO 54 years old",HR,42,46,49,62,65,68,77
+498,"Individuals, 25 TO 54 years old",HU,20,34,53,65,70,76,77
+499,"Individuals, 25 TO 54 years old",IE,58,65,73,79,78,84,88
+500,"Individuals, 25 TO 54 years old",IS,64,67,76,NA,NA,92,89
+501,"Individuals, 25 TO 54 years old",IT,19,20,26,27,32,35,45
+502,"Individuals, 25 TO 54 years old",LT,16,25,34,43,53,67,75
+503,"Individuals, 25 TO 54 years old",LU,67,70,76,80,82,86,89
+504,"Individuals, 25 TO 54 years old",LV,28,37,42,53,59,70,73
+505,"Individuals, 25 TO 54 years old",ME,36,NA,NA,NA,NA,83,86
+506,"Individuals, 25 TO 54 years old",MK,17,28,43,58,63,75,63
+507,"Individuals, 25 TO 54 years old",MT,45,49,59,75,78,87,85
+508,"Individuals, 25 TO 54 years old",NL,61,73,78,83,86,92,92
+509,"Individuals, 25 TO 54 years old",NO,84,86,89,91,87,92,94
+510,"Individuals, 25 TO 54 years old",PL,25,37,43,52,36,46,58
+511,"Individuals, 25 TO 54 years old",PT,22,25,42,54,61,69,74
+512,"Individuals, 25 TO 54 years old",RO,8 ,17,29,44,54,64,69
+513,"Individuals, 25 TO 54 years old",RS,NA,NA,NA,44,NA,68,73
+514,"Individuals, 25 TO 54 years old",SE,80,82,85,86,85,93,92
+515,"Individuals, 25 TO 54 years old",SI,33,46,51,63,69,78,81
+516,"Individuals, 25 TO 54 years old",SK,42,46,59,64,69,77,75
+517,"Individuals, 25 TO 54 years old",TR,13,21,33,43,58,69,71
+518,"Individuals, 25 TO 54 years old",UK,71,75,82,88,90,92,92
+519,"Individuals, 25 TO 54 years old",XK,NA,NA,NA,NA,NA,77,80
+520,"Individuals, 55 TO 74 years old",AT,16,19,24,28,31,42,45
+521,"Individuals, 55 TO 74 years old",BA,NA,NA,NA,NA,NA,NA,29
+522,"Individuals, 55 TO 74 years old",BE,21,24,34,42,45,52,53
+523,"Individuals, 55 TO 74 years old",BG,3 ,4 ,5 ,10,13,21,23
+524,"Individuals, 55 TO 74 years old",CH,NA,NA,29,NA,NA,50,NA
+525,"Individuals, 55 TO 74 years old",CY,4 ,4 ,8 ,20,21,33,40
+526,"Individuals, 55 TO 74 years old",CZ,NA,6 ,11,13,NA,24,29
+527,"Individuals, 55 TO 74 years old",DE,11,18,26,33,38,49,55
+528,"Individuals, 55 TO 74 years old",DK,34,38,51,55,62,64,76
+529,"Individuals, 55 TO 74 years old",EA,12,17,23,28,31,39,44
+530,"Individuals, 55 TO 74 years old",EE,10,20,23,24,24,31,35
+531,"Individuals, 55 TO 74 years old",EL,3 ,5 ,10,11,12,18,22
+532,"Individuals, 55 TO 74 years old",ES,10,16,26,32,39,49,55
+533,"Individuals, 55 TO 74 years old",EU27,14,18,24,29,32,39,44
+534,"Individuals, 55 TO 74 years old",EU28,14,18,24,29,32,39,43
+535,"Individuals, 55 TO 74 years old",FI,26,32,40,45,47,55,56
+536,"Individuals, 55 TO 74 years old",FR,19,27,31,34,33,41,50
+537,"Individuals, 55 TO 74 years old",HR,7 ,10,10,15,16,19,29
+538,"Individuals, 55 TO 74 years old",HU,6 ,9 ,14,18,25,27,27
+539,"Individuals, 55 TO 74 years old",IE,22,27,30,35,36,49,37
+540,"Individuals, 55 TO 74 years old",IS,29,34,39,NA,NA,61,66
+541,"Individuals, 55 TO 74 years old",IT,5 ,4 ,6 ,7 ,8 ,11,18
+542,"Individuals, 55 TO 74 years old",LT,1 ,2 ,5 ,7 ,10,18,27
+543,"Individuals, 55 TO 74 years old",LU,40,48,48,59,63,68,67
+544,"Individuals, 55 TO 74 years old",LV,5 ,8 ,8 ,12,14,22,23
+545,"Individuals, 55 TO 74 years old",ME,10,NA,NA,NA,NA,33,30
+546,"Individuals, 55 TO 74 years old",MK,4 ,5 ,7 ,17,22,28,59
+547,"Individuals, 55 TO 74 years old",MT,11,14,21,29,27,35,31
+548,"Individuals, 55 TO 74 years old",NL,25,36,47,55,60,72,71
+549,"Individuals, 55 TO 74 years old",NO,48,54,50,60,62,71,74
+550,"Individuals, 55 TO 74 years old",PL,5 ,8 ,10,16,7 ,11,17
+551,"Individuals, 55 TO 74 years old",PT,4 ,4 ,9 ,14,17,24,25
+552,"Individuals, 55 TO 74 years old",RO,1 ,4 ,5 ,11,13,20,25
+553,"Individuals, 55 TO 74 years old",RS,NA,NA,NA,7 ,NA,18,23
+554,"Individuals, 55 TO 74 years old",SE,41,41,54,55,67,72,78
+555,"Individuals, 55 TO 74 years old",SI,5 ,10,11,12,16,27,33
+556,"Individuals, 55 TO 74 years old",SK,8 ,10,14,15,20,28,22
+557,"Individuals, 55 TO 74 years old",TR,1 ,2 ,5 ,7 ,13,19,26
+558,"Individuals, 55 TO 74 years old",UK,33,34,45,55,57,61,61
+559,"Individuals, 55 TO 74 years old",XK,NA,NA,NA,NA,NA,54,54
