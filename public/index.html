@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,7 @@
 
 
     <style>
-      body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+     
       text.shadow {
         stroke: white;
         stroke-width: 2.5px;
@@ -52,7 +52,11 @@
       <p>Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a> </p>
     </div>
 
-  
+    <div id="containerintro2">
+
+      <h1>Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements, en Europe.</h1>
+      <p>Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a> </p>
+    </div>
     
       <div id = "slideannees">
        <input id="slider" type="range" size ="30" value="2012" min="2012" max="2018" step="1"  oninput="afficheAnnee()",onchange="afficheAnnee()"/>
@@ -85,9 +89,9 @@
       
       <script>
         var width = 960;
-        var height = 500;
+        var height = 900;
         var center = [10, 72];
-        var scale = 275;
+        var scale = 500;
         var colmin = "#edf8e9"
         var colmax = "#006d2c"
         
@@ -102,7 +106,7 @@
         var svg = d3.select("body")
             .append("svg")
             .attr("height", height)
-            .attr("width", width)
+            
             
         
         
@@ -370,18 +374,5 @@
       
     
         </script>
-
-
-          
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start`.
-      To create a production bundle, use `npm run build`.
-    -->
   </body>
 </html>
