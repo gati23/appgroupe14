@@ -1,0 +1,561 @@
+ind_type,geo\time,2012 ,2013 ,2014 ,2015 ,2016 ,2017 ,2018
+Active labour force (employed and unemployed),AUT,53.0,60.0,66.0,74.0,74.0,83.0,82.0
+Active labour force (employed and unemployed),BIH,,,,,,,73.0
+Active labour force (employed and unemployed),BEL,49.0,52.0,67.0,77.0,80.0,84.0,86.0
+Active labour force (employed and unemployed),BGR,15.0,22.0,31.0,44.0,53.0,67.0,68.0
+Active labour force (employed and unemployed),CHE,,,67.0,,,76.0,
+Active labour force (employed and unemployed),CYP,26.0,31.0,47.0,65.0,70.0,78.0,83.0
+Active labour force (employed and unemployed),CZE,,32.0,43.0,51.0,,69.0,76.0
+Active labour force (employed and unemployed),DEU,37.0,51.0,64.0,72.0,76.0,83.0,87.0
+Active labour force (employed and unemployed),DNK,67.0,73.0,83.0,85.0,88.0,90.0,94.0
+Active labour force (employed and unemployed),EA,39.0,48.0,59.0,64.0,67.0,73.0,77.0
+Active labour force (employed and unemployed),EST,42.0,52.0,64.0,69.0,70.0,76.0,80.0
+Active labour force (employed and unemployed),GRC,28.0,32.0,46.0,55.0,58.0,64.0,67.0
+Active labour force (employed and unemployed),ESP,44.0,58.0,71.0,76.0,82.0,87.0,89.0
+Active labour force (employed and unemployed),EU27,41.0,49.0,59.0,65.0,67.0,73.0,77.0
+Active labour force (employed and unemployed),EU28,41.0,49.0,58.0,65.0,67.0,73.0,77.0
+Active labour force (employed and unemployed),FIN,64.0,68.0,76.0,81.0,84.0,88.0,87.0
+Active labour force (employed and unemployed),FRA,49.0,58.0,67.0,70.0,69.0,78.0,82.0
+Active labour force (employed and unemployed),HRV,43.0,46.0,47.0,60.0,64.0,66.0,74.0
+Active labour force (employed and unemployed),HUN,21.0,35.0,52.0,64.0,69.0,74.0,76.0
+Active labour force (employed and unemployed),IRL,58.0,65.0,71.0,77.0,76.0,82.0,86.0
+Active labour force (employed and unemployed),ISL,61.0,61.0,70.0,,,87.0,87.0
+Active labour force (employed and unemployed),ITA,20.0,20.0,26.0,28.0,32.0,34.0,43.0
+Active labour force (employed and unemployed),LTU,17.0,27.0,34.0,41.0,51.0,64.0,71.0
+Active labour force (employed and unemployed),LUX,68.0,71.0,75.0,80.0,82.0,86.0,91.0
+Active labour force (employed and unemployed),LVA,28.0,35.0,40.0,49.0,56.0,65.0,67.0
+Active labour force (employed and unemployed),MNE,35.0,,,,,80.0,83.0
+Active labour force (employed and unemployed),MKD,18.0,28.0,43.0,58.0,61.0,73.0,68.0
+Active labour force (employed and unemployed),MLT,53.0,54.0,64.0,76.0,78.0,85.0,84.0
+Active labour force (employed and unemployed),NLD,64.0,75.0,80.0,85.0,87.0,93.0,93.0
+Active labour force (employed and unemployed),NOR,80.0,82.0,85.0,89.0,87.0,91.0,93.0
+Active labour force (employed and unemployed),POL,26.0,37.0,42.0,51.0,34.0,44.0,56.0
+Active labour force (employed and unemployed),PRT,23.0,25.0,42.0,52.0,58.0,66.0,69.0
+Active labour force (employed and unemployed),ROU,9.0,17.0,29.0,44.0,53.0,62.0,68.0
+Active labour force (employed and unemployed),SRB,,,,42.0,,62.0,71.0
+Active labour force (employed and unemployed),SWE,75.0,79.0,82.0,85.0,86.0,94.0,92.0
+Active labour force (employed and unemployed),SVN,35.0,47.0,51.0,64.0,64.0,75.0,80.0
+Active labour force (employed and unemployed),SVK,42.0,46.0,57.0,65.0,65.0,73.0,71.0
+Active labour force (employed and unemployed),TUR,18.0,29.0,43.0,55.0,68.0,76.0,77.0
+Active labour force (employed and unemployed),GBR,70.0,73.0,80.0,87.0,89.0,91.0,91.0
+Active labour force (employed and unemployed),XKX,,,,,,79.0,79.0
+"Females, 16 TO 74 years old",AUT,39.0,44.0,51.0,59.0,60.0,71.0,72.0
+"Females, 16 TO 74 years old",BIH,,,,,,,56.0
+"Females, 16 TO 74 years old",BEL,40.0,42.0,56.0,67.0,68.0,74.0,75.0
+"Females, 16 TO 74 years old",BGR,11.0,18.0,25.0,37.0,43.0,54.0,55.0
+"Females, 16 TO 74 years old",CHE,,,55.0,,,66.0,
+"Females, 16 TO 74 years old",CYP,21.0,26.0,41.0,57.0,62.0,70.0,73.0
+"Females, 16 TO 74 years old",CZE,,23.0,31.0,40.0,,56.0,65.0
+"Females, 16 TO 74 years old",DEU,25.0,39.0,51.0,60.0,65.0,73.0,79.0
+"Females, 16 TO 74 years old",DNK,58.0,63.0,74.0,77.0,82.0,83.0,88.0
+"Females, 16 TO 74 years old",EA,29.0,38.0,48.0,53.0,57.0,64.0,68.0
+"Females, 16 TO 74 years old",EST,33.0,42.0,55.0,57.0,60.0,66.0,68.0
+"Females, 16 TO 74 years old",GRC,18.0,24.0,34.0,41.0,45.0,50.0,52.0
+"Females, 16 TO 74 years old",ESP,34.0,47.0,60.0,66.0,70.0,77.0,80.0
+"Females, 16 TO 74 years old",EU27,31.0,39.0,48.0,55.0,57.0,63.0,68.0
+"Females, 16 TO 74 years old",EU28,31.0,39.0,48.0,55.0,57.0,63.0,68.0
+"Females, 16 TO 74 years old",FIN,51.0,56.0,64.0,72.0,74.0,78.0,78.0
+"Females, 16 TO 74 years old",FRA,39.0,47.0,56.0,59.0,60.0,67.0,72.0
+"Females, 16 TO 74 years old",HRV,29.0,33.0,39.0,45.0,48.0,44.0,60.0
+"Females, 16 TO 74 years old",HUN,14.0,26.0,40.0,49.0,55.0,61.0,61.0
+"Females, 16 TO 74 years old",IRL,49.0,58.0,65.0,70.0,69.0,76.0,73.0
+"Females, 16 TO 74 years old",ISL,56.0,60.0,69.0,,,84.0,85.0
+"Females, 16 TO 74 years old",ITA,12.0,16.0,21.0,23.0,27.0,30.0,38.0
+"Females, 16 TO 74 years old",LTU,14.0,21.0,29.0,37.0,42.0,54.0,61.0
+"Females, 16 TO 74 years old",LUX,56.0,63.0,68.0,75.0,76.0,80.0,81.0
+"Females, 16 TO 74 years old",LVA,22.0,28.0,32.0,41.0,46.0,55.0,58.0
+"Females, 16 TO 74 years old",MNE,28.0,,,,,65.0,69.0
+"Females, 16 TO 74 years old",MKD,16.0,23.0,36.0,50.0,53.0,62.0,57.0
+"Females, 16 TO 74 years old",MLT,37.0,42.0,51.0,63.0,62.0,71.0,70.0
+"Females, 16 TO 74 years old",NLD,50.0,60.0,68.0,75.0,77.0,86.0,85.0
+"Females, 16 TO 74 years old",NOR,71.0,76.0,76.0,82.0,79.0,86.0,88.0
+"Females, 16 TO 74 years old",POL,19.0,27.0,34.0,42.0,31.0,38.0,47.0
+"Females, 16 TO 74 years old",PRT,17.0,20.0,32.0,41.0,49.0,56.0,58.0
+"Females, 16 TO 74 years old",ROU,6.0,14.0,22.0,34.0,41.0,50.0,56.0
+"Females, 16 TO 74 years old",SRB,,,,29.0,,49.0,54.0
+"Females, 16 TO 74 years old",SWE,66.0,68.0,76.0,76.0,78.0,85.0,90.0
+"Females, 16 TO 74 years old",SVN,26.0,36.0,42.0,48.0,52.0,62.0,66.0
+"Females, 16 TO 74 years old",SVK,33.0,37.0,46.0,51.0,57.0,62.0,59.0
+"Females, 16 TO 74 years old",TUR,10.0,16.0,25.0,32.0,44.0,54.0,58.0
+"Females, 16 TO 74 years old",GBR,60.0,64.0,72.0,78.0,83.0,84.0,83.0
+"Females, 16 TO 74 years old",XKX,,,,,,73.0,76.0
+Individuals with no or low formal education,AUT,34.0,34.0,33.0,40.0,47.0,52.0,58.0
+Individuals with no or low formal education,BIH,,,,,,,36.0
+Individuals with no or low formal education,BEL,30.0,34.0,40.0,50.0,55.0,58.0,57.0
+Individuals with no or low formal education,BGR,3.0,5.0,11.0,15.0,21.0,29.0,33.0
+Individuals with no or low formal education,CHE,,,48.0,,,52.0,
+Individuals with no or low formal education,CYP,10.0,15.0,22.0,31.0,36.0,42.0,44.0
+Individuals with no or low formal education,CZE,,27.0,33.0,43.0,,50.0,60.0
+Individuals with no or low formal education,DEU,27.0,42.0,54.0,60.0,63.0,69.0,76.0
+Individuals with no or low formal education,DNK,61.0,64.0,72.0,,78.0,77.0,82.0
+Individuals with no or low formal education,EA,21.0,27.0,34.0,39.0,42.0,47.0,53.0
+Individuals with no or low formal education,EST,30.0,39.0,51.0,57.0,56.0,69.0,72.0
+Individuals with no or low formal education,GRC,7.0,10.0,14.0,17.0,20.0,24.0,25.0
+Individuals with no or low formal education,ESP,21.0,30.0,40.0,45.0,53.0,59.0,64.0
+Individuals with no or low formal education,EU27,21.0,27.0,34.0,38.0,42.0,47.0,52.0
+Individuals with no or low formal education,EU28,21.0,27.0,33.0,38.0,42.0,47.0,52.0
+Individuals with no or low formal education,FIN,45.0,55.0,58.0,66.0,64.0,66.0,65.0
+Individuals with no or low formal education,FRA,30.0,34.0,39.0,42.0,41.0,49.0,58.0
+Individuals with no or low formal education,HRV,18.0,18.0,28.0,20.0,17.0,13.0,30.0
+Individuals with no or low formal education,HUN,10.0,18.0,26.0,30.0,36.0,41.0,40.0
+Individuals with no or low formal education,IRL,28.0,32.0,40.0,42.0,40.0,47.0,40.0
+Individuals with no or low formal education,ISL,53.0,52.0,60.0,,,76.0,75.0
+Individuals with no or low formal education,ITA,7.0,10.0,14.0,16.0,20.0,21.0,28.0
+Individuals with no or low formal education,LTU,16.0,24.0,36.0,37.0,45.0,52.0,56.0
+Individuals with no or low formal education,LUX,42.0,44.0,54.0,72.0,70.0,75.0,72.0
+Individuals with no or low formal education,LVA,23.0,31.0,34.0,37.0,43.0,50.0,58.0
+Individuals with no or low formal education,MNE,11.0,,,,,25.0,41.0
+Individuals with no or low formal education,MKD,8.0,13.0,25.0,28.0,38.0,45.0,44.0
+Individuals with no or low formal education,MLT,22.0,24.0,30.0,38.0,43.0,56.0,54.0
+Individuals with no or low formal education,NLD,41.0,47.0,54.0,61.0,62.0,73.0,73.0
+Individuals with no or low formal education,NOR,72.0,73.0,75.0,78.0,80.0,80.0,85.0
+Individuals with no or low formal education,POL,15.0,20.0,28.0,36.0,35.0,42.0,45.0
+Individuals with no or low formal education,PRT,11.0,13.0,20.0,27.0,31.0,37.0,38.0
+Individuals with no or low formal education,ROU,3.0,7.0,12.0,20.0,23.0,29.0,37.0
+Individuals with no or low formal education,SRB,,,,11.0,,27.0,33.0
+Individuals with no or low formal education,SWE,62.0,57.0,66.0,61.0,63.0,76.0,79.0
+Individuals with no or low formal education,SVN,16.0,21.0,19.0,32.0,37.0,44.0,46.0
+Individuals with no or low formal education,SVK,35.0,35.0,50.0,51.0,43.0,51.0,51.0
+Individuals with no or low formal education,TUR,6.0,11.0,18.0,24.0,36.0,46.0,50.0
+Individuals with no or low formal education,GBR,29.0,33.0,41.0,45.0,54.0,56.0,49.0
+Individuals with no or low formal education,XKX,,,,,,63.0,60.0
+individuals with medium formal education,AUT,45.0,51.0,54.0,62.0,61.0,71.0,71.0
+individuals with medium formal education,BIH,,,,,,,66.0
+individuals with medium formal education,BEL,46.0,48.0,61.0,74.0,73.0,79.0,80.0
+individuals with medium formal education,BGR,10.0,17.0,25.0,36.0,45.0,56.0,57.0
+individuals with medium formal education,CHE,,,55.0,,,68.0,
+individuals with medium formal education,CYP,20.0,26.0,40.0,60.0,63.0,71.0,76.0
+individuals with medium formal education,CZE,,24.0,32.0,38.0,,55.0,61.0
+individuals with medium formal education,DEU,29.0,41.0,53.0,61.0,66.0,74.0,79.0
+individuals with medium formal education,DNK,56.0,62.0,72.0,,80.0,83.0,88.0
+individuals with medium formal education,EA,35.0,43.0,53.0,58.0,61.0,68.0,72.0
+individuals with medium formal education,EST,32.0,42.0,49.0,56.0,58.0,63.0,66.0
+individuals with medium formal education,GRC,25.0,29.0,41.0,53.0,52.0,60.0,64.0
+individuals with medium formal education,ESP,49.0,61.0,76.0,79.0,82.0,88.0,89.0
+individuals with medium formal education,EU27,35.0,42.0,50.0,57.0,59.0,65.0,69.0
+individuals with medium formal education,EU28,35.0,42.0,50.0,57.0,59.0,65.0,69.0
+individuals with medium formal education,FIN,55.0,57.0,66.0,71.0,75.0,80.0,79.0
+individuals with medium formal education,FRA,42.0,51.0,60.0,62.0,60.0,70.0,74.0
+individuals with medium formal education,HRV,43.0,43.0,41.0,56.0,55.0,55.0,71.0
+individuals with medium formal education,HUN,16.0,27.0,42.0,52.0,58.0,63.0,62.0
+individuals with medium formal education,IRL,53.0,62.0,69.0,74.0,72.0,79.0,81.0
+individuals with medium formal education,ISL,58.0,59.0,65.0,,,85.0,82.0
+individuals with medium formal education,ITA,21.0,25.0,29.0,31.0,34.0,38.0,45.0
+individuals with medium formal education,LTU,13.0,18.0,22.0,26.0,30.0,40.0,49.0
+individuals with medium formal education,LUX,66.0,69.0,70.0,84.0,78.0,80.0,87.0
+individuals with medium formal education,LVA,20.0,27.0,27.0,38.0,40.0,49.0,50.0
+individuals with medium formal education,MNE,31.0,,,,,64.0,71.0
+individuals with medium formal education,MKD,18.0,30.0,44.0,59.0,62.0,69.0,62.0
+individuals with medium formal education,MLT,64.0,62.0,71.0,81.0,84.0,84.0,80.0
+individuals with medium formal education,NLD,58.0,68.0,71.0,80.0,82.0,89.0,89.0
+individuals with medium formal education,NOR,69.0,73.0,74.0,78.0,73.0,83.0,85.0
+individuals with medium formal education,POL,16.0,24.0,28.0,36.0,24.0,31.0,41.0
+individuals with medium formal education,PRT,40.0,39.0,59.0,66.0,77.0,82.0,83.0
+individuals with medium formal education,ROU,6.0,14.0,24.0,37.0,45.0,54.0,58.0
+individuals with medium formal education,SRB,,,,46.0,,61.0,66.0
+individuals with medium formal education,SWE,69.0,72.0,75.0,77.0,82.0,88.0,90.0
+individuals with medium formal education,SVN,30.0,38.0,41.0,50.0,52.0,62.0,66.0
+individuals with medium formal education,SVK,32.0,36.0,44.0,47.0,55.0,60.0,58.0
+individuals with medium formal education,TUR,25.0,39.0,55.0,64.0,79.0,87.0,86.0
+individuals with medium formal education,GBR,64.0,68.0,74.0,83.0,83.0,85.0,83.0
+individuals with medium formal education,XKX,,,,,,80.0,84.0
+Individuals with high formal education,AUT,57.0,65.0,75.0,78.0,80.0,88.0,86.0
+Individuals with high formal education,BIH,,,,,,,93.0
+Individuals with high formal education,BEL,57.0,60.0,74.0,81.0,84.0,87.0,89.0
+Individuals with high formal education,BGR,32.0,41.0,51.0,66.0,71.0,83.0,82.0
+Individuals with high formal education,CHE,,,73.0,,,80.0,
+Individuals with high formal education,CYP,42.0,47.0,65.0,80.0,81.0,89.0,92.0
+Individuals with high formal education,CZE,,50.0,60.0,69.0,,81.0,87.0
+Individuals with high formal education,DEU,41.0,53.0,65.0,71.0,77.0,85.0,86.0
+Individuals with high formal education,DNK,73.0,75.0,85.0,,92.0,92.0,95.0
+Individuals with high formal education,EA,52.0,61.0,71.0,74.0,77.0,83.0,85.0
+Individuals with high formal education,EST,48.0,57.0,73.0,69.0,69.0,73.0,76.0
+Individuals with high formal education,GRC,37.0,45.0,59.0,64.0,71.0,76.0,78.0
+Individuals with high formal education,ESP,58.0,73.0,84.0,87.0,91.0,94.0,95.0
+Individuals with high formal education,EU27,55.0,63.0,72.0,76.0,78.0,83.0,86.0
+Individuals with high formal education,EU28,55.0,63.0,72.0,76.0,78.0,83.0,86.0
+Individuals with high formal education,FIN,67.0,70.0,80.0,83.0,86.0,88.0,88.0
+Individuals with high formal education,FRA,64.0,72.0,78.0,80.0,79.0,85.0,88.0
+Individuals with high formal education,HRV,60.0,60.0,61.0,69.0,79.0,62.0,80.0
+Individuals with high formal education,HUN,32.0,46.0,63.0,74.0,77.0,82.0,84.0
+Individuals with high formal education,IRL,70.0,78.0,85.0,88.0,85.0,89.0,90.0
+Individuals with high formal education,ISL,70.0,75.0,79.0,,,92.0,90.0
+Individuals with high formal education,ITA,33.0,31.0,40.0,41.0,44.0,46.0,56.0
+Individuals with high formal education,LTU,27.0,39.0,47.0,56.0,67.0,77.0,81.0
+Individuals with high formal education,LUX,72.0,72.0,79.0,84.0,82.0,87.0,93.0
+Individuals with high formal education,LVA,37.0,45.0,51.0,58.0,66.0,75.0,76.0
+Individuals with high formal education,MNE,57.0,,,,,89.0,85.0
+Individuals with high formal education,MKD,46.0,53.0,65.0,78.0,81.0,86.0,83.0
+Individuals with high formal education,MLT,74.0,79.0,83.0,91.0,87.0,95.0,93.0
+Individuals with high formal education,NLD,66.0,77.0,84.0,87.0,90.0,95.0,94.0
+Individuals with high formal education,NOR,85.0,89.0,86.0,89.0,88.0,92.0,93.0
+Individuals with high formal education,POL,46.0,57.0,62.0,72.0,51.0,61.0,71.0
+Individuals with high formal education,PRT,44.0,48.0,66.0,78.0,81.0,89.0,87.0
+Individuals with high formal education,ROU,26.0,43.0,58.0,75.0,79.0,85.0,88.0
+Individuals with high formal education,SRB,,,,55.0,,73.0,75.0
+Individuals with high formal education,SWE,79.0,78.0,86.0,87.0,87.0,92.0,93.0
+Individuals with high formal education,SVN,51.0,65.0,72.0,74.0,77.0,84.0,86.0
+Individuals with high formal education,SVK,56.0,60.0,69.0,79.0,77.0,84.0,81.0
+Individuals with high formal education,TUR,41.0,57.0,71.0,81.0,91.0,95.0,93.0
+Individuals with high formal education,GBR,77.0,78.0,84.0,87.0,90.0,91.0,94.0
+Individuals with high formal education,XKX,,,,,,92.0,89.0
+All individuals,AUT,45.0,51.0,57.0,64.0,65.0,74.0,74.0
+All individuals,BIH,,,,,,,60.0
+All individuals,BEL,44.0,47.0,59.0,69.0,71.0,75.0,76.0
+All individuals,BGR,13.0,20.0,27.0,38.0,45.0,56.0,57.0
+All individuals,CHE,,,60.0,,,69.0,
+All individuals,CYP,25.0,29.0,43.0,59.0,62.0,70.0,75.0
+All individuals,CZE,,29.0,37.0,45.0,,60.0,66.0
+All individuals,DEU,31.0,44.0,56.0,63.0,68.0,75.0,80.0
+All individuals,DNK,61.0,66.0,75.0,78.0,82.0,83.0,88.0
+All individuals,EA,34.0,42.0,51.0,56.0,59.0,65.0,69.0
+All individuals,EST,37.0,46.0,58.0,61.0,62.0,68.0,71.0
+All individuals,GRC,23.0,27.0,37.0,44.0,47.0,53.0,55.0
+All individuals,ESP,38.0,50.0,62.0,67.0,72.0,78.0,80.0
+All individuals,EU27,36.0,43.0,51.0,57.0,59.0,66.0,69.0
+All individuals,EU28,36.0,43.0,51.0,57.0,59.0,65.0,69.0
+All individuals,FIN,56.0,61.0,69.0,73.0,76.0,79.0,78.0
+All individuals,FRA,43.0,51.0,58.0,61.0,61.0,68.0,74.0
+All individuals,HRV,38.0,40.0,41.0,50.0,52.0,51.0,63.0
+All individuals,HUN,18.0,29.0,43.0,52.0,58.0,62.0,63.0
+All individuals,IRL,51.0,59.0,65.0,69.0,69.0,75.0,73.0
+All individuals,ISL,60.0,61.0,68.0,,,84.0,83.0
+All individuals,ITA,16.0,19.0,24.0,26.0,29.0,32.0,40.0
+All individuals,LTU,17.0,25.0,32.0,38.0,45.0,55.0,62.0
+All individuals,LUX,63.0,66.0,70.0,80.0,78.0,82.0,84.0
+All individuals,LVA,25.0,32.0,35.0,44.0,48.0,57.0,59.0
+All individuals,MNE,34.0,,,,,70.0,70.0
+All individuals,MKD,17.0,27.0,40.0,52.0,57.0,65.0,61.0
+All individuals,MLT,40.0,43.0,52.0,64.0,64.0,72.0,70.0
+All individuals,NLD,55.0,65.0,70.0,76.0,78.0,87.0,86.0
+All individuals,NOR,75.0,79.0,79.0,83.0,80.0,87.0,89.0
+All individuals,POL,22.0,30.0,36.0,44.0,32.0,40.0,49.0
+All individuals,PRT,21.0,24.0,37.0,45.0,51.0,58.0,60.0
+All individuals,ROU,7.0,15.0,25.0,38.0,44.0,53.0,58.0
+All individuals,SRB,,,,35.0,,53.0,57.0
+All individuals,SWE,70.0,71.0,76.0,77.0,80.0,87.0,88.0
+All individuals,SVN,30.0,39.0,42.0,51.0,54.0,63.0,67.0
+All individuals,SVK,38.0,42.0,50.0,54.0,58.0,64.0,62.0
+All individuals,TUR,14.0,21.0,32.0,40.0,53.0,62.0,64.0
+All individuals,GBR,63.0,66.0,73.0,79.0,81.0,84.0,83.0
+All individuals,XKX,,,,,,75.0,76.0
+"Males, 16 TO 74 years old",AUT,51.0,57.0,63.0,69.0,69.0,77.0,76.0
+"Males, 16 TO 74 years old",BIH,,,,,,,66.0
+"Males, 16 TO 74 years old",BEL,48.0,53.0,62.0,70.0,73.0,76.0,78.0
+"Males, 16 TO 74 years old",BGR,14.0,22.0,30.0,40.0,46.0,58.0,59.0
+"Males, 16 TO 74 years old",CHE,,,65.0,,,72.0,
+"Males, 16 TO 74 years old",CYP,28.0,32.0,46.0,61.0,63.0,70.0,76.0
+"Males, 16 TO 74 years old",CZE,,34.0,43.0,49.0,,63.0,68.0
+"Males, 16 TO 74 years old",DEU,37.0,49.0,60.0,66.0,70.0,77.0,81.0
+"Males, 16 TO 74 years old",DNK,65.0,68.0,76.0,79.0,82.0,84.0,88.0
+"Males, 16 TO 74 years old",EA,39.0,46.0,54.0,58.0,61.0,67.0,71.0
+"Males, 16 TO 74 years old",EST,41.0,51.0,61.0,66.0,64.0,70.0,73.0
+"Males, 16 TO 74 years old",GRC,27.0,29.0,40.0,48.0,50.0,56.0,58.0
+"Males, 16 TO 74 years old",ESP,43.0,53.0,64.0,68.0,74.0,79.0,81.0
+"Males, 16 TO 74 years old",EU27,40.0,46.0,55.0,60.0,62.0,68.0,71.0
+"Males, 16 TO 74 years old",EU28,40.0,46.0,54.0,60.0,61.0,67.0,71.0
+"Males, 16 TO 74 years old",FIN,62.0,66.0,74.0,74.0,77.0,80.0,79.0
+"Males, 16 TO 74 years old",FRA,48.0,56.0,61.0,64.0,61.0,70.0,75.0
+"Males, 16 TO 74 years old",HRV,47.0,48.0,42.0,55.0,55.0,59.0,65.0
+"Males, 16 TO 74 years old",HUN,21.0,32.0,48.0,56.0,61.0,64.0,64.0
+"Males, 16 TO 74 years old",IRL,53.0,60.0,65.0,69.0,68.0,73.0,73.0
+"Males, 16 TO 74 years old",ISL,63.0,62.0,67.0,,,85.0,82.0
+"Males, 16 TO 74 years old",ITA,20.0,21.0,26.0,29.0,31.0,34.0,42.0
+"Males, 16 TO 74 years old",LTU,21.0,29.0,36.0,39.0,48.0,56.0,63.0
+"Males, 16 TO 74 years old",LUX,69.0,70.0,73.0,84.0,80.0,84.0,87.0
+"Males, 16 TO 74 years old",LVA,30.0,37.0,39.0,46.0,51.0,59.0,60.0
+"Males, 16 TO 74 years old",MNE,38.0,,,,,73.0,70.0
+"Males, 16 TO 74 years old",MKD,18.0,30.0,45.0,55.0,61.0,68.0,64.0
+"Males, 16 TO 74 years old",MLT,44.0,45.0,52.0,64.0,65.0,72.0,70.0
+"Males, 16 TO 74 years old",NLD,60.0,70.0,72.0,76.0,79.0,88.0,87.0
+"Males, 16 TO 74 years old",NOR,80.0,81.0,82.0,84.0,81.0,87.0,90.0
+"Males, 16 TO 74 years old",POL,25.0,34.0,38.0,46.0,34.0,42.0,50.0
+"Males, 16 TO 74 years old",PRT,25.0,28.0,42.0,51.0,53.0,60.0,63.0
+"Males, 16 TO 74 years old",ROU,9.0,17.0,28.0,41.0,48.0,55.0,59.0
+"Males, 16 TO 74 years old",SRB,,,,41.0,,57.0,61.0
+"Males, 16 TO 74 years old",SWE,74.0,73.0,77.0,77.0,81.0,88.0,86.0
+"Males, 16 TO 74 years old",SVN,34.0,42.0,43.0,54.0,57.0,65.0,69.0
+"Males, 16 TO 74 years old",SVK,43.0,46.0,55.0,58.0,60.0,67.0,64.0
+"Males, 16 TO 74 years old",TUR,17.0,26.0,39.0,48.0,61.0,70.0,71.0
+"Males, 16 TO 74 years old",GBR,67.0,69.0,74.0,81.0,81.0,84.0,83.0
+"Males, 16 TO 74 years old",XKX,,,,,,76.0,76.0
+Retired and other inactive,AUT,16.0,19.0,23.0,27.0,32.0,43.0,46.0
+Retired and other inactive,BIH,,,,,,,31.0
+Retired and other inactive,BEL,20.0,23.0,32.0,42.0,44.0,50.0,50.0
+Retired and other inactive,BGR,1.0,3.0,4.0,9.0,11.0,19.0,21.0
+Retired and other inactive,CHE,,,25.0,,,43.0,
+Retired and other inactive,CYP,7.0,10.0,15.0,29.0,29.0,35.0,40.0
+Retired and other inactive,CZE,,7.0,11.0,15.0,,24.0,29.0
+Retired and other inactive,DEU,10.0,17.0,25.0,31.0,36.0,46.0,54.0
+Retired and other inactive,DNK,36.0,37.0,47.0,55.0,59.0,61.0,75.0
+Retired and other inactive,EA,11.0,16.0,22.0,26.0,30.0,37.0,43.0
+Retired and other inactive,EST,13.0,21.0,27.0,27.0,27.0,31.0,35.0
+Retired and other inactive,GRC,3.0,6.0,11.0,15.0,16.0,21.0,23.0
+Retired and other inactive,ESP,9.0,15.0,24.0,28.0,36.0,45.0,51.0
+Retired and other inactive,EU27,13.0,17.0,23.0,28.0,30.0,37.0,43.0
+Retired and other inactive,EU28,13.0,16.0,22.0,28.0,30.0,36.0,42.0
+Retired and other inactive,FIN,26.0,32.0,39.0,43.0,46.0,49.0,51.0
+Retired and other inactive,FRA,18.0,25.0,30.0,32.0,33.0,39.0,49.0
+Retired and other inactive,HRV,7.0,9.0,10.0,13.0,14.0,16.0,26.0
+Retired and other inactive,HUN,4.0,9.0,17.0,21.0,27.0,30.0,30.0
+Retired and other inactive,IRL,27.0,34.0,40.0,44.0,44.0,49.0,43.0
+Retired and other inactive,ISL,,37.0,39.0,,,61.0,58.0
+Retired and other inactive,ITA,3.0,3.0,5.0,7.0,9.0,12.0,19.0
+Retired and other inactive,LTU,2.0,3.0,6.0,8.0,13.0,18.0,26.0
+Retired and other inactive,LUX,36.0,46.0,45.0,58.0,59.0,61.0,65.0
+Retired and other inactive,LVA,5.0,8.0,8.0,12.0,13.0,20.0,19.0
+Retired and other inactive,MNE,9.0,,,,,29.0,22.0
+Retired and other inactive,MKD,2.0,3.0,9.0,19.0,25.0,31.0,29.0
+Retired and other inactive,MLT,13.0,14.0,22.0,33.0,33.0,40.0,36.0
+Retired and other inactive,NLD,26.0,33.0,43.0,49.0,55.0,66.0,66.0
+Retired and other inactive,NOR,44.0,55.0,43.0,57.0,49.0,63.0,69.0
+Retired and other inactive,POL,4.0,9.0,11.0,16.0,9.0,13.0,19.0
+Retired and other inactive,PRT,3.0,4.0,7.0,12.0,15.0,17.0,20.0
+Retired and other inactive,ROU,1.0,3.0,7.0,12.0,15.0,23.0,28.0
+Retired and other inactive,SRB,,,,6.0,,21.0,27.0
+Retired and other inactive,SWE,33.0,33.0,43.0,44.0,58.0,60.0,
+Retired and other inactive,SVN,3.0,7.0,12.0,11.0,23.0,23.0,25.0
+Retired and other inactive,SVK,8.0,10.0,14.0,16.0,25.0,31.0,24.0
+Retired and other inactive,TUR,4.0,7.0,13.0,17.0,29.0,39.0,44.0
+Retired and other inactive,GBR,35.0,36.0,46.0,55.0,55.0,59.0,64.0
+Retired and other inactive,XKX,,,,,,58.0,48.0
+"Employees, self-employed, familly workers",AUT,53.0,60.0,67.0,74.0,74.0,84.0,83.0
+"Employees, self-employed, familly workers",BIH,,,,,,,82.0
+"Employees, self-employed, familly workers",BEL,51.0,54.0,69.0,79.0,82.0,85.0,87.0
+"Employees, self-employed, familly workers",BGR,18.0,27.0,36.0,50.0,59.0,74.0,74.0
+"Employees, self-employed, familly workers",CHE,,,67.0,,,76.0,
+"Employees, self-employed, familly workers",CYP,26.0,31.0,48.0,66.0,72.0,78.0,84.0
+"Employees, self-employed, familly workers",CZE,,33.0,43.0,52.0,,70.0,77.0
+"Employees, self-employed, familly workers",DEU,38.0,52.0,66.0,73.0,78.0,85.0,88.0
+"Employees, self-employed, familly workers",DNK,67.0,73.0,83.0,86.0,88.0,90.0,94.0
+"Employees, self-employed, familly workers",EA,41.0,50.0,61.0,66.0,69.0,76.0,79.0
+"Employees, self-employed, familly workers",EST,43.0,52.0,65.0,69.0,71.0,77.0,80.0
+"Employees, self-employed, familly workers",GRC,29.0,35.0,50.0,57.0,59.0,66.0,68.0
+"Employees, self-employed, familly workers",ESP,47.0,63.0,76.0,80.0,85.0,90.0,91.0
+"Employees, self-employed, familly workers",EU27,43.0,51.0,61.0,67.0,69.0,75.0,79.0
+"Employees, self-employed, familly workers",EU28,43.0,51.0,60.0,67.0,69.0,75.0,79.0
+"Employees, self-employed, familly workers",FIN,64.0,69.0,77.0,82.0,85.0,88.0,88.0
+"Employees, self-employed, familly workers",FRA,50.0,59.0,68.0,71.0,70.0,80.0,83.0
+"Employees, self-employed, familly workers",HRV,46.0,51.0,53.0,66.0,68.0,73.0,81.0
+"Employees, self-employed, familly workers",HUN,23.0,37.0,55.0,65.0,71.0,77.0,79.0
+"Employees, self-employed, familly workers",IRL,61.0,68.0,74.0,79.0,78.0,84.0,87.0
+"Employees, self-employed, familly workers",ISL,61.0,61.0,71.0,,,87.0,88.0
+"Employees, self-employed, familly workers",ITA,21.0,20.0,25.0,25.0,30.0,33.0,43.0
+"Employees, self-employed, familly workers",LTU,19.0,29.0,36.0,44.0,54.0,67.0,74.0
+"Employees, self-employed, familly workers",LUX,69.0,71.0,75.0,81.0,82.0,86.0,91.0
+"Employees, self-employed, familly workers",LVA,31.0,38.0,42.0,52.0,58.0,68.0,70.0
+"Employees, self-employed, familly workers",MNE,43.0,,,,,87.0,89.0
+"Employees, self-employed, familly workers",MKD,22.0,32.0,51.0,64.0,68.0,78.0,73.0
+"Employees, self-employed, familly workers",MLT,54.0,56.0,66.0,78.0,79.0,86.0,85.0
+"Employees, self-employed, familly workers",NLD,65.0,76.0,80.0,85.0,87.0,93.0,93.0
+"Employees, self-employed, familly workers",NOR,80.0,82.0,85.0,90.0,87.0,92.0,93.0
+"Employees, self-employed, familly workers",POL,28.0,38.0,44.0,53.0,35.0,46.0,57.0
+"Employees, self-employed, familly workers",PRT,24.0,26.0,44.0,56.0,60.0,69.0,72.0
+"Employees, self-employed, familly workers",ROU,9.0,18.0,29.0,44.0,53.0,62.0,68.0
+"Employees, self-employed, familly workers",SRB,,,,58.0,,73.0,76.0
+"Employees, self-employed, familly workers",SWE,75.0,80.0,83.0,85.0,86.0,94.0,92.0
+"Employees, self-employed, familly workers",SVN,35.0,49.0,52.0,66.0,66.0,78.0,81.0
+"Employees, self-employed, familly workers",SVK,45.0,48.0,59.0,67.0,69.0,75.0,73.0
+"Employees, self-employed, familly workers",TUR,19.0,29.0,44.0,56.0,68.0,76.0,77.0
+"Employees, self-employed, familly workers",GBR,71.0,75.0,81.0,88.0,90.0,92.0,91.0
+"Employees, self-employed, familly workers",XKX,,,,,,81.0,81.0
+students,AUT,84.0,89.0,94.0,99.0,97.0,97.0,97.0
+students,BIH,,,,,,,92.0
+students,BEL,73.0,81.0,80.0,91.0,94.0,92.0,93.0
+students,BGR,30.0,56.0,72.0,84.0,91.0,95.0,95.0
+students,CHE,,,85.0,,,86.0,
+students,CYP,61.0,71.0,86.0,96.0,96.0,99.0,97.0
+students,CZE,,68.0,79.0,87.0,,94.0,97.0
+students,DEU,56.0,80.0,87.0,91.0,94.0,95.0,98.0
+students,DNK,87.0,89.0,92.0,92.0,95.0,97.0,97.0
+students,EA,65.0,79.0,84.0,89.0,90.0,92.0,93.0
+students,EST,68.0,77.0,92.0,93.0,96.0,97.0,98.0
+students,GRC,58.0,67.0,78.0,85.0,88.0,92.0,91.0
+students,ESP,76.0,86.0,93.0,93.0,95.0,97.0,97.0
+students,EU27,65.0,77.0,84.0,90.0,90.0,92.0,93.0
+students,EU28,65.0,78.0,84.0,90.0,90.0,92.0,93.0
+students,FIN,80.0,82.0,93.0,93.0,96.0,97.0,95.0
+students,FRA,78.0,83.0,83.0,91.0,89.0,91.0,91.0
+students,HRV,87.0,82.0,83.0,96.0,89.0,96.0,98.0
+students,HUN,38.0,64.0,81.0,89.0,92.0,94.0,95.0
+students,IRL,78.0,89.0,94.0,95.0,91.0,95.0,99.0
+students,ISL,87.0,84.0,93.0,,,97.0,88.0
+students,ITA,40.0,64.0,72.0,78.0,81.0,83.0,82.0
+students,LTU,52.0,67.0,82.0,86.0,87.0,96.0,96.0
+students,LUX,83.0,82.0,86.0,87.0,91.0,94.0,97.0
+students,LVA,56.0,78.0,82.0,92.0,91.0,94.0,97.0
+students,MNE,66.0,,,,,10.0,97.0
+students,MKD,42.0,59.0,84.0,86.0,94.0,92.0,87.0
+students,MLT,88.0,92.0,94.0,10.0,96.0,97.0,97.0
+students,NLD,87.0,91.0,83.0,94.0,88.0,10.0,95.0
+students,NOR,89.0,96.0,92.0,91.0,87.0,99.0,97.0
+students,POL,53.0,63.0,77.0,88.0,83.0,87.0,92.0
+students,PRT,69.0,78.0,84.0,91.0,94.0,96.0,96.0
+students,ROU,18.0,43.0,62.0,80.0,82.0,90.0,88.0
+students,SRB,,,,92.0,,89.0,94.0
+students,SWE,89.0,87.0,90.0,94.0,85.0,91.0,94.0
+students,SVN,78.0,85.0,91.0,96.0,95.0,97.0,97.0
+students,SVK,73.0,82.0,86.0,93.0,95.0,94.0,98.0
+students,TUR,39.0,51.0,69.0,74.0,86.0,91.0,88.0
+students,GBR,93.0,95.0,95.0,98.0,93.0,94.0,88.0
+students,XKX,,,,,,88.0,94.0
+Unemployed,AUT,46.0,58.0,53.0,67.0,69.0,67.0,68.0
+Unemployed,BIH,,,,,,,61.0
+Unemployed,BEL,33.0,40.0,50.0,60.0,59.0,69.0,76.0
+Unemployed,BGR,5.0,11.0,16.0,22.0,28.0,40.0,37.0
+Unemployed,CHE,,,73.0,,,67.0,
+Unemployed,CYP,27.0,31.0,43.0,59.0,58.0,77.0,75.0
+Unemployed,CZE,,16.0,34.0,33.0,,49.0,59.0
+Unemployed,DEU,18.0,33.0,37.0,51.0,52.0,59.0,66.0
+Unemployed,DNK,54.0,62.0,76.0,73.0,92.0,84.0,89.0
+Unemployed,EA,28.0,37.0,47.0,52.0,54.0,59.0,65.0
+Unemployed,EST,34.0,44.0,55.0,55.0,60.0,67.0,72.0
+Unemployed,GRC,24.0,23.0,36.0,48.0,55.0,56.0,63.0
+Unemployed,ESP,33.0,47.0,60.0,65.0,69.0,77.0,81.0
+Unemployed,EU27,28.0,37.0,46.0,52.0,53.0,59.0,64.0
+Unemployed,EU28,28.0,37.0,46.0,52.0,53.0,59.0,64.0
+Unemployed,FIN,50.0,54.0,66.0,69.0,75.0,83.0,75.0
+Unemployed,FRA,45.0,52.0,60.0,63.0,60.0,68.0,76.0
+Unemployed,HRV,36.0,32.0,34.0,44.0,53.0,50.0,52.0
+Unemployed,HUN,10.0,20.0,32.0,44.0,47.0,46.0,47.0
+Unemployed,IRL,45.0,52.0,58.0,65.0,62.0,72.0,79.0
+Unemployed,ISL,60.0,58.0,54.0,,,,
+Unemployed,ITA,14.0,22.0,30.0,35.0,38.0,36.0,43.0
+Unemployed,LTU,10.0,17.0,21.0,25.0,32.0,37.0,45.0
+Unemployed,LUX,60.0,64.0,73.0,63.0,76.0,91.0,92.0
+Unemployed,LVA,16.0,22.0,27.0,34.0,43.0,49.0,52.0
+Unemployed,MNE,26.0,,,,,69.0,75.0
+Unemployed,MKD,12.0,22.0,31.0,49.0,48.0,63.0,60.0
+Unemployed,MLT,33.0,37.0,38.0,53.0,60.0,,
+Unemployed,NLD,64.0,69.0,69.0,75.0,80.0,90.0,86.0
+Unemployed,NOR,72.0,78.0,76.0,77.0,75.0,72.0,82.0
+Unemployed,POL,13.0,24.0,28.0,35.0,27.0,29.0,38.0
+Unemployed,PRT,18.0,20.0,33.0,37.0,46.0,51.0,53.0
+Unemployed,ROU,4.0,10.0,27.0,44.0,53.0,67.0,62.0
+Unemployed,SRB,,,,29.0,,48.0,62.0
+Unemployed,SWE,69.0,58.0,67.0,87.0,70.0,92.0,89.0
+Unemployed,SVN,30.0,33.0,44.0,52.0,46.0,55.0,71.0
+Unemployed,SVK,24.0,33.0,43.0,51.0,36.0,53.0,47.0
+Unemployed,TUR,15.0,27.0,39.0,49.0,67.0,73.0,79.0
+Unemployed,GBR,58.0,62.0,71.0,79.0,76.0,83.0,81.0
+Unemployed,XKX,,,,,,76.0,76.0
+"Individuals, 16 TO 24 years old",AUT,82.0,88.0,91.0,97.0,96.0,99.0,97.0
+"Individuals, 16 TO 24 years old",BIH,,,,,,,92.0
+"Individuals, 16 TO 24 years old",BEL,70.0,79.0,81.0,90.0,92.0,92.0,93.0
+"Individuals, 16 TO 24 years old",BGR,23.0,40.0,58.0,71.0,81.0,85.0,88.0
+"Individuals, 16 TO 24 years old",CHE,,,88.0,,,83.0,
+"Individuals, 16 TO 24 years old",CYP,52.0,64.0,83.0,94.0,95.0,96.0,96.0
+"Individuals, 16 TO 24 years old",CZE,,61.0,75.0,84.0,,92.0,96.0
+"Individuals, 16 TO 24 years old",DEU,58.0,80.0,89.0,91.0,93.0,95.0,97.0
+"Individuals, 16 TO 24 years old",DNK,87.0,88.0,93.0,93.0,94.0,96.0,97.0
+"Individuals, 16 TO 24 years old",EA,64.0,76.0,82.0,87.0,87.0,90.0,92.0
+"Individuals, 16 TO 24 years old",EST,66.0,72.0,91.0,93.0,95.0,97.0,97.0
+"Individuals, 16 TO 24 years old",GRC,51.0,63.0,71.0,84.0,87.0,89.0,92.0
+"Individuals, 16 TO 24 years old",ESP,75.0,85.0,91.0,93.0,95.0,95.0,96.0
+"Individuals, 16 TO 24 years old",EU27,63.0,74.0,81.0,87.0,87.0,90.0,92.0
+"Individuals, 16 TO 24 years old",EU28,63.0,74.0,81.0,87.0,87.0,90.0,92.0
+"Individuals, 16 TO 24 years old",FIN,80.0,81.0,93.0,95.0,96.0,96.0,96.0
+"Individuals, 16 TO 24 years old",FRA,78.0,82.0,84.0,90.0,86.0,90.0,92.0
+"Individuals, 16 TO 24 years old",HRV,85.0,82.0,80.0,95.0,86.0,91.0,99.0
+"Individuals, 16 TO 24 years old",HUN,33.0,54.0,76.0,85.0,90.0,91.0,89.0
+"Individuals, 16 TO 24 years old",IRL,70.0,84.0,92.0,91.0,91.0,95.0,95.0
+"Individuals, 16 TO 24 years old",ISL,86.0,82.0,91.0,,,95.0,93.0
+"Individuals, 16 TO 24 years old",ITA,33.0,54.0,61.0,68.0,71.0,72.0,74.0
+"Individuals, 16 TO 24 years old",LTU,48.0,64.0,75.0,79.0,86.0,91.0,94.0
+"Individuals, 16 TO 24 years old",LUX,83.0,82.0,87.0,89.0,90.0,92.0,95.0
+"Individuals, 16 TO 24 years old",LVA,54.0,71.0,75.0,87.0,87.0,94.0,94.0
+"Individuals, 16 TO 24 years old",MNE,56.0,,,,,96.0,97.0
+"Individuals, 16 TO 24 years old",MKD,35.0,52.0,79.0,86.0,92.0,91.0,
+"Individuals, 16 TO 24 years old",MLT,84.0,82.0,91.0,96.0,93.0,98.0,98.0
+"Individuals, 16 TO 24 years old",NLD,92.0,94.0,91.0,91.0,89.0,98.0,96.0
+"Individuals, 16 TO 24 years old",NOR,91.0,94.0,95.0,95.0,91.0,98.0,96.0
+"Individuals, 16 TO 24 years old",POL,46.0,60.0,71.0,84.0,75.0,82.0,88.0
+"Individuals, 16 TO 24 years old",PRT,58.0,66.0,81.0,86.0,92.0,95.0,95.0
+"Individuals, 16 TO 24 years old",ROU,14.0,31.0,53.0,70.0,74.0,82.0,83.0
+"Individuals, 16 TO 24 years old",SRB,,,,69.0,,86.0,88.0
+"Individuals, 16 TO 24 years old",SWE,92.0,90.0,91.0,91.0,86.0,94.0,94.0
+"Individuals, 16 TO 24 years old",SVN,74.0,80.0,82.0,95.0,88.0,96.0,97.0
+"Individuals, 16 TO 24 years old",SVK,69.0,79.0,83.0,90.0,90.0,91.0,92.0
+"Individuals, 16 TO 24 years old",TUR,27.0,39.0,56.0,64.0,78.0,85.0,84.0
+"Individuals, 16 TO 24 years old",GBR,89.0,94.0,94.0,97.0,97.0,98.0,95.0
+"Individuals, 16 TO 24 years old",XKX,,,,,,90.0,93.0
+"Individuals, 25 TO 54 years old",AUT,50.0,58.0,65.0,74.0,75.0,85.0,84.0
+"Individuals, 25 TO 54 years old",BIH,,,,,,,78.0
+"Individuals, 25 TO 54 years old",BEL,49.0,51.0,66.0,77.0,79.0,84.0,85.0
+"Individuals, 25 TO 54 years old",BGR,16.0,24.0,34.0,48.0,57.0,71.0,72.0
+"Individuals, 25 TO 54 years old",CHE,,,69.0,,,76.0,
+"Individuals, 25 TO 54 years old",CYP,26.0,31.0,48.0,66.0,72.0,80.0,85.0
+"Individuals, 25 TO 54 years old",CZE,,33.0,44.0,54.0,,73.0,82.0
+"Individuals, 25 TO 54 years old",DEU,36.0,50.0,65.0,74.0,79.0,86.0,90.0
+"Individuals, 25 TO 54 years old",DNK,70.0,76.0,84.0,87.0,90.0,91.0,93.0
+"Individuals, 25 TO 54 years old",EA,38.0,47.0,59.0,64.0,68.0,75.0,79.0
+"Individuals, 25 TO 54 years old",EST,44.0,54.0,68.0,74.0,76.0,82.0,85.0
+"Individuals, 25 TO 54 years old",GRC,26.0,30.0,44.0,54.0,57.0,65.0,67.0
+"Individuals, 25 TO 54 years old",ESP,43.0,58.0,73.0,78.0,84.0,89.0,91.0
+"Individuals, 25 TO 54 years old",EU27,40.0,48.0,59.0,65.0,68.0,75.0,79.0
+"Individuals, 25 TO 54 years old",EU28,40.0,48.0,59.0,65.0,68.0,75.0,79.0
+"Individuals, 25 TO 54 years old",FIN,69.0,74.0,82.0,85.0,90.0,91.0,90.0
+"Individuals, 25 TO 54 years old",FRA,47.0,56.0,67.0,69.0,70.0,79.0,83.0
+"Individuals, 25 TO 54 years old",HRV,42.0,46.0,49.0,62.0,65.0,68.0,77.0
+"Individuals, 25 TO 54 years old",HUN,20.0,34.0,53.0,65.0,70.0,76.0,77.0
+"Individuals, 25 TO 54 years old",IRL,58.0,65.0,73.0,79.0,78.0,84.0,88.0
+"Individuals, 25 TO 54 years old",ISL,64.0,67.0,76.0,,,92.0,89.0
+"Individuals, 25 TO 54 years old",ITA,19.0,20.0,26.0,27.0,32.0,35.0,45.0
+"Individuals, 25 TO 54 years old",LTU,16.0,25.0,34.0,43.0,53.0,67.0,75.0
+"Individuals, 25 TO 54 years old",LUX,67.0,70.0,76.0,80.0,82.0,86.0,89.0
+"Individuals, 25 TO 54 years old",LVA,28.0,37.0,42.0,53.0,59.0,70.0,73.0
+"Individuals, 25 TO 54 years old",MNE,36.0,,,,,83.0,86.0
+"Individuals, 25 TO 54 years old",MKD,17.0,28.0,43.0,58.0,63.0,75.0,63.0
+"Individuals, 25 TO 54 years old",MLT,45.0,49.0,59.0,75.0,78.0,87.0,85.0
+"Individuals, 25 TO 54 years old",NLD,61.0,73.0,78.0,83.0,86.0,92.0,92.0
+"Individuals, 25 TO 54 years old",NOR,84.0,86.0,89.0,91.0,87.0,92.0,94.0
+"Individuals, 25 TO 54 years old",POL,25.0,37.0,43.0,52.0,36.0,46.0,58.0
+"Individuals, 25 TO 54 years old",PRT,22.0,25.0,42.0,54.0,61.0,69.0,74.0
+"Individuals, 25 TO 54 years old",ROU,8.0,17.0,29.0,44.0,54.0,64.0,69.0
+"Individuals, 25 TO 54 years old",SRB,,,,44.0,,68.0,73.0
+"Individuals, 25 TO 54 years old",SWE,80.0,82.0,85.0,86.0,85.0,93.0,92.0
+"Individuals, 25 TO 54 years old",SVN,33.0,46.0,51.0,63.0,69.0,78.0,81.0
+"Individuals, 25 TO 54 years old",SVK,42.0,46.0,59.0,64.0,69.0,77.0,75.0
+"Individuals, 25 TO 54 years old",TUR,13.0,21.0,33.0,43.0,58.0,69.0,71.0
+"Individuals, 25 TO 54 years old",GBR,71.0,75.0,82.0,88.0,90.0,92.0,92.0
+"Individuals, 25 TO 54 years old",XKX,,,,,,77.0,80.0
+"Individuals, 55 TO 74 years old",AUT,16.0,19.0,24.0,28.0,31.0,42.0,45.0
+"Individuals, 55 TO 74 years old",BIH,,,,,,,29.0
+"Individuals, 55 TO 74 years old",BEL,21.0,24.0,34.0,42.0,45.0,52.0,53.0
+"Individuals, 55 TO 74 years old",BGR,3.0,4.0,5.0,10.0,13.0,21.0,23.0
+"Individuals, 55 TO 74 years old",CHE,,,29.0,,,50.0,
+"Individuals, 55 TO 74 years old",CYP,4.0,4.0,8.0,20.0,21.0,33.0,40.0
+"Individuals, 55 TO 74 years old",CZE,,6.0,11.0,13.0,,24.0,29.0
+"Individuals, 55 TO 74 years old",DEU,11.0,18.0,26.0,33.0,38.0,49.0,55.0
+"Individuals, 55 TO 74 years old",DNK,34.0,38.0,51.0,55.0,62.0,64.0,76.0
+"Individuals, 55 TO 74 years old",EA,12.0,17.0,23.0,28.0,31.0,39.0,44.0
+"Individuals, 55 TO 74 years old",EST,10.0,20.0,23.0,24.0,24.0,31.0,35.0
+"Individuals, 55 TO 74 years old",GRC,3.0,5.0,10.0,11.0,12.0,18.0,22.0
+"Individuals, 55 TO 74 years old",ESP,10.0,16.0,26.0,32.0,39.0,49.0,55.0
+"Individuals, 55 TO 74 years old",EU27,14.0,18.0,24.0,29.0,32.0,39.0,44.0
+"Individuals, 55 TO 74 years old",EU28,14.0,18.0,24.0,29.0,32.0,39.0,43.0
+"Individuals, 55 TO 74 years old",FIN,26.0,32.0,40.0,45.0,47.0,55.0,56.0
+"Individuals, 55 TO 74 years old",FRA,19.0,27.0,31.0,34.0,33.0,41.0,50.0
+"Individuals, 55 TO 74 years old",HRV,7.0,10.0,10.0,15.0,16.0,19.0,29.0
+"Individuals, 55 TO 74 years old",HUN,6.0,9.0,14.0,18.0,25.0,27.0,27.0
+"Individuals, 55 TO 74 years old",IRL,22.0,27.0,30.0,35.0,36.0,49.0,37.0
+"Individuals, 55 TO 74 years old",ISL,29.0,34.0,39.0,,,61.0,66.0
+"Individuals, 55 TO 74 years old",ITA,5.0,4.0,6.0,7.0,8.0,11.0,18.0
+"Individuals, 55 TO 74 years old",LTU,1.0,2.0,5.0,7.0,10.0,18.0,27.0
+"Individuals, 55 TO 74 years old",LUX,40.0,48.0,48.0,59.0,63.0,68.0,67.0
+"Individuals, 55 TO 74 years old",LVA,5.0,8.0,8.0,12.0,14.0,22.0,23.0
+"Individuals, 55 TO 74 years old",MNE,10.0,,,,,33.0,30.0
+"Individuals, 55 TO 74 years old",MKD,4.0,5.0,7.0,17.0,22.0,28.0,59.0
+"Individuals, 55 TO 74 years old",MLT,11.0,14.0,21.0,29.0,27.0,35.0,31.0
+"Individuals, 55 TO 74 years old",NLD,25.0,36.0,47.0,55.0,60.0,72.0,71.0
+"Individuals, 55 TO 74 years old",NOR,48.0,54.0,50.0,60.0,62.0,71.0,74.0
+"Individuals, 55 TO 74 years old",POL,5.0,8.0,10.0,16.0,7.0,11.0,17.0
+"Individuals, 55 TO 74 years old",PRT,4.0,4.0,9.0,14.0,17.0,24.0,25.0
+"Individuals, 55 TO 74 years old",ROU,1.0,4.0,5.0,11.0,13.0,20.0,25.0
+"Individuals, 55 TO 74 years old",SRB,,,,7.0,,18.0,23.0
+"Individuals, 55 TO 74 years old",SWE,41.0,41.0,54.0,55.0,67.0,72.0,78.0
+"Individuals, 55 TO 74 years old",SVN,5.0,10.0,11.0,12.0,16.0,27.0,33.0
+"Individuals, 55 TO 74 years old",SVK,8.0,10.0,14.0,15.0,20.0,28.0,22.0
+"Individuals, 55 TO 74 years old",TUR,1.0,2.0,5.0,7.0,13.0,19.0,26.0
+"Individuals, 55 TO 74 years old",GBR,33.0,34.0,45.0,55.0,57.0,61.0,61.0
+"Individuals, 55 TO 74 years old",XKX,,,,,,54.0,54.0

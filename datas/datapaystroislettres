@@ -1,0 +1,561 @@
+,0,1,2,3,4,5,6,7,8,9
+0,0,Active labour force (employed and unemployed),AUT,53.0,60.0,66.0,74.0,74.0,83.0,82.0
+1,1,Active labour force (employed and unemployed),BIH,,,,,,,73.0
+2,2,Active labour force (employed and unemployed),BEL,49.0,52.0,67.0,77.0,80.0,84.0,86.0
+3,3,Active labour force (employed and unemployed),BGR,15.0,22.0,31.0,44.0,53.0,67.0,68.0
+4,4,Active labour force (employed and unemployed),CHE,,,67.0,,,76.0,
+5,5,Active labour force (employed and unemployed),CYP,26.0,31.0,47.0,65.0,70.0,78.0,83.0
+6,6,Active labour force (employed and unemployed),CZE,,32.0,43.0,51.0,,69.0,76.0
+7,7,Active labour force (employed and unemployed),DEU,37.0,51.0,64.0,72.0,76.0,83.0,87.0
+8,8,Active labour force (employed and unemployed),DNK,67.0,73.0,83.0,85.0,88.0,90.0,94.0
+9,9,Active labour force (employed and unemployed),EA,39.0,48.0,59.0,64.0,67.0,73.0,77.0
+10,10,Active labour force (employed and unemployed),EST,42.0,52.0,64.0,69.0,70.0,76.0,80.0
+11,11,Active labour force (employed and unemployed),GRC,28.0,32.0,46.0,55.0,58.0,64.0,67.0
+12,12,Active labour force (employed and unemployed),ESP,44.0,58.0,71.0,76.0,82.0,87.0,89.0
+13,13,Active labour force (employed and unemployed),,41.0,49.0,59.0,65.0,67.0,73.0,77.0
+14,14,Active labour force (employed and unemployed),,41.0,49.0,58.0,65.0,67.0,73.0,77.0
+15,15,Active labour force (employed and unemployed),FIN,64.0,68.0,76.0,81.0,84.0,88.0,87.0
+16,16,Active labour force (employed and unemployed),FRA,49.0,58.0,67.0,70.0,69.0,78.0,82.0
+17,17,Active labour force (employed and unemployed),HRV,43.0,46.0,47.0,60.0,64.0,66.0,74.0
+18,18,Active labour force (employed and unemployed),HUN,21.0,35.0,52.0,64.0,69.0,74.0,76.0
+19,19,Active labour force (employed and unemployed),IRL,58.0,65.0,71.0,77.0,76.0,82.0,86.0
+20,20,Active labour force (employed and unemployed),ISL,61.0,61.0,70.0,,,87.0,87.0
+21,21,Active labour force (employed and unemployed),ITA,20.0,20.0,26.0,28.0,32.0,34.0,43.0
+22,22,Active labour force (employed and unemployed),LTU,17.0,27.0,34.0,41.0,51.0,64.0,71.0
+23,23,Active labour force (employed and unemployed),LUX,68.0,71.0,75.0,80.0,82.0,86.0,91.0
+24,24,Active labour force (employed and unemployed),LVA,28.0,35.0,40.0,49.0,56.0,65.0,67.0
+25,25,Active labour force (employed and unemployed),MNE,35.0,,,,,80.0,83.0
+26,26,Active labour force (employed and unemployed),MKD,18.0,28.0,43.0,58.0,61.0,73.0,68.0
+27,27,Active labour force (employed and unemployed),MLT,53.0,54.0,64.0,76.0,78.0,85.0,84.0
+28,28,Active labour force (employed and unemployed),NLD,64.0,75.0,80.0,85.0,87.0,93.0,93.0
+29,29,Active labour force (employed and unemployed),NOR,80.0,82.0,85.0,89.0,87.0,91.0,93.0
+30,30,Active labour force (employed and unemployed),POL,26.0,37.0,42.0,51.0,34.0,44.0,56.0
+31,31,Active labour force (employed and unemployed),PRT,23.0,25.0,42.0,52.0,58.0,66.0,69.0
+32,32,Active labour force (employed and unemployed),ROU,9.0,17.0,29.0,44.0,53.0,62.0,68.0
+33,33,Active labour force (employed and unemployed),SRB,,,,42.0,,62.0,71.0
+34,34,Active labour force (employed and unemployed),SWE,75.0,79.0,82.0,85.0,86.0,94.0,92.0
+35,35,Active labour force (employed and unemployed),SVN,35.0,47.0,51.0,64.0,64.0,75.0,80.0
+36,36,Active labour force (employed and unemployed),SVK,42.0,46.0,57.0,65.0,65.0,73.0,71.0
+37,37,Active labour force (employed and unemployed),TUR,18.0,29.0,43.0,55.0,68.0,76.0,77.0
+38,38,Active labour force (employed and unemployed),GBR,70.0,73.0,80.0,87.0,89.0,91.0,91.0
+39,39,Active labour force (employed and unemployed),XKX,,,,,,79.0,79.0
+40,40,"Females, 16 TO 74 years old",AUT,39.0,44.0,51.0,59.0,60.0,71.0,72.0
+41,41,"Females, 16 TO 74 years old",BIH,,,,,,,56.0
+42,42,"Females, 16 TO 74 years old",BEL,40.0,42.0,56.0,67.0,68.0,74.0,75.0
+43,43,"Females, 16 TO 74 years old",BGR,11.0,18.0,25.0,37.0,43.0,54.0,55.0
+44,44,"Females, 16 TO 74 years old",CHE,,,55.0,,,66.0,
+45,45,"Females, 16 TO 74 years old",CYP,21.0,26.0,41.0,57.0,62.0,70.0,73.0
+46,46,"Females, 16 TO 74 years old",CZE,,23.0,31.0,40.0,,56.0,65.0
+47,47,"Females, 16 TO 74 years old",DEU,25.0,39.0,51.0,60.0,65.0,73.0,79.0
+48,48,"Females, 16 TO 74 years old",DNK,58.0,63.0,74.0,77.0,82.0,83.0,88.0
+49,49,"Females, 16 TO 74 years old",EA,29.0,38.0,48.0,53.0,57.0,64.0,68.0
+50,50,"Females, 16 TO 74 years old",EST,33.0,42.0,55.0,57.0,60.0,66.0,68.0
+51,51,"Females, 16 TO 74 years old",GRC,18.0,24.0,34.0,41.0,45.0,50.0,52.0
+52,52,"Females, 16 TO 74 years old",ESP,34.0,47.0,60.0,66.0,70.0,77.0,80.0
+53,53,"Females, 16 TO 74 years old",,31.0,39.0,48.0,55.0,57.0,63.0,68.0
+54,54,"Females, 16 TO 74 years old",,31.0,39.0,48.0,55.0,57.0,63.0,68.0
+55,55,"Females, 16 TO 74 years old",FIN,51.0,56.0,64.0,72.0,74.0,78.0,78.0
+56,56,"Females, 16 TO 74 years old",FRA,39.0,47.0,56.0,59.0,60.0,67.0,72.0
+57,57,"Females, 16 TO 74 years old",HRV,29.0,33.0,39.0,45.0,48.0,44.0,60.0
+58,58,"Females, 16 TO 74 years old",HUN,14.0,26.0,40.0,49.0,55.0,61.0,61.0
+59,59,"Females, 16 TO 74 years old",IRL,49.0,58.0,65.0,70.0,69.0,76.0,73.0
+60,60,"Females, 16 TO 74 years old",ISL,56.0,60.0,69.0,,,84.0,85.0
+61,61,"Females, 16 TO 74 years old",ITA,12.0,16.0,21.0,23.0,27.0,30.0,38.0
+62,62,"Females, 16 TO 74 years old",LTU,14.0,21.0,29.0,37.0,42.0,54.0,61.0
+63,63,"Females, 16 TO 74 years old",LUX,56.0,63.0,68.0,75.0,76.0,80.0,81.0
+64,64,"Females, 16 TO 74 years old",LVA,22.0,28.0,32.0,41.0,46.0,55.0,58.0
+65,65,"Females, 16 TO 74 years old",MNE,28.0,,,,,65.0,69.0
+66,66,"Females, 16 TO 74 years old",MKD,16.0,23.0,36.0,50.0,53.0,62.0,57.0
+67,67,"Females, 16 TO 74 years old",MLT,37.0,42.0,51.0,63.0,62.0,71.0,70.0
+68,68,"Females, 16 TO 74 years old",NLD,50.0,60.0,68.0,75.0,77.0,86.0,85.0
+69,69,"Females, 16 TO 74 years old",NOR,71.0,76.0,76.0,82.0,79.0,86.0,88.0
+70,70,"Females, 16 TO 74 years old",POL,19.0,27.0,34.0,42.0,31.0,38.0,47.0
+71,71,"Females, 16 TO 74 years old",PRT,17.0,20.0,32.0,41.0,49.0,56.0,58.0
+72,72,"Females, 16 TO 74 years old",ROU,6.0,14.0,22.0,34.0,41.0,50.0,56.0
+73,73,"Females, 16 TO 74 years old",SRB,,,,29.0,,49.0,54.0
+74,74,"Females, 16 TO 74 years old",SWE,66.0,68.0,76.0,76.0,78.0,85.0,90.0
+75,75,"Females, 16 TO 74 years old",SVN,26.0,36.0,42.0,48.0,52.0,62.0,66.0
+76,76,"Females, 16 TO 74 years old",SVK,33.0,37.0,46.0,51.0,57.0,62.0,59.0
+77,77,"Females, 16 TO 74 years old",TUR,10.0,16.0,25.0,32.0,44.0,54.0,58.0
+78,78,"Females, 16 TO 74 years old",GBR,60.0,64.0,72.0,78.0,83.0,84.0,83.0
+79,79,"Females, 16 TO 74 years old",XKX,,,,,,73.0,76.0
+80,80,Individuals with no or low formal education,AUT,34.0,34.0,33.0,40.0,47.0,52.0,58.0
+81,81,Individuals with no or low formal education,BIH,,,,,,,36.0
+82,82,Individuals with no or low formal education,BEL,30.0,34.0,40.0,50.0,55.0,58.0,57.0
+83,83,Individuals with no or low formal education,BGR,3.0,5.0,11.0,15.0,21.0,29.0,33.0
+84,84,Individuals with no or low formal education,CHE,,,48.0,,,52.0,
+85,85,Individuals with no or low formal education,CYP,10.0,15.0,22.0,31.0,36.0,42.0,44.0
+86,86,Individuals with no or low formal education,CZE,,27.0,33.0,43.0,,50.0,60.0
+87,87,Individuals with no or low formal education,DEU,27.0,42.0,54.0,60.0,63.0,69.0,76.0
+88,88,Individuals with no or low formal education,DNK,61.0,64.0,72.0,,78.0,77.0,82.0
+89,89,Individuals with no or low formal education,EA,21.0,27.0,34.0,39.0,42.0,47.0,53.0
+90,90,Individuals with no or low formal education,EST,30.0,39.0,51.0,57.0,56.0,69.0,72.0
+91,91,Individuals with no or low formal education,GRC,7.0,10.0,14.0,17.0,20.0,24.0,25.0
+92,92,Individuals with no or low formal education,ESP,21.0,30.0,40.0,45.0,53.0,59.0,64.0
+93,93,Individuals with no or low formal education,,21.0,27.0,34.0,38.0,42.0,47.0,52.0
+94,94,Individuals with no or low formal education,,21.0,27.0,33.0,38.0,42.0,47.0,52.0
+95,95,Individuals with no or low formal education,FIN,45.0,55.0,58.0,66.0,64.0,66.0,65.0
+96,96,Individuals with no or low formal education,FRA,30.0,34.0,39.0,42.0,41.0,49.0,58.0
+97,97,Individuals with no or low formal education,HRV,18.0,18.0,28.0,20.0,17.0,13.0,30.0
+98,98,Individuals with no or low formal education,HUN,10.0,18.0,26.0,30.0,36.0,41.0,40.0
+99,99,Individuals with no or low formal education,IRL,28.0,32.0,40.0,42.0,40.0,47.0,40.0
+100,100,Individuals with no or low formal education,ISL,53.0,52.0,60.0,,,76.0,75.0
+101,101,Individuals with no or low formal education,ITA,7.0,10.0,14.0,16.0,20.0,21.0,28.0
+102,102,Individuals with no or low formal education,LTU,16.0,24.0,36.0,37.0,45.0,52.0,56.0
+103,103,Individuals with no or low formal education,LUX,42.0,44.0,54.0,72.0,70.0,75.0,72.0
+104,104,Individuals with no or low formal education,LVA,23.0,31.0,34.0,37.0,43.0,50.0,58.0
+105,105,Individuals with no or low formal education,MNE,11.0,,,,,25.0,41.0
+106,106,Individuals with no or low formal education,MKD,8.0,13.0,25.0,28.0,38.0,45.0,44.0
+107,107,Individuals with no or low formal education,MLT,22.0,24.0,30.0,38.0,43.0,56.0,54.0
+108,108,Individuals with no or low formal education,NLD,41.0,47.0,54.0,61.0,62.0,73.0,73.0
+109,109,Individuals with no or low formal education,NOR,72.0,73.0,75.0,78.0,80.0,80.0,85.0
+110,110,Individuals with no or low formal education,POL,15.0,20.0,28.0,36.0,35.0,42.0,45.0
+111,111,Individuals with no or low formal education,PRT,11.0,13.0,20.0,27.0,31.0,37.0,38.0
+112,112,Individuals with no or low formal education,ROU,3.0,7.0,12.0,20.0,23.0,29.0,37.0
+113,113,Individuals with no or low formal education,SRB,,,,11.0,,27.0,33.0
+114,114,Individuals with no or low formal education,SWE,62.0,57.0,66.0,61.0,63.0,76.0,79.0
+115,115,Individuals with no or low formal education,SVN,16.0,21.0,19.0,32.0,37.0,44.0,46.0
+116,116,Individuals with no or low formal education,SVK,35.0,35.0,50.0,51.0,43.0,51.0,51.0
+117,117,Individuals with no or low formal education,TUR,6.0,11.0,18.0,24.0,36.0,46.0,50.0
+118,118,Individuals with no or low formal education,GBR,29.0,33.0,41.0,45.0,54.0,56.0,49.0
+119,119,Individuals with no or low formal education,XKX,,,,,,63.0,60.0
+120,120,individuals with medium formal education,AUT,45.0,51.0,54.0,62.0,61.0,71.0,71.0
+121,121,individuals with medium formal education,BIH,,,,,,,66.0
+122,122,individuals with medium formal education,BEL,46.0,48.0,61.0,74.0,73.0,79.0,80.0
+123,123,individuals with medium formal education,BGR,10.0,17.0,25.0,36.0,45.0,56.0,57.0
+124,124,individuals with medium formal education,CHE,,,55.0,,,68.0,
+125,125,individuals with medium formal education,CYP,20.0,26.0,40.0,60.0,63.0,71.0,76.0
+126,126,individuals with medium formal education,CZE,,24.0,32.0,38.0,,55.0,61.0
+127,127,individuals with medium formal education,DEU,29.0,41.0,53.0,61.0,66.0,74.0,79.0
+128,128,individuals with medium formal education,DNK,56.0,62.0,72.0,,80.0,83.0,88.0
+129,129,individuals with medium formal education,EA,35.0,43.0,53.0,58.0,61.0,68.0,72.0
+130,130,individuals with medium formal education,EST,32.0,42.0,49.0,56.0,58.0,63.0,66.0
+131,131,individuals with medium formal education,GRC,25.0,29.0,41.0,53.0,52.0,60.0,64.0
+132,132,individuals with medium formal education,ESP,49.0,61.0,76.0,79.0,82.0,88.0,89.0
+133,133,individuals with medium formal education,,35.0,42.0,50.0,57.0,59.0,65.0,69.0
+134,134,individuals with medium formal education,,35.0,42.0,50.0,57.0,59.0,65.0,69.0
+135,135,individuals with medium formal education,FIN,55.0,57.0,66.0,71.0,75.0,80.0,79.0
+136,136,individuals with medium formal education,FRA,42.0,51.0,60.0,62.0,60.0,70.0,74.0
+137,137,individuals with medium formal education,HRV,43.0,43.0,41.0,56.0,55.0,55.0,71.0
+138,138,individuals with medium formal education,HUN,16.0,27.0,42.0,52.0,58.0,63.0,62.0
+139,139,individuals with medium formal education,IRL,53.0,62.0,69.0,74.0,72.0,79.0,81.0
+140,140,individuals with medium formal education,ISL,58.0,59.0,65.0,,,85.0,82.0
+141,141,individuals with medium formal education,ITA,21.0,25.0,29.0,31.0,34.0,38.0,45.0
+142,142,individuals with medium formal education,LTU,13.0,18.0,22.0,26.0,30.0,40.0,49.0
+143,143,individuals with medium formal education,LUX,66.0,69.0,70.0,84.0,78.0,80.0,87.0
+144,144,individuals with medium formal education,LVA,20.0,27.0,27.0,38.0,40.0,49.0,50.0
+145,145,individuals with medium formal education,MNE,31.0,,,,,64.0,71.0
+146,146,individuals with medium formal education,MKD,18.0,30.0,44.0,59.0,62.0,69.0,62.0
+147,147,individuals with medium formal education,MLT,64.0,62.0,71.0,81.0,84.0,84.0,80.0
+148,148,individuals with medium formal education,NLD,58.0,68.0,71.0,80.0,82.0,89.0,89.0
+149,149,individuals with medium formal education,NOR,69.0,73.0,74.0,78.0,73.0,83.0,85.0
+150,150,individuals with medium formal education,POL,16.0,24.0,28.0,36.0,24.0,31.0,41.0
+151,151,individuals with medium formal education,PRT,40.0,39.0,59.0,66.0,77.0,82.0,83.0
+152,152,individuals with medium formal education,ROU,6.0,14.0,24.0,37.0,45.0,54.0,58.0
+153,153,individuals with medium formal education,SRB,,,,46.0,,61.0,66.0
+154,154,individuals with medium formal education,SWE,69.0,72.0,75.0,77.0,82.0,88.0,90.0
+155,155,individuals with medium formal education,SVN,30.0,38.0,41.0,50.0,52.0,62.0,66.0
+156,156,individuals with medium formal education,SVK,32.0,36.0,44.0,47.0,55.0,60.0,58.0
+157,157,individuals with medium formal education,TUR,25.0,39.0,55.0,64.0,79.0,87.0,86.0
+158,158,individuals with medium formal education,GBR,64.0,68.0,74.0,83.0,83.0,85.0,83.0
+159,159,individuals with medium formal education,XKX,,,,,,80.0,84.0
+160,160,Individuals with high formal education,AUT,57.0,65.0,75.0,78.0,80.0,88.0,86.0
+161,161,Individuals with high formal education,BIH,,,,,,,93.0
+162,162,Individuals with high formal education,BEL,57.0,60.0,74.0,81.0,84.0,87.0,89.0
+163,163,Individuals with high formal education,BGR,32.0,41.0,51.0,66.0,71.0,83.0,82.0
+164,164,Individuals with high formal education,CHE,,,73.0,,,80.0,
+165,165,Individuals with high formal education,CYP,42.0,47.0,65.0,80.0,81.0,89.0,92.0
+166,166,Individuals with high formal education,CZE,,50.0,60.0,69.0,,81.0,87.0
+167,167,Individuals with high formal education,DEU,41.0,53.0,65.0,71.0,77.0,85.0,86.0
+168,168,Individuals with high formal education,DNK,73.0,75.0,85.0,,92.0,92.0,95.0
+169,169,Individuals with high formal education,EA,52.0,61.0,71.0,74.0,77.0,83.0,85.0
+170,170,Individuals with high formal education,EST,48.0,57.0,73.0,69.0,69.0,73.0,76.0
+171,171,Individuals with high formal education,GRC,37.0,45.0,59.0,64.0,71.0,76.0,78.0
+172,172,Individuals with high formal education,ESP,58.0,73.0,84.0,87.0,91.0,94.0,95.0
+173,173,Individuals with high formal education,,55.0,63.0,72.0,76.0,78.0,83.0,86.0
+174,174,Individuals with high formal education,,55.0,63.0,72.0,76.0,78.0,83.0,86.0
+175,175,Individuals with high formal education,FIN,67.0,70.0,80.0,83.0,86.0,88.0,88.0
+176,176,Individuals with high formal education,FRA,64.0,72.0,78.0,80.0,79.0,85.0,88.0
+177,177,Individuals with high formal education,HRV,60.0,60.0,61.0,69.0,79.0,62.0,80.0
+178,178,Individuals with high formal education,HUN,32.0,46.0,63.0,74.0,77.0,82.0,84.0
+179,179,Individuals with high formal education,IRL,70.0,78.0,85.0,88.0,85.0,89.0,90.0
+180,180,Individuals with high formal education,ISL,70.0,75.0,79.0,,,92.0,90.0
+181,181,Individuals with high formal education,ITA,33.0,31.0,40.0,41.0,44.0,46.0,56.0
+182,182,Individuals with high formal education,LTU,27.0,39.0,47.0,56.0,67.0,77.0,81.0
+183,183,Individuals with high formal education,LUX,72.0,72.0,79.0,84.0,82.0,87.0,93.0
+184,184,Individuals with high formal education,LVA,37.0,45.0,51.0,58.0,66.0,75.0,76.0
+185,185,Individuals with high formal education,MNE,57.0,,,,,89.0,85.0
+186,186,Individuals with high formal education,MKD,46.0,53.0,65.0,78.0,81.0,86.0,83.0
+187,187,Individuals with high formal education,MLT,74.0,79.0,83.0,91.0,87.0,95.0,93.0
+188,188,Individuals with high formal education,NLD,66.0,77.0,84.0,87.0,90.0,95.0,94.0
+189,189,Individuals with high formal education,NOR,85.0,89.0,86.0,89.0,88.0,92.0,93.0
+190,190,Individuals with high formal education,POL,46.0,57.0,62.0,72.0,51.0,61.0,71.0
+191,191,Individuals with high formal education,PRT,44.0,48.0,66.0,78.0,81.0,89.0,87.0
+192,192,Individuals with high formal education,ROU,26.0,43.0,58.0,75.0,79.0,85.0,88.0
+193,193,Individuals with high formal education,SRB,,,,55.0,,73.0,75.0
+194,194,Individuals with high formal education,SWE,79.0,78.0,86.0,87.0,87.0,92.0,93.0
+195,195,Individuals with high formal education,SVN,51.0,65.0,72.0,74.0,77.0,84.0,86.0
+196,196,Individuals with high formal education,SVK,56.0,60.0,69.0,79.0,77.0,84.0,81.0
+197,197,Individuals with high formal education,TUR,41.0,57.0,71.0,81.0,91.0,95.0,93.0
+198,198,Individuals with high formal education,GBR,77.0,78.0,84.0,87.0,90.0,91.0,94.0
+199,199,Individuals with high formal education,XKX,,,,,,92.0,89.0
+200,200,All individuals,AUT,45.0,51.0,57.0,64.0,65.0,74.0,74.0
+201,201,All individuals,BIH,,,,,,,60.0
+202,202,All individuals,BEL,44.0,47.0,59.0,69.0,71.0,75.0,76.0
+203,203,All individuals,BGR,13.0,20.0,27.0,38.0,45.0,56.0,57.0
+204,204,All individuals,CHE,,,60.0,,,69.0,
+205,205,All individuals,CYP,25.0,29.0,43.0,59.0,62.0,70.0,75.0
+206,206,All individuals,CZE,,29.0,37.0,45.0,,60.0,66.0
+207,207,All individuals,DEU,31.0,44.0,56.0,63.0,68.0,75.0,80.0
+208,208,All individuals,DNK,61.0,66.0,75.0,78.0,82.0,83.0,88.0
+209,209,All individuals,EA,34.0,42.0,51.0,56.0,59.0,65.0,69.0
+210,210,All individuals,EST,37.0,46.0,58.0,61.0,62.0,68.0,71.0
+211,211,All individuals,GRC,23.0,27.0,37.0,44.0,47.0,53.0,55.0
+212,212,All individuals,ESP,38.0,50.0,62.0,67.0,72.0,78.0,80.0
+213,213,All individuals,,36.0,43.0,51.0,57.0,59.0,66.0,69.0
+214,214,All individuals,,36.0,43.0,51.0,57.0,59.0,65.0,69.0
+215,215,All individuals,FIN,56.0,61.0,69.0,73.0,76.0,79.0,78.0
+216,216,All individuals,FRA,43.0,51.0,58.0,61.0,61.0,68.0,74.0
+217,217,All individuals,HRV,38.0,40.0,41.0,50.0,52.0,51.0,63.0
+218,218,All individuals,HUN,18.0,29.0,43.0,52.0,58.0,62.0,63.0
+219,219,All individuals,IRL,51.0,59.0,65.0,69.0,69.0,75.0,73.0
+220,220,All individuals,ISL,60.0,61.0,68.0,,,84.0,83.0
+221,221,All individuals,ITA,16.0,19.0,24.0,26.0,29.0,32.0,40.0
+222,222,All individuals,LTU,17.0,25.0,32.0,38.0,45.0,55.0,62.0
+223,223,All individuals,LUX,63.0,66.0,70.0,80.0,78.0,82.0,84.0
+224,224,All individuals,LVA,25.0,32.0,35.0,44.0,48.0,57.0,59.0
+225,225,All individuals,MNE,34.0,,,,,70.0,70.0
+226,226,All individuals,MKD,17.0,27.0,40.0,52.0,57.0,65.0,61.0
+227,227,All individuals,MLT,40.0,43.0,52.0,64.0,64.0,72.0,70.0
+228,228,All individuals,NLD,55.0,65.0,70.0,76.0,78.0,87.0,86.0
+229,229,All individuals,NOR,75.0,79.0,79.0,83.0,80.0,87.0,89.0
+230,230,All individuals,POL,22.0,30.0,36.0,44.0,32.0,40.0,49.0
+231,231,All individuals,PRT,21.0,24.0,37.0,45.0,51.0,58.0,60.0
+232,232,All individuals,ROU,7.0,15.0,25.0,38.0,44.0,53.0,58.0
+233,233,All individuals,SRB,,,,35.0,,53.0,57.0
+234,234,All individuals,SWE,70.0,71.0,76.0,77.0,80.0,87.0,88.0
+235,235,All individuals,SVN,30.0,39.0,42.0,51.0,54.0,63.0,67.0
+236,236,All individuals,SVK,38.0,42.0,50.0,54.0,58.0,64.0,62.0
+237,237,All individuals,TUR,14.0,21.0,32.0,40.0,53.0,62.0,64.0
+238,238,All individuals,GBR,63.0,66.0,73.0,79.0,81.0,84.0,83.0
+239,239,All individuals,XKX,,,,,,75.0,76.0
+240,240,"Males, 16 TO 74 years old",AUT,51.0,57.0,63.0,69.0,69.0,77.0,76.0
+241,241,"Males, 16 TO 74 years old",BIH,,,,,,,66.0
+242,242,"Males, 16 TO 74 years old",BEL,48.0,53.0,62.0,70.0,73.0,76.0,78.0
+243,243,"Males, 16 TO 74 years old",BGR,14.0,22.0,30.0,40.0,46.0,58.0,59.0
+244,244,"Males, 16 TO 74 years old",CHE,,,65.0,,,72.0,
+245,245,"Males, 16 TO 74 years old",CYP,28.0,32.0,46.0,61.0,63.0,70.0,76.0
+246,246,"Males, 16 TO 74 years old",CZE,,34.0,43.0,49.0,,63.0,68.0
+247,247,"Males, 16 TO 74 years old",DEU,37.0,49.0,60.0,66.0,70.0,77.0,81.0
+248,248,"Males, 16 TO 74 years old",DNK,65.0,68.0,76.0,79.0,82.0,84.0,88.0
+249,249,"Males, 16 TO 74 years old",EA,39.0,46.0,54.0,58.0,61.0,67.0,71.0
+250,250,"Males, 16 TO 74 years old",EST,41.0,51.0,61.0,66.0,64.0,70.0,73.0
+251,251,"Males, 16 TO 74 years old",GRC,27.0,29.0,40.0,48.0,50.0,56.0,58.0
+252,252,"Males, 16 TO 74 years old",ESP,43.0,53.0,64.0,68.0,74.0,79.0,81.0
+253,253,"Males, 16 TO 74 years old",,40.0,46.0,55.0,60.0,62.0,68.0,71.0
+254,254,"Males, 16 TO 74 years old",,40.0,46.0,54.0,60.0,61.0,67.0,71.0
+255,255,"Males, 16 TO 74 years old",FIN,62.0,66.0,74.0,74.0,77.0,80.0,79.0
+256,256,"Males, 16 TO 74 years old",FRA,48.0,56.0,61.0,64.0,61.0,70.0,75.0
+257,257,"Males, 16 TO 74 years old",HRV,47.0,48.0,42.0,55.0,55.0,59.0,65.0
+258,258,"Males, 16 TO 74 years old",HUN,21.0,32.0,48.0,56.0,61.0,64.0,64.0
+259,259,"Males, 16 TO 74 years old",IRL,53.0,60.0,65.0,69.0,68.0,73.0,73.0
+260,260,"Males, 16 TO 74 years old",ISL,63.0,62.0,67.0,,,85.0,82.0
+261,261,"Males, 16 TO 74 years old",ITA,20.0,21.0,26.0,29.0,31.0,34.0,42.0
+262,262,"Males, 16 TO 74 years old",LTU,21.0,29.0,36.0,39.0,48.0,56.0,63.0
+263,263,"Males, 16 TO 74 years old",LUX,69.0,70.0,73.0,84.0,80.0,84.0,87.0
+264,264,"Males, 16 TO 74 years old",LVA,30.0,37.0,39.0,46.0,51.0,59.0,60.0
+265,265,"Males, 16 TO 74 years old",MNE,38.0,,,,,73.0,70.0
+266,266,"Males, 16 TO 74 years old",MKD,18.0,30.0,45.0,55.0,61.0,68.0,64.0
+267,267,"Males, 16 TO 74 years old",MLT,44.0,45.0,52.0,64.0,65.0,72.0,70.0
+268,268,"Males, 16 TO 74 years old",NLD,60.0,70.0,72.0,76.0,79.0,88.0,87.0
+269,269,"Males, 16 TO 74 years old",NOR,80.0,81.0,82.0,84.0,81.0,87.0,90.0
+270,270,"Males, 16 TO 74 years old",POL,25.0,34.0,38.0,46.0,34.0,42.0,50.0
+271,271,"Males, 16 TO 74 years old",PRT,25.0,28.0,42.0,51.0,53.0,60.0,63.0
+272,272,"Males, 16 TO 74 years old",ROU,9.0,17.0,28.0,41.0,48.0,55.0,59.0
+273,273,"Males, 16 TO 74 years old",SRB,,,,41.0,,57.0,61.0
+274,274,"Males, 16 TO 74 years old",SWE,74.0,73.0,77.0,77.0,81.0,88.0,86.0
+275,275,"Males, 16 TO 74 years old",SVN,34.0,42.0,43.0,54.0,57.0,65.0,69.0
+276,276,"Males, 16 TO 74 years old",SVK,43.0,46.0,55.0,58.0,60.0,67.0,64.0
+277,277,"Males, 16 TO 74 years old",TUR,17.0,26.0,39.0,48.0,61.0,70.0,71.0
+278,278,"Males, 16 TO 74 years old",GBR,67.0,69.0,74.0,81.0,81.0,84.0,83.0
+279,279,"Males, 16 TO 74 years old",XKX,,,,,,76.0,76.0
+280,280,Retired and other inactive,AUT,16.0,19.0,23.0,27.0,32.0,43.0,46.0
+281,281,Retired and other inactive,BIH,,,,,,,31.0
+282,282,Retired and other inactive,BEL,20.0,23.0,32.0,42.0,44.0,50.0,50.0
+283,283,Retired and other inactive,BGR,1.0,3.0,4.0,9.0,11.0,19.0,21.0
+284,284,Retired and other inactive,CHE,,,25.0,,,43.0,
+285,285,Retired and other inactive,CYP,7.0,10.0,15.0,29.0,29.0,35.0,40.0
+286,286,Retired and other inactive,CZE,,7.0,11.0,15.0,,24.0,29.0
+287,287,Retired and other inactive,DEU,10.0,17.0,25.0,31.0,36.0,46.0,54.0
+288,288,Retired and other inactive,DNK,36.0,37.0,47.0,55.0,59.0,61.0,75.0
+289,289,Retired and other inactive,EA,11.0,16.0,22.0,26.0,30.0,37.0,43.0
+290,290,Retired and other inactive,EST,13.0,21.0,27.0,27.0,27.0,31.0,35.0
+291,291,Retired and other inactive,GRC,3.0,6.0,11.0,15.0,16.0,21.0,23.0
+292,292,Retired and other inactive,ESP,9.0,15.0,24.0,28.0,36.0,45.0,51.0
+293,293,Retired and other inactive,,13.0,17.0,23.0,28.0,30.0,37.0,43.0
+294,294,Retired and other inactive,,13.0,16.0,22.0,28.0,30.0,36.0,42.0
+295,295,Retired and other inactive,FIN,26.0,32.0,39.0,43.0,46.0,49.0,51.0
+296,296,Retired and other inactive,FRA,18.0,25.0,30.0,32.0,33.0,39.0,49.0
+297,297,Retired and other inactive,HRV,7.0,9.0,10.0,13.0,14.0,16.0,26.0
+298,298,Retired and other inactive,HUN,4.0,9.0,17.0,21.0,27.0,30.0,30.0
+299,299,Retired and other inactive,IRL,27.0,34.0,40.0,44.0,44.0,49.0,43.0
+300,300,Retired and other inactive,ISL,,37.0,39.0,,,61.0,58.0
+301,301,Retired and other inactive,ITA,3.0,3.0,5.0,7.0,9.0,12.0,19.0
+302,302,Retired and other inactive,LTU,2.0,3.0,6.0,8.0,13.0,18.0,26.0
+303,303,Retired and other inactive,LUX,36.0,46.0,45.0,58.0,59.0,61.0,65.0
+304,304,Retired and other inactive,LVA,5.0,8.0,8.0,12.0,13.0,20.0,19.0
+305,305,Retired and other inactive,MNE,9.0,,,,,29.0,22.0
+306,306,Retired and other inactive,MKD,2.0,3.0,9.0,19.0,25.0,31.0,29.0
+307,307,Retired and other inactive,MLT,13.0,14.0,22.0,33.0,33.0,40.0,36.0
+308,308,Retired and other inactive,NLD,26.0,33.0,43.0,49.0,55.0,66.0,66.0
+309,309,Retired and other inactive,NOR,44.0,55.0,43.0,57.0,49.0,63.0,69.0
+310,310,Retired and other inactive,POL,4.0,9.0,11.0,16.0,9.0,13.0,19.0
+311,311,Retired and other inactive,PRT,3.0,4.0,7.0,12.0,15.0,17.0,20.0
+312,312,Retired and other inactive,ROU,1.0,3.0,7.0,12.0,15.0,23.0,28.0
+313,313,Retired and other inactive,SRB,,,,6.0,,21.0,27.0
+314,314,Retired and other inactive,SWE,33.0,33.0,43.0,44.0,58.0,60.0,
+315,315,Retired and other inactive,SVN,3.0,7.0,12.0,11.0,23.0,23.0,25.0
+316,316,Retired and other inactive,SVK,8.0,10.0,14.0,16.0,25.0,31.0,24.0
+317,317,Retired and other inactive,TUR,4.0,7.0,13.0,17.0,29.0,39.0,44.0
+318,318,Retired and other inactive,GBR,35.0,36.0,46.0,55.0,55.0,59.0,64.0
+319,319,Retired and other inactive,XKX,,,,,,58.0,48.0
+320,320,"Employees, self-employed, familly workers",AUT,53.0,60.0,67.0,74.0,74.0,84.0,83.0
+321,321,"Employees, self-employed, familly workers",BIH,,,,,,,82.0
+322,322,"Employees, self-employed, familly workers",BEL,51.0,54.0,69.0,79.0,82.0,85.0,87.0
+323,323,"Employees, self-employed, familly workers",BGR,18.0,27.0,36.0,50.0,59.0,74.0,74.0
+324,324,"Employees, self-employed, familly workers",CHE,,,67.0,,,76.0,
+325,325,"Employees, self-employed, familly workers",CYP,26.0,31.0,48.0,66.0,72.0,78.0,84.0
+326,326,"Employees, self-employed, familly workers",CZE,,33.0,43.0,52.0,,70.0,77.0
+327,327,"Employees, self-employed, familly workers",DEU,38.0,52.0,66.0,73.0,78.0,85.0,88.0
+328,328,"Employees, self-employed, familly workers",DNK,67.0,73.0,83.0,86.0,88.0,90.0,94.0
+329,329,"Employees, self-employed, familly workers",EA,41.0,50.0,61.0,66.0,69.0,76.0,79.0
+330,330,"Employees, self-employed, familly workers",EST,43.0,52.0,65.0,69.0,71.0,77.0,80.0
+331,331,"Employees, self-employed, familly workers",GRC,29.0,35.0,50.0,57.0,59.0,66.0,68.0
+332,332,"Employees, self-employed, familly workers",ESP,47.0,63.0,76.0,80.0,85.0,90.0,91.0
+333,333,"Employees, self-employed, familly workers",,43.0,51.0,61.0,67.0,69.0,75.0,79.0
+334,334,"Employees, self-employed, familly workers",,43.0,51.0,60.0,67.0,69.0,75.0,79.0
+335,335,"Employees, self-employed, familly workers",FIN,64.0,69.0,77.0,82.0,85.0,88.0,88.0
+336,336,"Employees, self-employed, familly workers",FRA,50.0,59.0,68.0,71.0,70.0,80.0,83.0
+337,337,"Employees, self-employed, familly workers",HRV,46.0,51.0,53.0,66.0,68.0,73.0,81.0
+338,338,"Employees, self-employed, familly workers",HUN,23.0,37.0,55.0,65.0,71.0,77.0,79.0
+339,339,"Employees, self-employed, familly workers",IRL,61.0,68.0,74.0,79.0,78.0,84.0,87.0
+340,340,"Employees, self-employed, familly workers",ISL,61.0,61.0,71.0,,,87.0,88.0
+341,341,"Employees, self-employed, familly workers",ITA,21.0,20.0,25.0,25.0,30.0,33.0,43.0
+342,342,"Employees, self-employed, familly workers",LTU,19.0,29.0,36.0,44.0,54.0,67.0,74.0
+343,343,"Employees, self-employed, familly workers",LUX,69.0,71.0,75.0,81.0,82.0,86.0,91.0
+344,344,"Employees, self-employed, familly workers",LVA,31.0,38.0,42.0,52.0,58.0,68.0,70.0
+345,345,"Employees, self-employed, familly workers",MNE,43.0,,,,,87.0,89.0
+346,346,"Employees, self-employed, familly workers",MKD,22.0,32.0,51.0,64.0,68.0,78.0,73.0
+347,347,"Employees, self-employed, familly workers",MLT,54.0,56.0,66.0,78.0,79.0,86.0,85.0
+348,348,"Employees, self-employed, familly workers",NLD,65.0,76.0,80.0,85.0,87.0,93.0,93.0
+349,349,"Employees, self-employed, familly workers",NOR,80.0,82.0,85.0,90.0,87.0,92.0,93.0
+350,350,"Employees, self-employed, familly workers",POL,28.0,38.0,44.0,53.0,35.0,46.0,57.0
+351,351,"Employees, self-employed, familly workers",PRT,24.0,26.0,44.0,56.0,60.0,69.0,72.0
+352,352,"Employees, self-employed, familly workers",ROU,9.0,18.0,29.0,44.0,53.0,62.0,68.0
+353,353,"Employees, self-employed, familly workers",SRB,,,,58.0,,73.0,76.0
+354,354,"Employees, self-employed, familly workers",SWE,75.0,80.0,83.0,85.0,86.0,94.0,92.0
+355,355,"Employees, self-employed, familly workers",SVN,35.0,49.0,52.0,66.0,66.0,78.0,81.0
+356,356,"Employees, self-employed, familly workers",SVK,45.0,48.0,59.0,67.0,69.0,75.0,73.0
+357,357,"Employees, self-employed, familly workers",TUR,19.0,29.0,44.0,56.0,68.0,76.0,77.0
+358,358,"Employees, self-employed, familly workers",GBR,71.0,75.0,81.0,88.0,90.0,92.0,91.0
+359,359,"Employees, self-employed, familly workers",XKX,,,,,,81.0,81.0
+360,360,students,AUT,84.0,89.0,94.0,99.0,97.0,97.0,97.0
+361,361,students,BIH,,,,,,,92.0
+362,362,students,BEL,73.0,81.0,80.0,91.0,94.0,92.0,93.0
+363,363,students,BGR,30.0,56.0,72.0,84.0,91.0,95.0,95.0
+364,364,students,CHE,,,85.0,,,86.0,
+365,365,students,CYP,61.0,71.0,86.0,96.0,96.0,99.0,97.0
+366,366,students,CZE,,68.0,79.0,87.0,,94.0,97.0
+367,367,students,DEU,56.0,80.0,87.0,91.0,94.0,95.0,98.0
+368,368,students,DNK,87.0,89.0,92.0,92.0,95.0,97.0,97.0
+369,369,students,EA,65.0,79.0,84.0,89.0,90.0,92.0,93.0
+370,370,students,EST,68.0,77.0,92.0,93.0,96.0,97.0,98.0
+371,371,students,GRC,58.0,67.0,78.0,85.0,88.0,92.0,91.0
+372,372,students,ESP,76.0,86.0,93.0,93.0,95.0,97.0,97.0
+373,373,students,,65.0,77.0,84.0,90.0,90.0,92.0,93.0
+374,374,students,,65.0,78.0,84.0,90.0,90.0,92.0,93.0
+375,375,students,FIN,80.0,82.0,93.0,93.0,96.0,97.0,95.0
+376,376,students,FRA,78.0,83.0,83.0,91.0,89.0,91.0,91.0
+377,377,students,HRV,87.0,82.0,83.0,96.0,89.0,96.0,98.0
+378,378,students,HUN,38.0,64.0,81.0,89.0,92.0,94.0,95.0
+379,379,students,IRL,78.0,89.0,94.0,95.0,91.0,95.0,99.0
+380,380,students,ISL,87.0,84.0,93.0,,,97.0,88.0
+381,381,students,ITA,40.0,64.0,72.0,78.0,81.0,83.0,82.0
+382,382,students,LTU,52.0,67.0,82.0,86.0,87.0,96.0,96.0
+383,383,students,LUX,83.0,82.0,86.0,87.0,91.0,94.0,97.0
+384,384,students,LVA,56.0,78.0,82.0,92.0,91.0,94.0,97.0
+385,385,students,MNE,66.0,,,,,10.0,97.0
+386,386,students,MKD,42.0,59.0,84.0,86.0,94.0,92.0,87.0
+387,387,students,MLT,88.0,92.0,94.0,10.0,96.0,97.0,97.0
+388,388,students,NLD,87.0,91.0,83.0,94.0,88.0,10.0,95.0
+389,389,students,NOR,89.0,96.0,92.0,91.0,87.0,99.0,97.0
+390,390,students,POL,53.0,63.0,77.0,88.0,83.0,87.0,92.0
+391,391,students,PRT,69.0,78.0,84.0,91.0,94.0,96.0,96.0
+392,392,students,ROU,18.0,43.0,62.0,80.0,82.0,90.0,88.0
+393,393,students,SRB,,,,92.0,,89.0,94.0
+394,394,students,SWE,89.0,87.0,90.0,94.0,85.0,91.0,94.0
+395,395,students,SVN,78.0,85.0,91.0,96.0,95.0,97.0,97.0
+396,396,students,SVK,73.0,82.0,86.0,93.0,95.0,94.0,98.0
+397,397,students,TUR,39.0,51.0,69.0,74.0,86.0,91.0,88.0
+398,398,students,GBR,93.0,95.0,95.0,98.0,93.0,94.0,88.0
+399,399,students,XKX,,,,,,88.0,94.0
+400,400,Unemployed,AUT,46.0,58.0,53.0,67.0,69.0,67.0,68.0
+401,401,Unemployed,BIH,,,,,,,61.0
+402,402,Unemployed,BEL,33.0,40.0,50.0,60.0,59.0,69.0,76.0
+403,403,Unemployed,BGR,5.0,11.0,16.0,22.0,28.0,40.0,37.0
+404,404,Unemployed,CHE,,,73.0,,,67.0,
+405,405,Unemployed,CYP,27.0,31.0,43.0,59.0,58.0,77.0,75.0
+406,406,Unemployed,CZE,,16.0,34.0,33.0,,49.0,59.0
+407,407,Unemployed,DEU,18.0,33.0,37.0,51.0,52.0,59.0,66.0
+408,408,Unemployed,DNK,54.0,62.0,76.0,73.0,92.0,84.0,89.0
+409,409,Unemployed,EA,28.0,37.0,47.0,52.0,54.0,59.0,65.0
+410,410,Unemployed,EST,34.0,44.0,55.0,55.0,60.0,67.0,72.0
+411,411,Unemployed,GRC,24.0,23.0,36.0,48.0,55.0,56.0,63.0
+412,412,Unemployed,ESP,33.0,47.0,60.0,65.0,69.0,77.0,81.0
+413,413,Unemployed,,28.0,37.0,46.0,52.0,53.0,59.0,64.0
+414,414,Unemployed,,28.0,37.0,46.0,52.0,53.0,59.0,64.0
+415,415,Unemployed,FIN,50.0,54.0,66.0,69.0,75.0,83.0,75.0
+416,416,Unemployed,FRA,45.0,52.0,60.0,63.0,60.0,68.0,76.0
+417,417,Unemployed,HRV,36.0,32.0,34.0,44.0,53.0,50.0,52.0
+418,418,Unemployed,HUN,10.0,20.0,32.0,44.0,47.0,46.0,47.0
+419,419,Unemployed,IRL,45.0,52.0,58.0,65.0,62.0,72.0,79.0
+420,420,Unemployed,ISL,60.0,58.0,54.0,,,,
+421,421,Unemployed,ITA,14.0,22.0,30.0,35.0,38.0,36.0,43.0
+422,422,Unemployed,LTU,10.0,17.0,21.0,25.0,32.0,37.0,45.0
+423,423,Unemployed,LUX,60.0,64.0,73.0,63.0,76.0,91.0,92.0
+424,424,Unemployed,LVA,16.0,22.0,27.0,34.0,43.0,49.0,52.0
+425,425,Unemployed,MNE,26.0,,,,,69.0,75.0
+426,426,Unemployed,MKD,12.0,22.0,31.0,49.0,48.0,63.0,60.0
+427,427,Unemployed,MLT,33.0,37.0,38.0,53.0,60.0,,
+428,428,Unemployed,NLD,64.0,69.0,69.0,75.0,80.0,90.0,86.0
+429,429,Unemployed,NOR,72.0,78.0,76.0,77.0,75.0,72.0,82.0
+430,430,Unemployed,POL,13.0,24.0,28.0,35.0,27.0,29.0,38.0
+431,431,Unemployed,PRT,18.0,20.0,33.0,37.0,46.0,51.0,53.0
+432,432,Unemployed,ROU,4.0,10.0,27.0,44.0,53.0,67.0,62.0
+433,433,Unemployed,SRB,,,,29.0,,48.0,62.0
+434,434,Unemployed,SWE,69.0,58.0,67.0,87.0,70.0,92.0,89.0
+435,435,Unemployed,SVN,30.0,33.0,44.0,52.0,46.0,55.0,71.0
+436,436,Unemployed,SVK,24.0,33.0,43.0,51.0,36.0,53.0,47.0
+437,437,Unemployed,TUR,15.0,27.0,39.0,49.0,67.0,73.0,79.0
+438,438,Unemployed,GBR,58.0,62.0,71.0,79.0,76.0,83.0,81.0
+439,439,Unemployed,XKX,,,,,,76.0,76.0
+440,440,"Individuals, 16 TO 24 years old",AUT,82.0,88.0,91.0,97.0,96.0,99.0,97.0
+441,441,"Individuals, 16 TO 24 years old",BIH,,,,,,,92.0
+442,442,"Individuals, 16 TO 24 years old",BEL,70.0,79.0,81.0,90.0,92.0,92.0,93.0
+443,443,"Individuals, 16 TO 24 years old",BGR,23.0,40.0,58.0,71.0,81.0,85.0,88.0
+444,444,"Individuals, 16 TO 24 years old",CHE,,,88.0,,,83.0,
+445,445,"Individuals, 16 TO 24 years old",CYP,52.0,64.0,83.0,94.0,95.0,96.0,96.0
+446,446,"Individuals, 16 TO 24 years old",CZE,,61.0,75.0,84.0,,92.0,96.0
+447,447,"Individuals, 16 TO 24 years old",DEU,58.0,80.0,89.0,91.0,93.0,95.0,97.0
+448,448,"Individuals, 16 TO 24 years old",DNK,87.0,88.0,93.0,93.0,94.0,96.0,97.0
+449,449,"Individuals, 16 TO 24 years old",EA,64.0,76.0,82.0,87.0,87.0,90.0,92.0
+450,450,"Individuals, 16 TO 24 years old",EST,66.0,72.0,91.0,93.0,95.0,97.0,97.0
+451,451,"Individuals, 16 TO 24 years old",GRC,51.0,63.0,71.0,84.0,87.0,89.0,92.0
+452,452,"Individuals, 16 TO 24 years old",ESP,75.0,85.0,91.0,93.0,95.0,95.0,96.0
+453,453,"Individuals, 16 TO 24 years old",,63.0,74.0,81.0,87.0,87.0,90.0,92.0
+454,454,"Individuals, 16 TO 24 years old",,63.0,74.0,81.0,87.0,87.0,90.0,92.0
+455,455,"Individuals, 16 TO 24 years old",FIN,80.0,81.0,93.0,95.0,96.0,96.0,96.0
+456,456,"Individuals, 16 TO 24 years old",FRA,78.0,82.0,84.0,90.0,86.0,90.0,92.0
+457,457,"Individuals, 16 TO 24 years old",HRV,85.0,82.0,80.0,95.0,86.0,91.0,99.0
+458,458,"Individuals, 16 TO 24 years old",HUN,33.0,54.0,76.0,85.0,90.0,91.0,89.0
+459,459,"Individuals, 16 TO 24 years old",IRL,70.0,84.0,92.0,91.0,91.0,95.0,95.0
+460,460,"Individuals, 16 TO 24 years old",ISL,86.0,82.0,91.0,,,95.0,93.0
+461,461,"Individuals, 16 TO 24 years old",ITA,33.0,54.0,61.0,68.0,71.0,72.0,74.0
+462,462,"Individuals, 16 TO 24 years old",LTU,48.0,64.0,75.0,79.0,86.0,91.0,94.0
+463,463,"Individuals, 16 TO 24 years old",LUX,83.0,82.0,87.0,89.0,90.0,92.0,95.0
+464,464,"Individuals, 16 TO 24 years old",LVA,54.0,71.0,75.0,87.0,87.0,94.0,94.0
+465,465,"Individuals, 16 TO 24 years old",MNE,56.0,,,,,96.0,97.0
+466,466,"Individuals, 16 TO 24 years old",MKD,35.0,52.0,79.0,86.0,92.0,91.0,
+467,467,"Individuals, 16 TO 24 years old",MLT,84.0,82.0,91.0,96.0,93.0,98.0,98.0
+468,468,"Individuals, 16 TO 24 years old",NLD,92.0,94.0,91.0,91.0,89.0,98.0,96.0
+469,469,"Individuals, 16 TO 24 years old",NOR,91.0,94.0,95.0,95.0,91.0,98.0,96.0
+470,470,"Individuals, 16 TO 24 years old",POL,46.0,60.0,71.0,84.0,75.0,82.0,88.0
+471,471,"Individuals, 16 TO 24 years old",PRT,58.0,66.0,81.0,86.0,92.0,95.0,95.0
+472,472,"Individuals, 16 TO 24 years old",ROU,14.0,31.0,53.0,70.0,74.0,82.0,83.0
+473,473,"Individuals, 16 TO 24 years old",SRB,,,,69.0,,86.0,88.0
+474,474,"Individuals, 16 TO 24 years old",SWE,92.0,90.0,91.0,91.0,86.0,94.0,94.0
+475,475,"Individuals, 16 TO 24 years old",SVN,74.0,80.0,82.0,95.0,88.0,96.0,97.0
+476,476,"Individuals, 16 TO 24 years old",SVK,69.0,79.0,83.0,90.0,90.0,91.0,92.0
+477,477,"Individuals, 16 TO 24 years old",TUR,27.0,39.0,56.0,64.0,78.0,85.0,84.0
+478,478,"Individuals, 16 TO 24 years old",GBR,89.0,94.0,94.0,97.0,97.0,98.0,95.0
+479,479,"Individuals, 16 TO 24 years old",XKX,,,,,,90.0,93.0
+480,480,"Individuals, 25 TO 54 years old",AUT,50.0,58.0,65.0,74.0,75.0,85.0,84.0
+481,481,"Individuals, 25 TO 54 years old",BIH,,,,,,,78.0
+482,482,"Individuals, 25 TO 54 years old",BEL,49.0,51.0,66.0,77.0,79.0,84.0,85.0
+483,483,"Individuals, 25 TO 54 years old",BGR,16.0,24.0,34.0,48.0,57.0,71.0,72.0
+484,484,"Individuals, 25 TO 54 years old",CHE,,,69.0,,,76.0,
+485,485,"Individuals, 25 TO 54 years old",CYP,26.0,31.0,48.0,66.0,72.0,80.0,85.0
+486,486,"Individuals, 25 TO 54 years old",CZE,,33.0,44.0,54.0,,73.0,82.0
+487,487,"Individuals, 25 TO 54 years old",DEU,36.0,50.0,65.0,74.0,79.0,86.0,90.0
+488,488,"Individuals, 25 TO 54 years old",DNK,70.0,76.0,84.0,87.0,90.0,91.0,93.0
+489,489,"Individuals, 25 TO 54 years old",EA,38.0,47.0,59.0,64.0,68.0,75.0,79.0
+490,490,"Individuals, 25 TO 54 years old",EST,44.0,54.0,68.0,74.0,76.0,82.0,85.0
+491,491,"Individuals, 25 TO 54 years old",GRC,26.0,30.0,44.0,54.0,57.0,65.0,67.0
+492,492,"Individuals, 25 TO 54 years old",ESP,43.0,58.0,73.0,78.0,84.0,89.0,91.0
+493,493,"Individuals, 25 TO 54 years old",,40.0,48.0,59.0,65.0,68.0,75.0,79.0
+494,494,"Individuals, 25 TO 54 years old",,40.0,48.0,59.0,65.0,68.0,75.0,79.0
+495,495,"Individuals, 25 TO 54 years old",FIN,69.0,74.0,82.0,85.0,90.0,91.0,90.0
+496,496,"Individuals, 25 TO 54 years old",FRA,47.0,56.0,67.0,69.0,70.0,79.0,83.0
+497,497,"Individuals, 25 TO 54 years old",HRV,42.0,46.0,49.0,62.0,65.0,68.0,77.0
+498,498,"Individuals, 25 TO 54 years old",HUN,20.0,34.0,53.0,65.0,70.0,76.0,77.0
+499,499,"Individuals, 25 TO 54 years old",IRL,58.0,65.0,73.0,79.0,78.0,84.0,88.0
+500,500,"Individuals, 25 TO 54 years old",ISL,64.0,67.0,76.0,,,92.0,89.0
+501,501,"Individuals, 25 TO 54 years old",ITA,19.0,20.0,26.0,27.0,32.0,35.0,45.0
+502,502,"Individuals, 25 TO 54 years old",LTU,16.0,25.0,34.0,43.0,53.0,67.0,75.0
+503,503,"Individuals, 25 TO 54 years old",LUX,67.0,70.0,76.0,80.0,82.0,86.0,89.0
+504,504,"Individuals, 25 TO 54 years old",LVA,28.0,37.0,42.0,53.0,59.0,70.0,73.0
+505,505,"Individuals, 25 TO 54 years old",MNE,36.0,,,,,83.0,86.0
+506,506,"Individuals, 25 TO 54 years old",MKD,17.0,28.0,43.0,58.0,63.0,75.0,63.0
+507,507,"Individuals, 25 TO 54 years old",MLT,45.0,49.0,59.0,75.0,78.0,87.0,85.0
+508,508,"Individuals, 25 TO 54 years old",NLD,61.0,73.0,78.0,83.0,86.0,92.0,92.0
+509,509,"Individuals, 25 TO 54 years old",NOR,84.0,86.0,89.0,91.0,87.0,92.0,94.0
+510,510,"Individuals, 25 TO 54 years old",POL,25.0,37.0,43.0,52.0,36.0,46.0,58.0
+511,511,"Individuals, 25 TO 54 years old",PRT,22.0,25.0,42.0,54.0,61.0,69.0,74.0
+512,512,"Individuals, 25 TO 54 years old",ROU,8.0,17.0,29.0,44.0,54.0,64.0,69.0
+513,513,"Individuals, 25 TO 54 years old",SRB,,,,44.0,,68.0,73.0
+514,514,"Individuals, 25 TO 54 years old",SWE,80.0,82.0,85.0,86.0,85.0,93.0,92.0
+515,515,"Individuals, 25 TO 54 years old",SVN,33.0,46.0,51.0,63.0,69.0,78.0,81.0
+516,516,"Individuals, 25 TO 54 years old",SVK,42.0,46.0,59.0,64.0,69.0,77.0,75.0
+517,517,"Individuals, 25 TO 54 years old",TUR,13.0,21.0,33.0,43.0,58.0,69.0,71.0
+518,518,"Individuals, 25 TO 54 years old",GBR,71.0,75.0,82.0,88.0,90.0,92.0,92.0
+519,519,"Individuals, 25 TO 54 years old",XKX,,,,,,77.0,80.0
+520,520,"Individuals, 55 TO 74 years old",AUT,16.0,19.0,24.0,28.0,31.0,42.0,45.0
+521,521,"Individuals, 55 TO 74 years old",BIH,,,,,,,29.0
+522,522,"Individuals, 55 TO 74 years old",BEL,21.0,24.0,34.0,42.0,45.0,52.0,53.0
+523,523,"Individuals, 55 TO 74 years old",BGR,3.0,4.0,5.0,10.0,13.0,21.0,23.0
+524,524,"Individuals, 55 TO 74 years old",CHE,,,29.0,,,50.0,
+525,525,"Individuals, 55 TO 74 years old",CYP,4.0,4.0,8.0,20.0,21.0,33.0,40.0
+526,526,"Individuals, 55 TO 74 years old",CZE,,6.0,11.0,13.0,,24.0,29.0
+527,527,"Individuals, 55 TO 74 years old",DEU,11.0,18.0,26.0,33.0,38.0,49.0,55.0
+528,528,"Individuals, 55 TO 74 years old",DNK,34.0,38.0,51.0,55.0,62.0,64.0,76.0
+529,529,"Individuals, 55 TO 74 years old",EA,12.0,17.0,23.0,28.0,31.0,39.0,44.0
+530,530,"Individuals, 55 TO 74 years old",EST,10.0,20.0,23.0,24.0,24.0,31.0,35.0
+531,531,"Individuals, 55 TO 74 years old",GRC,3.0,5.0,10.0,11.0,12.0,18.0,22.0
+532,532,"Individuals, 55 TO 74 years old",ESP,10.0,16.0,26.0,32.0,39.0,49.0,55.0
+533,533,"Individuals, 55 TO 74 years old",,14.0,18.0,24.0,29.0,32.0,39.0,44.0
+534,534,"Individuals, 55 TO 74 years old",,14.0,18.0,24.0,29.0,32.0,39.0,43.0
+535,535,"Individuals, 55 TO 74 years old",FIN,26.0,32.0,40.0,45.0,47.0,55.0,56.0
+536,536,"Individuals, 55 TO 74 years old",FRA,19.0,27.0,31.0,34.0,33.0,41.0,50.0
+537,537,"Individuals, 55 TO 74 years old",HRV,7.0,10.0,10.0,15.0,16.0,19.0,29.0
+538,538,"Individuals, 55 TO 74 years old",HUN,6.0,9.0,14.0,18.0,25.0,27.0,27.0
+539,539,"Individuals, 55 TO 74 years old",IRL,22.0,27.0,30.0,35.0,36.0,49.0,37.0
+540,540,"Individuals, 55 TO 74 years old",ISL,29.0,34.0,39.0,,,61.0,66.0
+541,541,"Individuals, 55 TO 74 years old",ITA,5.0,4.0,6.0,7.0,8.0,11.0,18.0
+542,542,"Individuals, 55 TO 74 years old",LTU,1.0,2.0,5.0,7.0,10.0,18.0,27.0
+543,543,"Individuals, 55 TO 74 years old",LUX,40.0,48.0,48.0,59.0,63.0,68.0,67.0
+544,544,"Individuals, 55 TO 74 years old",LVA,5.0,8.0,8.0,12.0,14.0,22.0,23.0
+545,545,"Individuals, 55 TO 74 years old",MNE,10.0,,,,,33.0,30.0
+546,546,"Individuals, 55 TO 74 years old",MKD,4.0,5.0,7.0,17.0,22.0,28.0,59.0
+547,547,"Individuals, 55 TO 74 years old",MLT,11.0,14.0,21.0,29.0,27.0,35.0,31.0
+548,548,"Individuals, 55 TO 74 years old",NLD,25.0,36.0,47.0,55.0,60.0,72.0,71.0
+549,549,"Individuals, 55 TO 74 years old",NOR,48.0,54.0,50.0,60.0,62.0,71.0,74.0
+550,550,"Individuals, 55 TO 74 years old",POL,5.0,8.0,10.0,16.0,7.0,11.0,17.0
+551,551,"Individuals, 55 TO 74 years old",PRT,4.0,4.0,9.0,14.0,17.0,24.0,25.0
+552,552,"Individuals, 55 TO 74 years old",ROU,1.0,4.0,5.0,11.0,13.0,20.0,25.0
+553,553,"Individuals, 55 TO 74 years old",SRB,,,,7.0,,18.0,23.0
+554,554,"Individuals, 55 TO 74 years old",SWE,41.0,41.0,54.0,55.0,67.0,72.0,78.0
+555,555,"Individuals, 55 TO 74 years old",SVN,5.0,10.0,11.0,12.0,16.0,27.0,33.0
+556,556,"Individuals, 55 TO 74 years old",SVK,8.0,10.0,14.0,15.0,20.0,28.0,22.0
+557,557,"Individuals, 55 TO 74 years old",TUR,1.0,2.0,5.0,7.0,13.0,19.0,26.0
+558,558,"Individuals, 55 TO 74 years old",GBR,33.0,34.0,45.0,55.0,57.0,61.0,61.0
+559,559,"Individuals, 55 TO 74 years old",XKX,,,,,,54.0,54.0
