@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
@@ -28,84 +27,358 @@
       <p>Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a> </p>
     </div>
 
-    <div class="map" id="map">
-        <div class="map__image">
-          <script>
-            // Feel free to change or delete any of the code you see in this editor!
-
-
-            var svg = d3.select("body").append("svg")
-              
-              /* .attr("width", 960)
-              .attr("height", 500) */
-            
-            
-        
-            var g = svg.append( "g" );
-            
-            var projection = d3.geoConicConformal()
-            .center([2.454071, 46.279229])
-            .scale(2800)
-            //.translate([width / 2, height / 2]);
-                
-            
-            var path = d3.geoPath()
-                         .projection(projection);
-            
-            var color = d3.scaleLinear()
-              .range(["#edf8e9","#006d2c"]);   
-              
-            d3.csv("https://lyondataviz.github.io/teaching/lyon1-m2/2019/data/GrippeFrance2014.csv").then(function(data) {
-            color.domain([
-                  d3.min(data, function(d) { return parseInt(d.somme2014); }),
-                  d3.max(data, function(d) { return parseInt(d.somme2014); })
-            ]);
-        
-              d3.json("https://lyondataviz.github.io/teaching/lyon1-m2/2019/data/regions.json").then(function(json) {
-                //On fusionne les donnees avec le GeoJSON des regions
-                for (var i = 0; i < data.length; i++) {
-                    var dataState = data[i].region;
-                    var dataValue = parseFloat(data[i].somme2014);
-                    for (var j = 0; j < json.features.length; j++) {
-                        var jsonState = json.features[j].properties.nom;
-                        if (dataState == jsonState) {
-                            //On injecte la valeur de l'Etat dans le json
-                            json.features[j].properties.value = dataValue;
-        
-                            //Pas besoin de chercher plus loin
-                            break;
-                        }
-                    }
-                  }
-                
-                g.selectAll("path")
-                    .data(json.features)
-                    .enter()
-                    .append("path")
-                    .attr("d", path)
-                    .style("fill", function(d) {
-                        var value = d.properties.value;
-                  
-                        if (value){
-                          return color(value);
-                        } else{
-                          return "#ccc";
-                        }
-                
-                
-                
-                })
-            })
-            });
-          </script>
-        </div>
-      <div class="map__list">
-          <h1>Salut tlm comment ça va</h1>
-          <h1>Salut tlm comment ça va</h1>
-          <h1>Salut tlm comment ça va</h1>
-          <h1>Salut tlm comment ça va</h1>
+  
+    
+      <div id = "slideannees">
+       <input id="slider" type="range" size ="30" value="2012" min="2012" max="2018" step="1"  oninput="afficheAnnee()",onchange="afficheAnnee()"/>
+       <span id="Annee">Annee: 2012</span>
       </div>
-    </div>
+      
+      
+       <div>
+        <div id = "selectioncateg" style="float: left; width: 50%">  
+          <p>Select a population category</p>
+    
+          <select id="mySelect" onchange="afficheAnnee()" oninput="afficheAnnee()" >
+            <option value="Active labour force (employed and unemployed)">Active labour force (employed and unemployed)</option>
+            <option value="Females, 16 TO 74 years old">Females, 16 TO 74 years old</option>
+            <option value="Individuals with no or low formal education">Individuals with no or low formal education	</option>
+            <option value="individuals with medium formal education">individuals with medium formal education</option>
+            <option value="Individuals with high formal education">Individuals with high formal education</option>
+            <option value="Males, 16 TO 74 years old">Males, 16 TO 74 years old</option>
+            <option value="Retired and other inactive">Retired and other inactive</option>
+            <option value="Employees, self-employed, familly workers">Employees, self-employed, familly workers</option>
+            <option value="students">students</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Individuals, 16 TO 24 years old">Individuals, 16 TO 24 years old</option>
+            <option value="Individuals, 25 TO 54 years old">Individuals, 25 TO 54 years old</option>
+            <option value="Individuals, 55 TO 74 years old">Individuals, 55 TO 74 years old</option>
+            <option value="All individuals">All individuals</option>
+          </select>
+        </div>
+      </div>
+      <script>
+      var width = 960;
+      var height = 500;
+      var center = [10, 72];
+      var scale = 275;
+      var colmin = "#edf8e9"
+      var colmax = "#006d2c"
+      
+      var projection = d3.geoMercator()
+          .scale(scale)
+          .translate([width/1.3, 0])
+          .center(center);
+      
+      var path = d3.geoPath().projection(projection);
+      
+      
+      var svg = d3.select("body")
+          .append("svg")
+          .attr("height", height)
+          .attr("width", width)
+          
+      
+      
+    
+      
+    
+    // Create linear colour gradient for choropleth using max min values and defined colours
+      var color = d3.scaleLinear()
+          .range([colmin,colmax])
+          .domain([0,100]);
+      
+      var g = svg.append("g");
+     
+      
+      
+      
+      
+      
+    // Create linear gradient defs within index
+       var defs = svg.append("defs")
+    
+    // Define gradient direction along x axis
+        
+       var gradient = defs.append("linearGradient")
+         .attr("id", "gradient")
+         .attr('x1', "0%")
+         .attr("y1", "0%")
+         .attr("x2", "100%")
+         .attr("y2", "0%") 
+    
+       gradient.append("stop")
+           .attr("class", "start")
+           .attr("offset", "0%")
+           .attr("stop-color", colmin)
+           .attr("stop-opacity", 1);
+        
+       gradient.append("stop")
+           .attr("class", "end")
+           .attr("offset", "100%")
+           .attr("stop-color", colmax)
+           .attr("stop-opacity", 1);
+     
+    
+    // Define gradient direction along x axis
+        
+       
+      
+    // Create the rectangle that the linear gradient will be used to fill
+       g.append("rect")
+           .attr("class", "key")
+           .attr("id", "choropleth")
+           .attr("width", 200)
+          .attr("height", 50)
+           .style("fill", "url(#gradient)")
+           .style("opacity", 1)
+           //.attr("transform", "translate(20,30)")
+          .attr("x",450)
+          .attr("y",20);
+       
+    // Use scaleLinear function to create divisions for axis    
+        
+       
+    
+    // Adding the axis and positioning it, while calling the yaxis function  
+        
+       
+    // Reading in the TOPOjson file containing the shapes, and the data within ins properties
+        
+       var checkbox = false;
+        function test() {
+          checkbox = d3.select("#checkbox")._groups[0][0].checked;
+          afficheAnnee(d3.select("#slider")._groups[0][0].value);
+        }
+       function afficheAnnee(value){ 
+         d3.json("https://github.com/gati23/appgroupe14/blob/gati/datas/dataset.json", function(err,data) {
+           if(err) console.log("error fetching data");
+          g.selectAll(".country")
+           .data(topojson.feature(data, data.objects.eu).features)
+           .enter()
+      
+           .append('path')
+           .attr('class', 'country')
+           .attr("id", "choropleth")
+           .attr('d', path)
+           .attr( "fill", "#757575" )
+           .style("opacity", 1)
+           .style("fill", function (feature) {})
+          var x = document.getElementById("slider").value
+          var annee="_"+x.toString();
+          var categorie = document.getElementById("mySelect").value
+          d3.select("#Annee")
+            .text("Année: "+x);
+           if(checkbox == false) {
+              var color = d3.scaleLinear()
+                .range(["#edf8e9","#006d2c"])
+                .domain([0,100]);
+          } else {
+              color.domain([0, 750]);
+            }
+              svg.selectAll("path")
+                .data(topojson.feature(data, data.objects.eu).features)
+              
+                .style("fill", function(feature) {
+                  var renvoi = feature.properties[annee][categorie];
+                if(renvoi){    
+                return color(renvoi);}
+                else {return "#ccc";}})
+              svg.selectAll("title").remove()
+              svg.selectAll("path")
+                .append("svg:title")
+                .text(function(feature){ console.log(feature.properties[annee][categorie])
+                return ([feature.properties.name + ' ', ' ' + feature.properties[annee][categorie]+ '%'])});
+            console.log(annee)
+          })  	
+        }
+       
+         d3.json("https://github.com/gati23/appgroupe14/blob/gati/datas/dataset.json", function(err,data) {
+           if(err) console.log("error fetching data");
+          g.selectAll(".country")
+           .data(topojson.feature(data, data.objects.eu).features)
+           .enter()
+      
+           .append('path')
+           .attr('class', 'country')
+           .attr("id", "choropleth")
+           .attr('d', path)
+           .attr( "fill", "#757575" )
+           .style("opacity", 1)
+           .style("fill", function (feature) {})
+          var annee="2012".toString();
+          d3.select("#Annee")
+            .text("Année: "+annee);
+           if(checkbox == false) {
+              var color = d3.scaleLinear()
+                .range(["#edf8e9","#006d2c"])
+                .domain([0,100]);
+          } else {
+              color.domain([0, 750]);
+            }
+          
+           var categorie = document.getElementById("mySelect").value
+            
+              svg.selectAll("path")
+                .data(topojson.feature(data, data.objects.eu).features)
+                .style("fill", function(feature) {
+                  
+                  var value = feature.properties["_" + annee][categorie];
+                     if(value){    
+                return color(value);}
+                else {return "#ccc";}})
+                .append("svg:title")
+                .text(function(feature){ console.log(feature.properties["_" + annee][categorie])
+                return ([feature.properties.name + ' ', ' ' +  		feature.properties["_" + annee][categorie] + '%'])});
+            
+          })
+    // The hide/show function, uses opacity to display active layer    
+     d3.json("https://github.com/gati23/appgroupe14/blob/gati/datas/dataset.json", function(err,data) {  
+       var chart = svg.attr("class", "chart");
+          chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100)
+               .attr('y1',300)
+               .attr('x2',410)
+               .attr("y2",300)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+          chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100)
+               .attr('y1',300)
+               .attr('x2',100)
+               .attr("y2",40)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
+          chart.append("text")
+          .attr('x',440)
+          .attr('y',320)
+          .text("Année")
+         for (var j = 0;j<101;j=j+25){
+           chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100)
+               .attr('y1',300-2.5*j)
+               .attr('x2',105)
+               .attr("y2",300-2.5*j)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+          chart.append("text")
+               .attr('x',70)
+               .attr('y',305-2.5*j)
+               .text(j)}
+        for (var i = 2012; i <2019; i++){
+         chart.append("text")
+               .attr('x',88 + (i - 2012)*50)
+               .attr('y',320)
+               .text(i)
+         chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100 + (i - 2012)*50)
+               .attr('y1',300)
+               .attr('x2',100 + (i - 2012)*50)
+               .attr("y2",295)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+        } 
+     svg.selectAll("path")
+                .data(topojson.feature(data, data.objects.eu).features)
+                 .on("mouseover", function plot(feature){
+       var categorie = document.getElementById("mySelect").value;
+       var categorienom = document.getElementById("mySelect").value ;
+       console.log(categorienom)
+       chart.append("text")
+          .attr('x',70)
+          .attr('y',30)
+          .text([feature.properties.name + ' ', ' ' +  		categorienom]) 
+       for (var i = 2012; i <2018; i++){
+         if(feature.properties["_" + i.toString()][categorie]!=0 & feature.properties["_" + (i+1).toString()][categorie]!=0){
+         chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100 + (i - 2012)*50)
+               .attr('y1',300-2.5*feature.properties["_" + i.toString()][categorie])
+               .attr('x2',100 + (i + 1 - 2012)*50)
+               .attr("y2",300-2.5*feature.properties["_" + (i+1).toString()][categorie])
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+         if(feature.properties["_" + i.toString()][categorie]!=0){
+         chart.append("circle")
+               .attr('cx',100 + (i - 2012)*50)
+               .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie])
+               .attr('r',4)}
+         }
+       if(feature.properties["_" + i.toString()][categorie]!=0){
+          chart.append("circle")
+               .attr('cx',100 + (i - 2012)*50)
+               .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie])
+               .attr('r',5)}
+     })
+              .on("mouseout",function nonplot(){
+              
+            chart.selectAll("text").remove();
+            chart.selectAll("line").remove();
+            chart.selectAll("circle").remove();
+       chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100)
+               .attr('y1',300)
+               .attr('x2',410)
+               .attr("y2",300)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+          chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100)
+               .attr('y1',300)
+               .attr('x2',100)
+               .attr("y2",40)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
+          chart.append("text")
+          .attr('x',440)
+          .attr('y',320)
+          .text("Année")
+         for (var j = 0;j<101;j=j+25){
+          chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100)
+               .attr('y1',300-2.5*j)
+               .attr('x2',105)
+               .attr("y2",300-2.5*j)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+          chart.append("text")
+               .attr('x',70)
+               .attr('y',305-2.5*j)
+               .text(j)}
+        for (var i = 2012; i <2019; i++){
+         chart.append("text")
+               .attr('x',88 + (i - 2012)*50)
+               .attr('y',320)
+               .text(i)
+         chart.append("line")
+                .attr("class", "key")
+               .attr('x1',100 + (i - 2012)*50)
+               .attr('y1',300)
+               .attr('x2',100 + (i - 2012)*50)
+               .attr("y2",295)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2")}
+     }) 
+     }) 
+      
+    
+    // Dorling cartogram section
+    
+    
+    
+    // Reads in TOPOjson file into path specified above, however displays circles based on polygon centroids using path.centroid
+        
+        // Reads in TOPOjson file into path specified above, however displays circles based on polygon centroids using path.centroid
+         
+    
+      
+    
+      
+    
+    
+    
+    
+    
+      </script>
+    
 
 
           

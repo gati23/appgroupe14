@@ -30,19 +30,19 @@ test {
   width: 20%;
 }
 
-.map__image svg{
-  width:100%;
-  height: 500px;
+
+
+
+text.shadow {
+  stroke: white;
+  stroke-width: 2.5px;
+  opacity: 1;
 }
-/* #containermain{
-
-  display: flex;
-  align-items: stretch;
-
-} */
-
-svg {
-  background-color: #555;
+.legend {
+  cursor: pointer;
+}
+.selectioncateg{
+  width: 50%;
 }
 
 /* #divdroite{
