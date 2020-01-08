@@ -17,24 +17,23 @@
 
 }
 
+#selectioncateg,#slideannees{
+  margin-top: 6em;
+  width: 50%;
+}
+#selection,#slideannees,#selectioncateg{
+  float:left;
+}
 
-
-#containerintro2 {
-
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  background-color: rgb(134, 48, 48);
-  box-shadow: 3px 4px 6px 3px #000;
-  color: #eee;
-
+#selection{
+  width: 40%;
+  margin-top: 4em;
 }
 
 
 svg{
   float:left;
-  width:50%;
+  width:60%;
 }
 text.shadow {
   stroke: white;

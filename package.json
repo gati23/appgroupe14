@@ -1,8 +1,8 @@
 {
-  "name": "appgroupe14",
+  "name": "Euromobile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gati23.github.io/appgroupe14/",
+  "homepage": "https://gati23.github.io/Euromobile/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "d3": "^5.15.0",

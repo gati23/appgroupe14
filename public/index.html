@@ -46,25 +46,31 @@
   <body>
     <div id="root"></div>
 
+
+
+
+    
+
+
+    </div>
+
     <div id="containerintro">
 
       <h1>Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements, en Europe.</h1>
       <p>Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a> </p>
     </div>
 
-    <div id="containerintro2">
+      <div id="selection">
 
-      <h1>Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements, en Europe.</h1>
-      <p>Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a> </p>
-    </div>
-    
-      <div id = "slideannees">
-       <input id="slider" type="range" size ="30" value="2012" min="2012" max="2018" step="1"  oninput="afficheAnnee()",onchange="afficheAnnee()"/>
-       <span id="Annee">Annee: 2012</span>
-      </div>
-      
-      
-       <div>
+          <div id = "textleft">
+              <h3>
+                Cette visualisation permet d'observer en termes de pourcentages, l'utilisation de données mobiles dans chacun des pays de l'Europe.<br>
+                Ci-dessous, le slider permet de naviguer de 2012 à 2018 selon la catégorie de population sélectionnée.
+              </h3>
+        <div id = "slideannees">
+          <input id="slider" type="range" size ="30" value="2012" min="2012" max="2018" step="1"  oninput="afficheAnnee()",onchange="afficheAnnee()"/>
+          <span id="Annee">Annee: 2012</span>
+        </div>
         <div id = "selectioncateg" style="float: left; width: 50%">  
           <p>Select a population category</p>
     
@@ -91,13 +97,14 @@
         var width = 960;
         var height = 900;
         var center = [10, 72];
-        var scale = 500;
-        var colmin = "#edf8e9"
-        var colmax = "#006d2c"
+        var scale = 600;
+        var colmin = "#b1e6e6";
+        var colmax = "#00707f";
+       
         
         var projection = d3.geoMercator()
             .scale(scale)
-            .translate([width/1.3, 0])
+            .translate([width/1.4, 0])
             .center(center);
         
         var path = d3.geoPath().projection(projection);
@@ -147,16 +154,8 @@
              .attr("stop-opacity", 1);
        
       
-         g.append("rect")
-             .attr("class", "key")
-             .attr("id", "choropleth")
-             .attr("width", 200)
-            .attr("height", 50)
-             .style("fill", "url(#gradient)")
-             .style("opacity", 1)
-            .attr("x",450)
-            .attr("y",20);
-         
+ 
+        
                     
          var checkbox = false;
           function test() {
@@ -164,7 +163,7 @@
             afficheAnnee(d3.select("#slider")._groups[0][0].value);
           }
          function afficheAnnee(value){ 
-           d3.json("https://raw.githubusercontent.com/gati23/appgroupe14/master/datas/dataset.json", function(err,data) {
+           d3.json("https://raw.githubusercontent.com/gati23/Euromobile/master/datas/dataset.json", function(err,data) {
              if(err) console.log("error fetching data");
             g.selectAll(".country")
              .data(topojson.feature(data, data.objects.eu).features)
@@ -184,7 +183,7 @@
               .text("Année: "+x);
              if(checkbox == false) {
                 var color = d3.scaleLinear()
-                  .range(["#edf8e9","#006d2c"])
+                  .range(["#b1e6e6","#00707f"])
                   .domain([0,100]);
             } else {
                 color.domain([0, 750]);
@@ -206,7 +205,7 @@
             })  	
           }
          
-           d3.json("https://raw.githubusercontent.com/gati23/appgroupe14/master/datas/dataset.json", function(err,data) {
+           d3.json("https://raw.githubusercontent.com/gati23/Euromobile/master/datas/dataset.json", function(err,data) {
              if(err) console.log("error fetching data");
             g.selectAll(".country")
              .data(topojson.feature(data, data.objects.eu).features)
@@ -224,7 +223,7 @@
               .text("Année: "+annee);
              if(checkbox == false) {
                 var color = d3.scaleLinear()
-                  .range(["#edf8e9","#006d2c"])
+                  .range(["#b1e6e6", "#00707f"])
                   .domain([0,100]);
             } else {
                 color.domain([0, 750]);
@@ -245,49 +244,86 @@
                   return ([feature.properties.name + ' ', ' ' +  		feature.properties["_" + annee][categorie] + '%'])});
               
             })
-       d3.json("https://raw.githubusercontent.com/gati23/appgroupe14/master/datas/dataset.json", function(err,data) {  
-         var chart = svg.attr("class", "chart");
+          d3.json("https://raw.githubusercontent.com/gati23/Euromobile/master/datas/dataset.json", function(err,data) { 
+              var translatex = 50;
+              var translatey = 275; 
+              var chart = svg.attr("class", "chart");
+
+
+
+              g.append("rect")
+             .attr("class", "key")
+             .attr("id", "choropleth")
+             .attr("width", 200)
+            .attr("height", 50)
+             .style("fill", "url(#gradient)")
+             .style("opacity", 1)
+            .attr("x",100)
+            .attr("y",57);
+
+              var y = d3.scaleLinear()
+                  .range([200, 0])
+                  .domain([100, 0]);
+                
+              var yAxis = d3.axisBottom(y);
+                
+              g.append("g")
+                  .attr("class", "key")
+                  .attr("id", "choropleth")
+                  .attr("transform", "translate(100,106)")
+                  .call(yAxis)
+                  .style("opacity", 1)
+              g.append("text")
+                .attr("class", "key")
+                .attr("id", "choropleth")
+                .style("opacity", 1)
+                .attr("transform", "translate(100, 140)")
+                .text("Population in %");
+
+
+            
+            
             chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100)
-                 .attr('y1',300)
+                 .attr('y1',300 + translatey)
                  .attr('x2',410)
-                 .attr("y2",300)
+                 .attr("y2",300 + translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
             chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100)
-                 .attr('y1',300)
+                 .attr('y1',300 + translatey)
                  .attr('x2',100)
-                 .attr("y2",40)
+                 .attr("y2",40 + translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
             chart.append("text")
             .attr('x',440)
-            .attr('y',320)
+            .attr('y',320 + translatey)
             .text("Année")
            for (var j = 0;j<101;j=j+25){
              chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100)
-                 .attr('y1',300-2.5*j)
+                 .attr('y1',300-2.5*j + translatey)
                  .attr('x2',105)
-                 .attr("y2",300-2.5*j)
+                 .attr("y2",300-2.5*j+ translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2")
             chart.append("text")
                  .attr('x',70)
-                 .attr('y',305-2.5*j)
+                 .attr('y',305-2.5*j+ translatey)
                  .text(j)}
           for (var i = 2012; i <2019; i++){
            chart.append("text")
                  .attr('x',88 + (i - 2012)*50)
-                 .attr('y',320)
+                 .attr('y',320+ translatey)
                  .text(i)
            chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100 + (i - 2012)*50)
-                 .attr('y1',300)
+                 .attr('y1',300+ translatey)
                  .attr('x2',100 + (i - 2012)*50)
-                 .attr("y2",295)
+                 .attr("y2",295+ translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2")
           } 
        svg.selectAll("path")
@@ -296,77 +332,118 @@
          var categorie = document.getElementById("mySelect").value;
          var categorienom = document.getElementById("mySelect").value ;
          console.log(categorienom)
+         var translatex = 50;
+         var translatey = 275; 
          chart.append("text")
             .attr('x',70)
-            .attr('y',30)
+            .attr('y',30 + translatey)
             .text([feature.properties.name + ' ', ' ' +  		categorienom]) 
          for (var i = 2012; i <2018; i++){
            if(feature.properties["_" + i.toString()][categorie]!=0 & feature.properties["_" + (i+1).toString()][categorie]!=0){
            chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100 + (i - 2012)*50)
-                 .attr('y1',300-2.5*feature.properties["_" + i.toString()][categorie])
+                 .attr('y1',300-2.5*feature.properties["_" + i.toString()][categorie]+translatey)
                  .attr('x2',100 + (i + 1 - 2012)*50)
-                 .attr("y2",300-2.5*feature.properties["_" + (i+1).toString()][categorie])
+                 .attr("y2",300-2.5*feature.properties["_" + (i+1).toString()][categorie]+translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
            if(feature.properties["_" + i.toString()][categorie]!=0){
            chart.append("circle")
                  .attr('cx',100 + (i - 2012)*50)
-                 .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie])
-                 .attr('r',4)}
+                 .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie]+translatey)
+                 .attr('r',4)
+                 .style("fill","#843c39");}
+                 
            }
          if(feature.properties["_" + i.toString()][categorie]!=0){
             chart.append("circle")
                  .attr('cx',100 + (i - 2012)*50)
-                 .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie])
-                 .attr('r',5)}
-       })
+                 .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie]+translatey)
+                 .attr('r',5)
+                 .style("fill","#843c39");
+                 }
+        })
                 .on("mouseout",function nonplot(){
                 
               chart.selectAll("text").remove();
               chart.selectAll("line").remove();
               chart.selectAll("circle").remove();
-         chart.append("line")
+
+              g.append("rect")
+             .attr("class", "key")
+             .attr("id", "choropleth")
+             .attr("width", 200)
+            .attr("height", 50)
+             .style("fill", "url(#gradient)")
+             .style("opacity", 1)
+            .attr("x",100)
+            .attr("y",57);
+
+
+         
+                var y = d3.scaleLinear()
+                  .range([200, 0])
+                  .domain([100, 0]);
+                
+                var yAxis = d3.axisBottom(y);
+                
+                g.append("g")
+                  .attr("class", "key")
+                  .attr("id", "choropleth")
+                  .attr("transform", "translate(100,106)")
+                  .call(yAxis)
+                  .style("opacity", 1)
+              g.append("text")
+                .attr("class", "key")
+                .attr("id", "choropleth")
+                .style("opacity", 1)
+                .attr("transform", "translate(100, 140)")
+                .text("Population in %");
+                  
+
+
+
+              chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100)
-                 .attr('y1',300)
+                 .attr('y1',300+translatey)
                  .attr('x2',410)
-                 .attr("y2",300)
+                 .attr("y2",300+translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
             chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100)
-                 .attr('y1',300)
+                 .attr('y1',300+translatey)
                  .attr('x2',100)
-                 .attr("y2",40)
+                 .attr("y2",40+translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
             chart.append("text")
             .attr('x',440)
-            .attr('y',320)
+            .attr('y',320+translatey)
             .text("Année")
            for (var j = 0;j<101;j=j+25){
             chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100)
-                 .attr('y1',300-2.5*j)
+                 .attr('y1',300-2.5*j+translatey)
                  .attr('x2',105)
-                 .attr("y2",300-2.5*j)
+                 .attr("y2",300-2.5*j+translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2")
             chart.append("text")
                  .attr('x',70)
-                 .attr('y',305-2.5*j)
+                 .attr('y',305-2.5*j+translatey)
                  .text(j)}
           for (var i = 2012; i <2019; i++){
            chart.append("text")
                  .attr('x',88 + (i - 2012)*50)
-                 .attr('y',320)
+                 .attr('y',320+translatey)
                  .text(i)
            chart.append("line")
                   .attr("class", "key")
                  .attr('x1',100 + (i - 2012)*50)
-                 .attr('y1',300)
+                 .attr('y1',300+translatey)
                  .attr('x2',100 + (i - 2012)*50)
-                 .attr("y2",295)
+                 .attr("y2",295+translatey)
                  .attr("style","stroke:rgb(0,0,0);stroke-width:2")}
        }) 
        }) 
