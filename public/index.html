@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -19,16 +21,25 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <div id="containerintro">
+
+      <h1>Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements, en Europe.</h1>
+      <p>Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a> </p>
+    </div>
+
+    <div class="map" id="map">
+        <div class="map__image">
           <script>
             // Feel free to change or delete any of the code you see in this editor!
 
 
             var svg = d3.select("body").append("svg")
-              .attr("width", 960)
-              .attr("height", 500)
+              
+              /* .attr("width", 960)
+              .attr("height", 500) */
             
-            var width = 700,
-                height = 580;
+            
         
             var g = svg.append( "g" );
             
@@ -87,12 +98,17 @@
             })
             });
           </script>
+        </div>
+      <div class="map__list">
+          <h1>Salut tlm comment ça va</h1>
+          <h1>Salut tlm comment ça va</h1>
+          <h1>Salut tlm comment ça va</h1>
+          <h1>Salut tlm comment ça va</h1>
+      </div>
+    </div>
 
 
-
-    <div id="test">
-      <h1>Salut tlm comment ça va</h1>
-    </div>      
+          
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

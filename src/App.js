@@ -12,9 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Projet de datavisualisation</h2>
         </div>
-        <p className="App-intro">
-          Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements en Europe. 
-        </p>
+        
 
         {/* <div className = "gauche">
           <p> Bonjour</p>

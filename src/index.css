@@ -3,6 +3,48 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.test {
+test {
   background-color: brown;
 }
+
+#containerintro {
+
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: #333;
+  box-shadow: 3px 4px 6px 3px #000;
+  color: #eee;
+
+}
+
+.map__image{
+  width: 80%;
+  float: left;
+}
+
+.map__list{
+
+  float: right;
+  width: 20%;
+}
+
+.map__image svg{
+  width:100%;
+  height: 500px;
+}
+/* #containermain{
+
+  display: flex;
+  align-items: stretch;
+
+} */
+
+svg {
+  background-color: #555;
+}
+
+/* #divdroite{
+  background-color: aqua;
+} */
