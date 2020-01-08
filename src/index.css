@@ -19,19 +19,6 @@ test {
 
 }
 
-.map__image{
-  width: 80%;
-  float: left;
-}
-
-.map__list{
-
-  float: right;
-  width: 20%;
-}
-
-
-
 
 text.shadow {
   stroke: white;
