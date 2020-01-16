@@ -1,0 +1,1454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+
+    <style>
+     
+      text.shadow {
+        stroke: white;
+        stroke-width: 2.5px;
+        opacity: 1;
+      }
+      .legend {
+        cursor: pointer;
+      }
+      .selectioncateg{
+        width: 50%;
+      }
+      
+  
+    </style>
+
+
+
+
+
+    <title>Datavis2020_groupe14</title>
+  </head>
+  <body>
+
+
+    <div id="root"></div>
+  
+
+    <div id="container_intro">
+
+      <h1>Projet de Datavisualisation sur l'utilisation de données mobiles lors de déplacements, en Europe. <br></h1>
+      <h3> 
+        <br>
+        L'utilisation de données mobiles ne cesse de croitre en Europe, notamment en raison de forfaits télécoms toujours plus compétitifs entre opérateurs, 
+        proposant aujourd'hui des accès quasi illimités à internet.
+        Ce n'est que depuis le 15 juin 2017 que les consommateurs européens 
+        peuvent utiliser leurs forfaits nationaux depuis n'importe quel autre Etat de l'Union Européenne. La fin du roaming marque ainsi une nouvelle ère d'utilisation de données mobiles au sein de l'Europe, favorisant les voyages et échanges à l'étranger.
+        
+         <br>
+
+         Les données étudiées dans ce projet de visualisation portent, en termes de pourcentages, sur les parts de population déclarant utiliser leurs données mobiles lors de déplacements 
+         (transports en commun, voyages,
+        et trajets) de 2012 à 2018. 
+         Par l'intermédiaire de cette dernière, nous permettrons de mettre en avant les différences d'évolution d'utilisation de données mobiles entre les pays de l'Europe, 
+         ainsi qu'entre différentes catégories de population (catégorie sociale, 
+         âge, situation professionnelle, niveaux d'éducation). 
+         <br>
+         
+      
+         
+      </h3>
+      <p>
+
+        Données par pays de 2012 à 2018. Source : <a href="https://ec.europa.eu/eurostat/fr/data/database" target="_blank"> Eurostat</a>
+      
+      </p>
+    </div>
+
+     <div id="mainpage">
+
+      <div id="premiersvg">
+
+         <div id="hautgauche">
+
+
+         <div id="slide">
+
+            <div id="textslide">
+
+                  <p>
+                        Veuillez déplacer le slider ci-contre pour parcourir les années de 2012 à 2018.
+                     </p>
+            </div>
+          <div id = "slideannees">
+             
+               <input id="slider" type="range" value="2012" min="2012" max="2018" step="1"  oninput="afficheAnnee()" onchange="afficheAnnee()"/>
+               <span id="Annee">Annee: 2012</span>
+
+           </div>
+         </div>
+
+           <div id="premieremap">
+
+<!--                ici on mettra la premiere map 
+ -->
+           </div>
+
+
+         </div>
+
+         <div id="hautdroite">
+            <h3>
+Cette première carte d'Europe colorée est est interactive. Pour avoir une idée globale de l'évolution d'utilisation de données mobiles à échelle Européenne, il est possible de sélectionner une catégorie de population ci-dessous 
+et de parcourir les années avec le slider.               <br><br>
+Un simple clic sur un pays affichera son évolution en pourcentages sur le repère situé à gauche. Nous pouvons ainsi comparer plusieurs pays entre eux.
+               <br>
+               <br>
+              Un double clic permettra quant à lui de réinitialiser le repère. 
+            </h3>
+
+
+
+            <div id = "selectioncateg" style="float: left; width: 50%">  
+                  <p>Select a population category</p>
+               
+                     <select id="mySelect" onchange="afficheAnnee()" oninput="afficheAnnee()" >
+                       <option value="Active labour force (employed and unemployed)">Active labour force (employed and unemployed)</option>
+                       <option value="Females, 16 TO 74 years old">Females, 16 TO 74 years old</option>
+                       <option value="Individuals with no or low formal education">Individuals with no or low formal education	</option>
+                       <option value="individuals with medium formal education">individuals with medium formal education</option>
+                       <option value="Individuals with high formal education">Individuals with high formal education</option>
+                       <option value="Males, 16 TO 74 years old">Males, 16 TO 74 years old</option>
+                       <option value="Retired and other inactive">Retired and other inactive</option>
+                       <option value="Employees, self-employed, familly workers">Employees, self-employed, familly workers</option>
+                       <option value="students">students</option>
+                       <option value="Unemployed">Unemployed</option>
+                       <option value="Individuals, 16 TO 24 years old">Individuals, 16 TO 24 years old</option>
+                       <option value="Individuals, 25 TO 54 years old">Individuals, 25 TO 54 years old</option>
+                       <option value="Individuals, 55 TO 74 years old">Individuals, 55 TO 74 years old</option>
+                       <option value="All individuals">All individuals</option>
+                     </select>
+                </div>
+
+         </div>
+
+      </div>
+
+
+
+
+
+      
+
+      <div id="deuxiemesvg">
+
+         <div id="basgauche">
+
+
+         </div>
+            <div id="basdroite">
+                  <h3>
+                     Cette seconde carte d'Europe permet, au survol d'un pays, d'observer pour ce dernier les évolutions d'utilisations de données mobiles pour chaque catégorie de population.
+                     Il est possible de voir que pour l'ensemble des catégories, la tendance globale est à la hausse et peut donc traduire une accéssibilité de plus en plus aisée aux connexions mobiles. Ceci peut 
+                     non seulement s'expliquer par la diminution progressive du prix moyen des forfaits téléphoniques, mais également par l'amélioration de la couverture mobile Européenne. 
+                      
+                  </h3>>
+                  <div id="textebas">
+
+                        <h2>
+                              En explorant les deux visualisations, il est possible de constater des disparités entre les pays de l'Europe. L'Italie, à titre d'exemple, présente des proportions d'utilisation 
+                              relativement faibles. Ceci s'explique principalement par les prix élevés de leurs forfaits mobiles. Pour palier au manque de tarifs intéressants sur le marché Italien,
+                               une compagnie française (Free) a exploité
+                              le filon et a proposé un forfait mobile (comprenant 30Go de datas) à un prix défiant toute concurrence locale. 
+                        
+                              A contrario, la Norvège ou même la Suède étaient en haut du classement dès les premières années. Leur investissement précoce dans les technologies 3G leur ont permis de 
+                              mettre à disposition des forfaits mobiles internet dès 2002.
+                              <br>
+                        
+                              De nos jours, les disparités les plus flagrantes ne portent plus directement sur les pays, mais sur les catégories de population. Témoignent d'une 
+                              grande utilisation de datas mobiles en déplacement pour les plus jeunes et les "actifs".    
+                        </h2>
+                           </div>
+
+
+                  
+               </div>
+               
+
+
+      </div>
+   </div>
+
+
+
+
+
+ 
+
+             
+
+
+
+
+<!--           SCRIPT POUR PREMIER SVG
+ -->
+
+ <script>
+    var couleur = 0;
+
+    var height=500;
+    var width = 0.66*(document.body.clientWidth);
+   
+
+    var center = [10, 72];
+    var scale = 275;
+    var colmin = "#b1e6e6";
+    var colmax = "#00707f";
+    var couleur = ["#006d2c","#4c7ffe","#ff14f3","#ff1427","#ffeb14","#000000","#898989"];
+    var indicecouleur = 0;
+    
+    var projection = d3.geoMercator()
+        .scale(scale)
+        .translate([width/1.3, 0])
+        .center(center);
+    
+    var path = d3.geoPath().projection(projection);
+    
+    
+    var svg = d3.select("#premieremap")
+        .append("svg")
+        .attr("height", height)
+        .attr("width", width);
+        
+    
+    function nonplot(){
+        svg.selectAll("chart")
+          chart.selectAll("text").remove();
+            chart.selectAll("line").remove();
+            chart.selectAll("circle").remove();
+             chart.append("line")
+                  .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',300)
+                 .attr('x2',410)
+                 .attr("y2",300)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+            chart.append("line")
+                .attr("class", "key")
+                 .attr('x1',100)
+                .attr('y1',300)
+               .attr('x2',100)
+               .attr("y2",40)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
+            chart.append("text")
+                  .attr('x',440)
+                 .attr('y',320)
+                 .text("Année")
+         for (var j = 0;j<101;j=j+25){
+            chart.append("line")
+                  .attr("class", "key")
+                  .attr('x1',100)
+                  .attr('y1',300-2.5*j)
+                  .attr('x2',105)
+                 .attr("y2",300-2.5*j)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+             chart.append("text")
+                 .attr('x',70)
+                 .attr('y',305-2.5*j)
+                 .text(j)}
+         for (var i = 2012; i <2019; i++){
+             chart.append("text")
+                 .attr('x',88 + (i - 2012)*50)
+                  .attr('y',320)
+                 .text(i)
+             chart.append("line")
+                  .attr("class", "key")
+                 .attr('x1',100 + (i - 2012)*50)
+                 .attr('y1',300)
+                 .attr('x2',100 + (i - 2012)*50)
+                  .attr("y2",295)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")}
+   }  
+  
+    
+  
+  // Create linear colour gradient for choropleth using max min values and defined colours
+    var color = d3.scaleLinear()
+        .range([colmin,colmax])
+        .domain([0,100]);
+    
+    var g = svg.append("g");
+   
+    
+    
+    
+    
+    
+  // Create linear gradient defs within index
+     var defs = svg.append("defs");
+  
+  // Define gradient direction along x axis
+      
+     var gradient = defs.append("linearGradient")
+       .attr("id", "gradient")
+       .attr('x1', "0%")
+       .attr("y1", "0%")
+       .attr("x2", "100%")
+       .attr("y2", "0%") 
+  
+     gradient.append("stop")
+         .attr("class", "start")
+         .attr("offset", "0%")
+         .attr("stop-color", colmin)
+         .attr("stop-opacity", 1);
+      
+     gradient.append("stop")
+         .attr("class", "end")
+         .attr("offset", "100%")
+         .attr("stop-color", colmax)
+         .attr("stop-opacity", 1);
+
+
+     
+     
+    
+     g.append("rect")
+         .attr("class", "key")
+         .attr("id", "choropleth")
+         .attr("width", 200)
+        .attr("height", 50)
+         .style("fill", "url(#gradient)")
+         .style("opacity", 1)
+         //.attr("transform", "translate(20,30)")
+        .attr("x",width/2.5)
+        .attr("y",20);
+
+      
+     var checkbox = false;
+      function test() {
+        checkbox = d3.select("#checkbox")._groups[0][0].checked;
+        afficheAnnee(d3.select("#slider")._groups[0][0].value);
+      }
+     function afficheAnnee(value){ 
+       d3.json("dataset.json", function(err,data) {
+         if(err) console.log("error fetching data");
+        g.selectAll(".country")
+         .data(topojson.feature(data, data.objects.eu).features)
+         .enter()
+    
+         .append('path')
+         .attr('class', 'country')
+         .attr("id", "choropleth")
+         .attr('d', path)
+         .attr( "fill", "#757575" )
+         .style("opacity", 1)
+         .style("fill", function (feature) {})
+        var x = document.getElementById("slider").value
+        var annee="_"+x.toString();
+        var categorie = document.getElementById("mySelect").value
+        d3.select("#Annee")
+          .text("Année: "+x);
+         if(checkbox == false) {
+            var color = d3.scaleLinear()
+              .range([colmin,colmax])
+              .domain([0,100]);
+        } else {
+            color.domain([0, 750]);
+          }
+            svg.selectAll("path")
+              .data(topojson.feature(data, data.objects.eu).features)
+            
+              .style("fill", function(feature) {
+                var renvoi = feature.properties[annee][categorie];
+              if(renvoi){    
+              return color(renvoi);}
+              else {return "#ccc";}})
+            svg.selectAll("title").remove()
+            svg.selectAll("path")
+              .append("svg:title")
+              .text(function(feature){ console.log(feature.properties[annee][categorie])
+              return ([feature.properties.name + ' ', ' ' + feature.properties[annee][categorie]+ '%'])});
+          console.log(annee)
+        })  	
+      }
+     
+       d3.json("dataset.json", function(err,data) {
+         if(err) console.log("error fetching data");
+        g.selectAll(".country")
+         .data(topojson.feature(data, data.objects.eu).features)
+         .enter()
+    
+         .append('path')
+         .attr('class', 'country')
+         .attr("id", "choropleth")
+         .attr('d', path)
+         .attr( "fill", "#757575" )
+         .style("opacity", 1)
+         .style("fill", function (feature) {})
+        var annee="2012".toString();
+        d3.select("#Annee")
+          .text("Année: "+annee);
+         if(checkbox == false) {
+            var color = d3.scaleLinear()
+              .range([colmin,colmax])
+              .domain([0,100]);
+        } else {
+            color.domain([0, 750]);
+          }
+        
+         var categorie = document.getElementById("mySelect").value
+          
+            svg.selectAll("path")
+              .data(topojson.feature(data, data.objects.eu).features)
+              .style("fill", function(feature) {
+                
+                var value = feature.properties["_" + annee][categorie];
+                   if(value){    
+              return color(value);}
+              else {return "#ccc";}})
+              .append("svg:title")
+              .text(function(feature){ console.log(feature.properties["_" + annee][categorie])
+              return ([feature.properties.name + ' ', ' ' +  		feature.properties["_" + annee][categorie] + '%'])});
+          
+        })
+  // The hide/show function, uses opacity to display active layer    
+   d3.json("dataset.json", function(err,data) { 
+
+     var chart = svg.attr("class", "chart");
+        chart.append("line")
+              .attr("class", "key")
+             .attr('x1',100)
+             .attr('y1',300)
+             .attr('x2',410)
+             .attr("y2",300)
+             .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+        chart.append("line")
+              .attr("class", "key")
+             .attr('x1',100)
+             .attr('y1',300)
+             .attr('x2',100)
+             .attr("y2",40)
+             .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
+        chart.append("text")
+        .attr('x',440)
+        .attr('y',320)
+        .text("Année")
+       for (var j = 0;j<101;j=j+25){
+         chart.append("line")
+              .attr("class", "key")
+             .attr('x1',100)
+             .attr('y1',300-2.5*j)
+             .attr('x2',105)
+             .attr("y2",300-2.5*j)
+             .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+        chart.append("text")
+             .attr('x',70)
+             .attr('y',305-2.5*j)
+             .text(j)}
+      for (var i = 2012; i <2019; i++){
+       chart.append("text")
+             .attr('x',88 + (i - 2012)*50)
+             .attr('y',320)
+             .text(i)
+       chart.append("line")
+              .attr("class", "key")
+             .attr('x1',100 + (i - 2012)*50)
+             .attr('y1',300)
+             .attr('x2',100 + (i - 2012)*50)
+             .attr("y2",295)
+             .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+      } 
+   svg.selectAll("path")
+              .data(topojson.feature(data, data.objects.eu).features)
+               .on("click", function plot(feature){
+     console.log(indicecouleur)
+     if (indicecouleur<7){
+     var categorie = document.getElementById("mySelect").value;
+     var categorienom = document.getElementById("mySelect").value ;
+       if(feature.properties.name.toString() == "United Kingdom"){
+         var charttitre = "UK"
+       }
+       else {
+         var charttitre = feature.properties.name.toString()
+       }
+     chart.append("text")
+        .attr('x',0)
+        .attr('y',30 +17*indicecouleur)
+         .style("fill",couleur[indicecouleur])
+        .text(charttitre) 
+     for (var i = 2012; i <2018; i++){
+       if(feature.properties["_" + i.toString()][categorie]!=0 & feature.properties["_" + (i+1).toString()][categorie]!=0){
+       chart.append("line")
+              .attr("class", "key")
+             .attr('x1',100 + (i - 2012)*50)
+             .attr('y1',300-2.5*feature.properties["_" + i.toString()][categorie])
+             .attr('x2',100 + (i + 1 - 2012)*50)
+             .attr("y2",300-2.5*feature.properties["_" + (i+1).toString()][categorie])
+             .attr("style","stroke:"+couleur[indicecouleur]+";stroke-width:2")
+       chart.selectAll("line")
+             .append("title")
+             .text(function titre(){return feature.properties.name});}
+       if(feature.properties["_" + i.toString()][categorie]!=0){
+       chart.append("circle")
+             .attr('cx',100 + (i - 2012)*50)
+             .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie])
+             .attr('r',3)
+       chart.selectAll("circle")
+             .append("title")
+             .text(function titre(){return feature.properties.name})}
+       }
+        if(feature.properties["_" + i.toString()][categorie]!=0){
+        chart.append("circle")
+             .attr('cx',100 + (i - 2012)*50)
+             .attr('cy',300-2.5*feature.properties["_" + i.toString()][categorie])
+             .attr('r',3)}
+         chart.selectAll("circle")
+             .append("title")
+             .text(function titre(){return feature.properties.name})
+        indicecouleur = indicecouleur + 1
+     }})
+   svg.selectAll("path")
+              .on("dblclick", function unplot () {
+             indicecouleur = 0
+             charttitre = " "
+          chart.selectAll("text").remove();
+            chart.selectAll("line").remove();
+            chart.selectAll("circle").remove();
+             chart.append("line")
+                  .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',300)
+                 .attr('x2',410)
+                 .attr("y2",300)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+            chart.append("line")
+                .attr("class", "key")
+                 .attr('x1',100)
+                .attr('y1',300)
+               .attr('x2',100)
+               .attr("y2",40)
+               .attr("style","stroke:rgb(0,0,0);stroke-width:2") 
+            chart.append("text")
+                  .attr('x',440)
+                 .attr('y',320)
+                 .text("Année")
+         for (var j = 0;j<101;j=j+25){
+            chart.append("line")
+                  .attr("class", "key")
+                  .attr('x1',100)
+                  .attr('y1',300-2.5*j)
+                  .attr('x2',105)
+                 .attr("y2",300-2.5*j)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+             chart.append("text")
+                 .attr('x',70)
+                 .attr('y',305-2.5*j)
+                 .text(j)}
+         for (var i = 2012; i <2019; i++){
+             chart.append("text")
+                 .attr('x',88 + (i - 2012)*50)
+                  .attr('y',320)
+                 .text(i)
+             chart.append("line")
+                  .attr("class", "key")
+                 .attr('x1',100 + (i - 2012)*50)
+                 .attr('y1',300)
+                 .attr('x2',100 + (i - 2012)*50)
+                  .attr("y2",295)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")}
+     })})
+            //
+   
+   
+    
+  
+  
+  // Dorling cartogram section
+  
+  
+  
+  // Reads in TOPOjson file into path specified above, however displays circles based on polygon centroids using path.centroid
+      
+      // Reads in TOPOjson file into path specified above, however displays circles based on polygon centroids using path.centroid
+       
+  
+    
+  
+    
+  
+  
+  
+  
+  
+    </script>
+
+          <script>
+              /* var width = 960;
+              var height = 500; */
+              var center = [10, 72];
+              var scale = 275;
+              var colmin = "#b1e6e6";
+              var colmax = "#00707f";
+            
+              
+              var projection2 = d3.geoMercator()
+                  .scale(scale)
+                  .translate([width/1.3, 0])
+                  .center(center);
+              
+              var path2 = d3.geoPath().projection(projection2);
+              
+              
+              var svg2 = d3.select("#basgauche")
+                  .append("svg")
+                  .attr("height", 800)
+                  .attr("width", width)
+                  
+              
+              
+            
+              
+            
+            // Create linear colour gradient for choropleth using max min values and defined colours
+              var color = d3.scaleLinear()
+                  .range([colmin,colmax])
+                  .domain([0,100]);
+              
+              var g2 = svg2.append("g");
+             
+              
+              
+              
+              
+              
+            // Create linear gradient defs within index
+               var defs = svg2.append("defs")
+            
+            // Define gradient direction along x axis
+                
+               var gradient = defs.append("linearGradient")
+                 .attr("id", "gradient")
+                 .attr('x1', "0%")
+                 .attr("y1", "0%")
+                 .attr("x2", "100%")
+                 .attr("y2", "0%") 
+            
+               gradient.append("stop")
+                   .attr("class", "start")
+                   .attr("offset", "0%")
+                   .attr("stop-color", colmin)
+                   .attr("stop-opacity", 1);
+                
+               gradient.append("stop")
+                   .attr("class", "end")
+                   .attr("offset", "100%")
+                   .attr("stop-color", colmax)
+                   .attr("stop-opacity", 1);
+             
+            
+            // Define gradient direction along x axis
+                
+               
+              
+            // Create the rectangle that the linear gradient will be used to fill
+              
+               
+            // Use scaleLinear function to create divisions for axis    
+                
+               
+            
+            // Adding the axis and positioning it, while calling the yaxis function  
+                
+               
+            // Reading in the TOPOjson file containing the shapes, and the data within ins properties
+                
+              
+               
+                 d3.json("dataset.json", function(err,data) {
+                   if(err) console.log("error fetching data");
+                  g2.selectAll(".country")
+                   .data(topojson.feature(data, data.objects.eu).features)
+                   .enter()
+              
+                   .append('path')
+                   .attr('class', 'country')
+                   .attr("id", "choropleth")
+                   .attr('d', path)
+                   .attr( "fill", "#757575" )
+                   .style("opacity", 1)
+                   .style("fill", function (feature) {})
+                  var annee="2012".toString();
+                  d3.select("#Annee")
+                    .text("Année: "+annee);
+                   if(checkbox == false) {
+                      var color = d3.scaleLinear()
+                        .range([colmin,colmax])
+                        .domain([0,100]);
+                  } else {
+                      color.domain([0, 750]);
+                    }
+                  
+                  
+                    
+                  })
+            // The hide/show function, uses opacity to display active layer    
+             d3.json("dataset.json", function(err,data) {  
+               var chart = svg2.attr("class", "chart");
+               //Abscisse
+            for(var i=0;i<3;i++){ 
+               for(var j=0;j<4;j++){
+                  chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110)
+                       .attr('y1',410-i*140) 
+                       .attr('x2',200+j*110)
+                       .attr("y2",410-i*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+                  chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110)
+                       .attr('y1',410-i*140)
+                       .attr('x2',100+j*110)
+                       .attr("y2",300-i*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  for (var l = 0;l<101;l=l+25){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110)
+                       .attr('y1',410-i*140-l)
+                       .attr('x2',105+j*110)
+                       .attr("y2",410-i*140-l)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }
+                  for (var m = 0;m<7;m++){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110+m*16.66)
+                       .attr('y1',410-i*140)
+                       .attr('x2',100+j*110+m*16.66)
+                       .attr("y2",405-i*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }     
+               }      
+            }
+               chart.append("text")
+                  .attr('x',540)
+                  .attr('y',410)
+                  .text("Année")
+                  
+               chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',540)
+                 .attr('x2',100)
+                 .attr("y2",430)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+
+                 chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',540)
+                 .attr('x2',200)
+                 .attr("y2",540)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                 
+                 chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',680)
+                 .attr('x2',100)
+                 .attr("y2",570)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                 chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',680)
+                 .attr('x2',200)
+                 .attr("y2",680)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+               for (var p = 0;p<2;p++){
+                  for (var q = 0;q<101;q=q+25){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100)
+                       .attr('y1',680-p*140-q)
+                       .attr('x2',105)
+                       .attr("y2",680-p*140-q)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }
+                 for (var o = 0;o<7;o++){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+o*16.66)
+                       .attr('y1',680-p*140)
+                       .attr('x2',100+o*16.66)
+                       .attr("y2",675-p*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }}
+
+               // Travail
+               
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',10)
+                  .text("Catégorie sociale")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',20)
+                  .text("Active labour force")   
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',150)
+                  .text("Employees")   
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',290)
+                  .text("Retired")
+
+
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',430)
+                  .text("Students")   
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',570)
+                  .text("Unemployed")   
+               
+               //Education 
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',10)
+                  .text("Education")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',20)
+                  .text("No or low education")   
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',150)
+                  .text("Medium education")   
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',290)
+                  .text("High education")
+               
+               //Age
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',10)
+                  .text("Age")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',20)
+                  .text("16 to 24 YO")   
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',150)
+                  .text("25 to 54 YO")   
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',290)
+                  .text("55 to 74 YO")
+               
+               
+               //Sexe
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',10)
+                  .text("Sex")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',20)
+                  .text("Male")   
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',150)
+                  .text("Female")   
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',290)
+                  .text("All individuals")
+                 
+            
+             svg2.selectAll("path")
+                        .data(topojson.feature(data, data.objects.eu).features)
+                         .on("mouseover", function plot(feature){
+               //var categorienom = document.getElementById("mySelect").value ;
+               console.log(feature.properties["_" + (2012).toString()]["Active labour force (employed and unemployed)"])
+               chart.append("text")
+                  .attr('x',20)
+                  .attr('y',60)
+                  .text([feature.properties.name]);
+               
+               
+               //Courbes
+               
+               //"Active labour force (employed and unemployed)"
+               
+               
+               for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Active labour force (employed and unemployed)"]!=0 & feature.properties["_" + (i+1).toString()]["Active labour force (employed and unemployed)"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100 + (i - 2012)*16.67)
+                       .attr('y1',130-feature.properties["_" + i.toString()]["Active labour force (employed and unemployed)"])
+                       .attr('x2',100 + (i + 1 - 2012)*16.67)
+                       .attr("y2",130-feature.properties["_" + (i+1).toString()]["Active labour force (employed and unemployed)"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Active labour force (employed and unemployed)"]!=0){
+                 chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Active labour force (employed and unemployed)"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Active labour force (employed and unemployed)"]!=0){
+                  chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Active labour force (employed and unemployed)"])
+                       .attr('r',3)}
+               
+              // "Females, 16 TO 74 years old"
+               
+             
+               for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Females, 16 TO 74 years old"]!=0 & feature.properties["_" + (i+1).toString()]["Females, 16 TO 74 years old"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',430 + (i - 2012)*16.67)
+                       .attr('y1',270-feature.properties["_" + i.toString()]["Females, 16 TO 74 years old"])
+                       .attr('x2',430 + (i + 1 - 2012)*16.67)
+                       .attr("y2",270-feature.properties["_" + (i+1).toString()]["Females, 16 TO 74 years old"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Females, 16 TO 74 years old"]!=0){
+                 chart.append("circle")
+                       .attr('cx',430 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["Females, 16 TO 74 years old"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Females, 16 TO 74 years old"]!=0){
+                  chart.append("circle")
+                       .attr('cx',430 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["Females, 16 TO 74 years old"])
+                       .attr('r',3)}
+               
+               
+               
+            //"Individuals with no or low formal education"
+            
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Individuals with no or low formal education"]!=0 & feature.properties["_" + (i+1).toString()]["Individuals with no or low formal education"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',210 + (i - 2012)*16.67)
+                       .attr('y1',130-feature.properties["_" + i.toString()]["Individuals with no or low formal education"])
+                       .attr('x2',210 + (i + 1 - 2012)*16.67)
+                       .attr("y2",130-feature.properties["_" + (i+1).toString()]["Individuals with no or low formal education"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Individuals with no or low formal education"]!=0){
+                 chart.append("circle")
+                       .attr('cx',210 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Individuals with no or low formal education"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Individuals with no or low formal education"]!=0){
+                  chart.append("circle")
+                       .attr('cx',210 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Individuals with no or low formal education"])
+                       .attr('r',3)}
+               
+               //"individuals with medium formal education"
+               
+                     for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["individuals with medium formal education"]!=0 & feature.properties["_" + (i+1).toString()]["individuals with medium formal education"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',210 + (i - 2012)*16.67)
+                       .attr('y1',270-feature.properties["_" + i.toString()]["individuals with medium formal education"])
+                       .attr('x2',210 + (i + 1 - 2012)*16.67)
+                       .attr("y2",270-feature.properties["_" + (i+1).toString()]["individuals with medium formal education"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["individuals with medium formal education"]!=0){
+                 chart.append("circle")
+                       .attr('cx',210 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["individuals with medium formal education"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["individuals with medium formal education"]!=0){
+                  chart.append("circle")
+                       .attr('cx',210 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["individuals with medium formal education"])
+                       .attr('r',3)}
+               
+               
+               //"Individuals with high formal education"
+               
+                     for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Individuals with high formal education"]!=0 & feature.properties["_" + (i+1).toString()]["Individuals with high formal education"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',210 + (i - 2012)*16.67)
+                       .attr('y1',410-feature.properties["_" + i.toString()]["Individuals with high formal education"])
+                       .attr('x2',210 + (i + 1 - 2012)*16.67)
+                       .attr("y2",410-feature.properties["_" + (i+1).toString()]["Individuals with high formal education"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Individuals with high formal education"]!=0){
+                 chart.append("circle")
+                       .attr('cx',210 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["Individuals with high formal education"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Individuals with high formal education"]!=0){
+                  chart.append("circle")
+                       .attr('cx',210 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["Individuals with high formal education"])
+                       .attr('r',3)}
+               //"Males, 16 TO 74 years old"
+               
+                     for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Males, 16 TO 74 years old"]!=0 & feature.properties["_" + (i+1).toString()]["Males, 16 TO 74 years old"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',430 + (i - 2012)*16.67)
+                       .attr('y1',130-feature.properties["_" + i.toString()]["Males, 16 TO 74 years old"])
+                       .attr('x2',430 + (i + 1 - 2012)*16.67)
+                       .attr("y2",130-feature.properties["_" + (i+1).toString()]["Males, 16 TO 74 years old"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Males, 16 TO 74 years old"]!=0){
+                 chart.append("circle")
+                       .attr('cx',430 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Males, 16 TO 74 years old"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Males, 16 TO 74 years old"]!=0){
+                  chart.append("circle")
+                       .attr('cx',430 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Males, 16 TO 74 years old"])
+                       .attr('r',3)}
+               
+               
+               //"Retired and other inactive"
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Retired and other inactive"]!=0 & feature.properties["_" + (i+1).toString()]["Retired and other inactive"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100 + (i - 2012)*16.67)
+                       .attr('y1',410-feature.properties["_" + i.toString()]["Retired and other inactive"])
+                       .attr('x2',100 + (i + 1 - 2012)*16.67)
+                       .attr("y2",410-feature.properties["_" + (i+1).toString()]["Retired and other inactive"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Retired and other inactive"]!=0){
+                 chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["Retired and other inactive"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Retired and other inactive"]!=0){
+                  chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["Retired and other inactive"])
+                       .attr('r',3)}   
+               
+               
+               //"Employees, self-employed, familly workers"
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Employees, self-employed, familly workers"]!=0 & feature.properties["_" + (i+1).toString()]["Employees, self-employed, familly workers"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100 + (i - 2012)*16.67)
+                       .attr('y1',270-feature.properties["_" + i.toString()]["Employees, self-employed, familly workers"])
+                       .attr('x2',100 + (i + 1 - 2012)*16.67)
+                       .attr("y2",270-feature.properties["_" + (i+1).toString()]["Employees, self-employed, familly workers"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Employees, self-employed, familly workers"]!=0){
+                 chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["Employees, self-employed, familly workers"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Employees, self-employed, familly workers"]!=0){
+                  chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["Employees, self-employed, familly workers"])
+                       .attr('r',3)}   
+               
+               
+               //"students"
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["students"]!=0 & feature.properties["_" + (i+1).toString()]["students"]!=0){
+                 chart.append("line")
+              		     .attr("class", "key")
+                       .attr('x1',100 + (i - 2012)*16.67)
+                       .attr('y1',550-feature.properties["_" + i.toString()]["students"])
+                       .attr('x2',100 + (i + 1 - 2012)*16.67)
+                       .attr("y2",550-feature.properties["_" + (i+1).toString()]["students"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                if(feature.properties["_" + i.toString()]["students"]!=0){
+                chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',550-feature.properties["_" + i.toString()]["students"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["students"]!=0){
+                  chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',550-feature.properties["_" + i.toString()]["students"])
+                       .attr('r',3)}   
+               
+               
+              //"Unemployed"
+               
+                 for (var i = 2012; i <2018; i++){
+                if(feature.properties["_" + i.toString()]["Unemployed"]!=0 & feature.properties["_" + (i+1).toString()]["Unemployed"]!=0){
+                 chart.append("line")
+               		     .attr("class", "key")
+                       .attr('x1',100 + (i - 2012)*16.67)
+                       .attr('y1',690-feature.properties["_" + i.toString()]["Unemployed"])
+                       .attr('x2',100 + (i + 1 - 2012)*16.67)
+                       .attr("y2",690-feature.properties["_" + (i+1).toString()]["Unemployed"])
+                      .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                if(feature.properties["_" + i.toString()]["Unemployed"]!=0){
+                 chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',690-feature.properties["_" + i.toString()]["Unemployed"])
+                       .attr('r',3)}
+                 }
+              if(feature.properties["_" + i.toString()]["Unemployed"]!=0){
+                 chart.append("circle")
+                       .attr('cx',100 + (i - 2012)*16.67)
+                       .attr('cy',690-feature.properties["_" + i.toString()]["Unemployed"])
+                       .attr('r',3)}   
+              
+               
+            //   "Individuals, 16 TO 24 years old"
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Individuals, 16 TO 24 years old"]!=0 & feature.properties["_" + (i+1).toString()]["Individuals, 16 TO 24 years old"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',320 + (i - 2012)*16.67)
+                       .attr('y1',130-feature.properties["_" + i.toString()]["Individuals, 16 TO 24 years old"])
+                       .attr('x2',320 + (i + 1 - 2012)*16.67)
+                       .attr("y2",130-feature.properties["_" + (i+1).toString()]["Individuals, 16 TO 24 years old"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Individuals, 16 TO 24 years old"]!=0){
+                 chart.append("circle")
+                       .attr('cx',320 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Individuals, 16 TO 24 years old"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Individuals, 16 TO 24 years old"]!=0){
+                  chart.append("circle")
+                       .attr('cx',320 + (i - 2012)*16.67)
+                       .attr('cy',130-feature.properties["_" + i.toString()]["Individuals, 16 TO 24 years old"])
+                       .attr('r',3)}   
+               
+               
+               //"Individuals, 25 TO 54 years old"
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Individuals, 25 TO 54 years old"]!=0 & feature.properties["_" + (i+1).toString()]["Individuals, 25 TO 54 years old"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',320 + (i - 2012)*16.67)
+                       .attr('y1',270-feature.properties["_" + i.toString()]["Individuals, 25 TO 54 years old"])
+                       .attr('x2',320 + (i + 1 - 2012)*16.67)
+                       .attr("y2",270-feature.properties["_" + (i+1).toString()]["Individuals, 25 TO 54 years old"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Individuals, 25 TO 54 years old"]!=0){
+                 chart.append("circle")
+                       .attr('cx',320 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["Individuals, 25 TO 54 years old"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Individuals, 25 TO 54 years old"]!=0){
+                  chart.append("circle")
+                       .attr('cx',320 + (i - 2012)*16.67)
+                       .attr('cy',270-feature.properties["_" + i.toString()]["Individuals, 25 TO 54 years old"])
+                       .attr('r',3)}   
+               
+               
+               //"Individuals, 55 TO 74 years old"
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["Individuals, 55 TO 74 years old"]!=0 & feature.properties["_" + (i+1).toString()]["Individuals, 55 TO 74 years old"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',320 + (i - 2012)*16.67)
+                       .attr('y1',410-feature.properties["_" + i.toString()]["Individuals, 55 TO 74 years old"])
+                       .attr('x2',320 + (i + 1 - 2012)*16.67)
+                       .attr("y2",410-feature.properties["_" + (i+1).toString()]["Individuals, 55 TO 74 years old"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["Individuals, 55 TO 74 years old"]!=0){
+                 chart.append("circle")
+                       .attr('cx',320 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["Individuals, 55 TO 74 years old"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["Individuals, 55 TO 74 years old"]!=0){
+                  chart.append("circle")
+                       .attr('cx',320 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["Individuals, 55 TO 74 years old"])
+                       .attr('r',3)}   
+               
+               
+               //"All individuals"      
+               
+                  for (var i = 2012; i <2018; i++){
+                 if(feature.properties["_" + i.toString()]["All individuals"]!=0 & feature.properties["_" + (i+1).toString()]["All individuals"]!=0){
+                 chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',430 + (i - 2012)*16.67)
+                       .attr('y1',410-feature.properties["_" + i.toString()]["All individuals"])
+                       .attr('x2',430 + (i + 1 - 2012)*16.67)
+                       .attr("y2",410-feature.properties["_" + (i+1).toString()]["All individuals"])
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2");}
+                 if(feature.properties["_" + i.toString()]["All individuals"]!=0){
+                 chart.append("circle")
+                       .attr('cx',430 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["All individuals"])
+                       .attr('r',3)}
+                 }
+               if(feature.properties["_" + i.toString()]["All individuals"]!=0){
+                  chart.append("circle")
+                       .attr('cx',430 + (i - 2012)*16.67)
+                       .attr('cy',410-feature.properties["_" + i.toString()]["All individuals"])
+                       .attr('r',3)}   
+               
+               
+               
+               
+               
+               
+             })
+                      .on("mouseout",function nonplot(){
+                      
+                    chart.selectAll("text").remove();
+                    chart.selectAll("line").remove();
+                    chart.selectAll("circle").remove();
+            for(var i=0;i<3;i++){ 
+               for(var j=0;j<4;j++){
+                  chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110)
+                       .attr('y1',410-i*140) 
+                       .attr('x2',200+j*110)
+                       .attr("y2",410-i*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")  
+                  chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110)
+                       .attr('y1',410-i*140)
+                       .attr('x2',100+j*110)
+                       .attr("y2",300-i*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  for (var l = 0;l<101;l=l+25){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110)
+                       .attr('y1',410-i*140-l)
+                       .attr('x2',105+j*110)
+                       .attr("y2",410-i*140-l)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }
+                  for (var m = 0;m<7;m++){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+j*110+m*16.66)
+                       .attr('y1',410-i*140)
+                       .attr('x2',100+j*110+m*16.66)
+                       .attr("y2",405-i*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }     
+               }      
+            }
+               chart.append("text")
+                  .attr('x',540)
+                  .attr('y',380)
+                  .text("Année");
+            
+            
+               // Travail
+               
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',10)
+                  .text("Catégorie sociale")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',20)
+                  .text("Active labour force")   
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',150)
+                  .text("Employees")   
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',290)
+                  .text("Retired")
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',430)
+                  .text("Students")   
+               chart.append("text")
+                  .attr('x',100)
+                  .attr('y',570)
+                  .text("Unemployed")   
+            chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',540)
+                 .attr('x2',100)
+                 .attr("y2",430)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+
+                 chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',540)
+                 .attr('x2',200)
+                 .attr("y2",540)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                 
+                 chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',680)
+                 .attr('x2',100)
+                 .attr("y2",570)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                 chart.append("line")
+                 .attr("class", "key")
+                 .attr('x1',100)
+                 .attr('y1',680)
+                 .attr('x2',200)
+                 .attr("y2",680)
+                 .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+               for (var p = 0;p<2;p++){
+                  for (var q = 0;q<101;q=q+25){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100)
+                       .attr('y1',680-p*140-q)
+                       .attr('x2',105)
+                       .attr("y2",680-p*140-q)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }
+                 for (var o = 0;o<7;o++){
+                   chart.append("line")
+                        .attr("class", "key")
+                       .attr('x1',100+o*16.66)
+                       .attr('y1',680-p*140)
+                       .attr('x2',100+o*16.66)
+                       .attr("y2",675-p*140)
+                       .attr("style","stroke:rgb(0,0,0);stroke-width:2")
+                  }}               
+               //Education 
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',10)
+                  .text("Education")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',20)
+                  .text("No or low education")   
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',150)
+                  .text("Medium education")   
+               chart.append("text")
+                  .attr('x',210)
+                  .attr('y',290)
+                  .text("High education")
+               
+               //Age
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',10)
+                  .text("Age")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',20)
+                  .text("16 to 24 YO")   
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',150)
+                  .text("25 to 54 YO")   
+               chart.append("text")
+                  .attr('x',320)
+                  .attr('y',290)
+                  .text("55 to 74 YO")
+               
+               
+               //Sexe
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',10)
+                  .text("Sex")
+                  .attr("font-weight","bold")
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',20)
+                  .text("Male")   
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',150)
+                  .text("Female")   
+               chart.append("text")
+                  .attr('x',430)
+                  .attr('y',290)
+                  .text("All individuals")})
+             }) 
+              
+            
+            // Dorling cartogram section
+            
+            
+            
+            // Reads in TOPOjson file into path specified above, however displays circles based on polygon centroids using path.centroid
+                
+                // Reads in TOPOjson file into path specified above, however displays circles based on polygon centroids using path.centroid
+                 
+            
+              
+            
+              
+            
+            
+            
+            
+            
+              </script>
+
+  </body>
+</html>
