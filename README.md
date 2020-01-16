@@ -5,5 +5,6 @@ This project was made in order to help telecommunication companies to optimise b
 <p align="center">
 	<img src="src/appercu.png" width="70%" height="auto"/>
 </p>
-source du [Json](https://blockbuilder.org/jdotnicol/69ff29e7079e6d916fc6f024a9a12ec7)
-inspiration: [Visualisation d'Eurostat](https://ec.europa.eu/eurostat/tgm/refreshMapView.do?tab=map&plugin=1&init=1&toolbox=types&pcode=tin00083&language=fr)
+sources and inspirations:
+Json: https://blockbuilder.org/jdotnicol/69ff29e7079e6d916fc6f024a9a12ec7
+dataset: https://ec.europa.eu/eurostat/tgm/refreshMapView.do?tab=map&plugin=1&init=1&toolbox=types&pcode=tin00083&language=fr
